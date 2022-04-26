@@ -1,14 +1,15 @@
 ---
-title: Scanning
+title: Infrastructure recon
 excerpt: "This is a guide to scanning the host."
 last_modified_at: 12-02-2022
 categories:
-- guide
+- cheatsheet
 tags:  
 - pentest
 - methodologies
 - recon
 - scanning
+- infrastructure
 ---
 
 # Scanning  

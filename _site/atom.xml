@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2022-04-21T15:40:16-03:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Thekaiz3n</title><subtitle>Personal website</subtitle><author><name>Thekaiz3n</name></author><entry><title type="html">Memory, part 1 - How the memory work</title><link href="http://localhost:4000/blog/2022/04/21/memory-part1.html" rel="alternate" type="text/html" title="Memory, part 1 - How the memory work" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/blog/2022/04/21/memory-part1</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/21/memory-part1.html">&lt;p&gt;This article is in development.&lt;/p&gt;</content><author><name>Thekaiz3n</name></author><category term="blog" /><category term="memory" /><category term="neuroscience" /><summary type="html">This article is in development.</summary></entry><entry><title type="html">Memory, part 2 - Using memory as a super power</title><link href="http://localhost:4000/blog/2022/04/21/memory-part2.html" rel="alternate" type="text/html" title="Memory, part 2 - Using memory as a super power" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/blog/2022/04/21/memory-part2</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/21/memory-part2.html">&lt;p&gt;This article is in development.&lt;/p&gt;</content><author><name>Thekaiz3n</name></author><category term="blog" /><category term="memory" /><category term="neuroscience" /><summary type="html">This article is in development.</summary></entry><entry><title type="html">Subdomains</title><link href="http://localhost:4000/2022/04/21/subdomains.html" rel="alternate" type="text/html" title="Subdomains" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/2022/04/21/subdomains</id><content type="html" xml:base="http://localhost:4000/2022/04/21/subdomains.html">&lt;p&gt;Teste&lt;/p&gt;</content><author><name>Thekaiz3n</name></author><summary type="html">Teste</summary></entry><entry><title type="html">Hashes and basic criptography</title><link href="http://localhost:4000/cheatsheet/2022/01/14/hashes.html" rel="alternate" type="text/html" title="Hashes and basic criptography" /><published>2022-01-14T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/14/hashes</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/14/hashes.html">&lt;h3 id=&quot;examples&quot;&gt;Examples&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2022-04-25T20:59:50-03:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Thekaiz3n</title><subtitle>Personal website</subtitle><author><name>Thekaiz3n</name></author><entry><title type="html">Memory, part 1 - How the memory work</title><link href="http://localhost:4000/blog/2022/04/21/memory-part1.html" rel="alternate" type="text/html" title="Memory, part 1 - How the memory work" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/blog/2022/04/21/memory-part1</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/21/memory-part1.html">&lt;p&gt;This article is in development.&lt;/p&gt;</content><author><name>Thekaiz3n</name></author><category term="blog" /><category term="memory" /><category term="neuroscience" /><summary type="html">This article is in development.</summary></entry><entry><title type="html">Memory, part 2 - Using memory as a super power</title><link href="http://localhost:4000/blog/2022/04/21/memory-part2.html" rel="alternate" type="text/html" title="Memory, part 2 - Using memory as a super power" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/blog/2022/04/21/memory-part2</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/21/memory-part2.html">&lt;p&gt;This article is in development.&lt;/p&gt;</content><author><name>Thekaiz3n</name></author><category term="blog" /><category term="memory" /><category term="neuroscience" /><summary type="html">This article is in development.</summary></entry><entry><title type="html">Subdomains</title><link href="http://localhost:4000/cheatsheet/2022/04/21/subdomains.html" rel="alternate" type="text/html" title="Subdomains" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/04/21/subdomains</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/04/21/subdomains.html">&lt;p&gt;Teste&lt;/p&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="methodologies" /><summary type="html">Teste</summary></entry><entry><title type="html">Hashes and basic criptography</title><link href="http://localhost:4000/cheatsheet/2022/01/14/hashes.html" rel="alternate" type="text/html" title="Hashes and basic criptography" /><published>2022-01-14T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/14/hashes</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/14/hashes.html">&lt;h3 id=&quot;examples&quot;&gt;Examples&lt;/h3&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;teste&quot;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;md5sum
 &lt;/span&gt;3b16dc694c38d04f7d7451cc37d3c654  -
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -131,7 +131,7 @@ john —format&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;lm —wordlist&lt;sp
 &lt;p&gt;It’s possible use the hash.&lt;/p&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pth-winexe &lt;span class=&quot;nt&quot;&gt;-U&lt;/span&gt; john%&lt;span class=&quot;s2&quot;&gt;&quot;hash&quot;&lt;/span&gt; //172.16.1.60 cmd.exe
 exploit/windows/smb/psexec &lt;span class=&quot;c&quot;&gt;#SMB pass the hash&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="exploitation" /><category term="hashes" /><summary type="html">This is a guide for hashes in linux and windows</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/hashes.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/hashes.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Exploitation</title><link href="http://localhost:4000/guide/2022/01/13/enumeration.html" rel="alternate" type="text/html" title="Exploitation" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/guide/2022/01/13/enumeration</id><content type="html" xml:base="http://localhost:4000/guide/2022/01/13/enumeration.html">&lt;h1 id=&quot;enumeration&quot;&gt;Enumeration&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="exploitation" /><category term="hashes" /><summary type="html">This is a guide for hashes in linux and windows</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/hashes.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/hashes.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Enumeration</title><link href="http://localhost:4000/cheatsheet/2022/01/13/enumeration.html" rel="alternate" type="text/html" title="Enumeration" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/13/enumeration</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/13/enumeration.html">&lt;h1 id=&quot;enumeration&quot;&gt;Enumeration&lt;/h1&gt;
 
 &lt;h2 id=&quot;brute-force-directorypagesfiles&quot;&gt;Brute force directory/pages/files&lt;/h2&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gobuster &lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; 172.16.1.10/ &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; /usr/share/wordlists/dirb/big.txt &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;200,301,302,401&quot;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
@@ -243,7 +243,7 @@ snmp-check 172.16.1.4 &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; public &l
 &lt;h2 id=&quot;waf-web-application-firewall&quot;&gt;WAF Web application firewall&lt;/h2&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;WAFW00F google.com
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="guide" /><category term="pentest" /><category term="methodologies" /><category term="recon" /><category term="enumeration" /><summary type="html">This is a guide for exploitation</summary></entry><entry><title type="html">Exploitation</title><link href="http://localhost:4000/guide/2022/01/13/exploitation.html" rel="alternate" type="text/html" title="Exploitation" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/guide/2022/01/13/exploitation</id><content type="html" xml:base="http://localhost:4000/guide/2022/01/13/exploitation.html">&lt;h2 id=&quot;public-exploits&quot;&gt;Public exploits&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="methodologies" /><category term="recon" /><category term="enumeration" /><summary type="html">This is a guide for enumeration</summary></entry><entry><title type="html">Exploitation</title><link href="http://localhost:4000/cheatsheet/2022/01/13/exploitation.html" rel="alternate" type="text/html" title="Exploitation" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/13/exploitation</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/13/exploitation.html">&lt;h2 id=&quot;public-exploits&quot;&gt;Public exploits&lt;/h2&gt;
 &lt;p&gt;Links:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;www.exploit-db.com&quot;&gt;Exploitdb&lt;/a&gt;&lt;/li&gt;
@@ -391,7 +391,7 @@ x/16xw &lt;span class=&quot;nv&quot;&gt;$esp&lt;/span&gt;                  &lt;s
 &lt;span class=&quot;nb&quot;&gt;break &lt;/span&gt;main                   &lt;span class=&quot;c&quot;&gt;# Brakpoint in the funtion&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$eip&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 0x56556982        &lt;span class=&quot;c&quot;&gt;# Jump to specific function/zone&lt;/span&gt;
 python &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;print &quot;A&quot; * 136 + &quot;BBBB&quot; + &quot;\x70\x62\x55\x56&quot;&apos;&lt;/span&gt; | ./file &lt;span class=&quot;c&quot;&gt;# Send a specific number, that will allow overwrite and redirect the EIP.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="guide" /><category term="pentest" /><category term="exploitation" /><summary type="html">This is a guide for exploitation</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/exploitation.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/exploitation.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Linux</title><link href="http://localhost:4000/cheatsheet/2022/01/13/linux.html" rel="alternate" type="text/html" title="Linux" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/13/linux</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/13/linux.html">&lt;h2 id=&quot;linux-enumerate&quot;&gt;Linux enumerate&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="exploitation" /><summary type="html">This is a guide for exploitation</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/exploitation.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/exploitation.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Linux</title><link href="http://localhost:4000/cheatsheet/2022/01/13/linux.html" rel="alternate" type="text/html" title="Linux" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/13/linux</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/13/linux.html">&lt;h2 id=&quot;linux-enumerate&quot;&gt;Linux enumerate&lt;/h2&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;man &lt;span class=&quot;c&quot;&gt;# manual of programs&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;pwd&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Actula path.&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#  Create directories&lt;/span&gt;
@@ -503,7 +503,7 @@ egrep &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&q
 - find / &lt;span class=&quot;nt&quot;&gt;-writable&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-type&lt;/span&gt; d 2&amp;gt;/dev/null &lt;span class=&quot;c&quot;&gt;# Show directories with write permission&lt;/span&gt;
 - find / &lt;span class=&quot;nt&quot;&gt;-perm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;s &lt;span class=&quot;nt&quot;&gt;-type&lt;/span&gt; f 2&amp;gt;/dev/null &lt;span class=&quot;c&quot;&gt;# Show programs that are executable &lt;/span&gt;
 - &lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# With sudo permissions&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="os" /><category term="linux" /><summary type="html">This is a guide for linux</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/linux.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/linux.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pentest process</title><link href="http://localhost:4000/cheatsheet/2022/01/13/pentest.html" rel="alternate" type="text/html" title="Pentest process" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/13/pentest</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/13/pentest.html">&lt;p&gt;Pentest is a process that has various steps, and require attention at all attack vectors. So methodologies were created to establish a standard, these are the main methodologies:&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="os" /><category term="linux" /><summary type="html">This is a guide for linux</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/linux.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/linux.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pentest process</title><link href="http://localhost:4000/cheatsheet/2022/01/13/pentest.html" rel="alternate" type="text/html" title="Pentest process" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-04-25T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/13/pentest</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/13/pentest.html">&lt;p&gt;Pentest is a process that has various steps, and require attention at all attack vectors. So methodologies were created to establish a standard, these are the main methodologies:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.pentest-standard.org/index.php/Main_Page&quot;&gt;PTES - The Penetration Testing Execution Standard&lt;/a&gt;&lt;/li&gt;
@@ -512,46 +512,37 @@ egrep &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&q
   &lt;li&gt;&lt;a href=&quot;https://www.isecom.org/OSSTMM.3.pdf&quot;&gt;OSSTMM- - The Open Source Security Testing Methodology Manual&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Above is described a pentest flow.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;These pages are in constant updates.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Information Gathering -&amp;gt; &lt;a href=&quot;/osint&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Scanning -&amp;gt; &lt;a href=&quot;/scanning&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Enumeration -&amp;gt; &lt;a href=&quot;/enumeration&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Web hacking -&amp;gt; &lt;a href=&quot;/web-pentesting&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Exploitation -&amp;gt; &lt;a href=&quot;/exploitation&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Post-exploration -&amp;gt; &lt;a href=&quot;/post-exploitation&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Report&lt;/p&gt;
+  &lt;li&gt;Recon:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;/cheatsheet/2022/04/21/subdomains.html&quot;&gt;Subdomains&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/cheatsheet/2022/01/13/enumeration.html&quot;&gt;Enumeration&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/cheatsheet/2022/01/12/infrastructure.html&quot;&gt;Infrastructure&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Vulnerabilities&lt;/li&gt;
+      &lt;li&gt;Automation&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Operational systems -&amp;gt; &lt;a href=&quot;/os&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/cheatsheet/2022/01/12/osint.html&quot;&gt;Osint&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/cheatsheet/2022/01/13/web-pentesting.htm&quot;&gt;Web hacking&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/cheatsheet/2022/01/13/exploitation.html&quot;&gt;Exploitation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/cheatsheet/2022/01/13/post-exploitation.html-exploitation&quot;&gt;Post-exploration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Operational sistems:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;/cheatsheet/2022/01/13/linux.html&quot;&gt;Linux&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/cheatsheet/2022/01/13/windows.html&quot;&gt;Windows&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Reports&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Theses steps will be explained.&lt;/p&gt;
-&lt;h1 id=&quot;information-gathering&quot;&gt;Information Gathering&lt;/h1&gt;
-&lt;p&gt;-&amp;gt; &lt;a href=&quot;/osint&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Information Gathering - Business&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Search employees&lt;/li&gt;
-      &lt;li&gt;Search Job offers&lt;/li&gt;
-      &lt;li&gt;Search email address&lt;/li&gt;
-      &lt;li&gt;Search users patterns&lt;/li&gt;
-      &lt;li&gt;Search leaks&lt;/li&gt;
-      &lt;li&gt;Search data in deepweb/Pastebin/Trello&lt;/li&gt;
-      &lt;li&gt;Wayback machine&lt;/li&gt;
-      &lt;li&gt;Google/Bing/Duckduckgo dorks hacking&lt;/li&gt;
-      &lt;li&gt;Non Delivery Notification&lt;/li&gt;
-      &lt;li&gt;Search by metadata in files&lt;/li&gt;
-      &lt;li&gt;Write down any important information&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;h1 id=&quot;scanning&quot;&gt;Scanning&lt;/h1&gt;
-&lt;p&gt;-&amp;gt; &lt;a href=&quot;/scanning&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;infrastructure&quot;&gt;Infrastructure&lt;/h1&gt;
+&lt;p&gt;-&amp;gt; &lt;a href=&quot;/cheatsheet/2022/01/12/infrastructure.html&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;reconnaissance&lt;/strong&gt;
+  &lt;li&gt;&lt;strong&gt;Reconnaissance&lt;/strong&gt;
     &lt;ul&gt;
       &lt;li&gt;Search IP ranges&lt;/li&gt;
       &lt;li&gt;Search BGP/ASN&lt;/li&gt;
@@ -583,7 +574,7 @@ egrep &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&q
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;enumeration&quot;&gt;Enumeration&lt;/h1&gt;
-&lt;p&gt;-&amp;gt; &lt;a href=&quot;/enumeration&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;-&amp;gt; &lt;a href=&quot;/cheatsheet/2022/01/13/enumeration.html&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Ambient analysis&lt;/strong&gt;
     &lt;ul&gt;
@@ -603,8 +594,28 @@ egrep &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&q
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h1 id=&quot;osint&quot;&gt;Osint&lt;/h1&gt;
+&lt;p&gt;-&amp;gt; &lt;a href=&quot;/cheatsheet/2022/01/12/osint.html&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Information Gathering - Business&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Search employees&lt;/li&gt;
+      &lt;li&gt;Search Job offers&lt;/li&gt;
+      &lt;li&gt;Search email address&lt;/li&gt;
+      &lt;li&gt;Search users patterns&lt;/li&gt;
+      &lt;li&gt;Search leaks&lt;/li&gt;
+      &lt;li&gt;Search data in deepweb/Pastebin/Trello&lt;/li&gt;
+      &lt;li&gt;Wayback machine&lt;/li&gt;
+      &lt;li&gt;Google/Bing/Duckduckgo dorks hacking&lt;/li&gt;
+      &lt;li&gt;Non Delivery Notification&lt;/li&gt;
+      &lt;li&gt;Search by metadata in files&lt;/li&gt;
+      &lt;li&gt;Write down any important information&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h1 id=&quot;web-hacking&quot;&gt;Web hacking&lt;/h1&gt;
-&lt;p&gt;-&amp;gt; &lt;a href=&quot;/web-pentesting&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;-&amp;gt; &lt;a href=&quot;/cheatsheet/2022/01/13/web-pentesting.html&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;SQL Injection.&lt;/li&gt;
   &lt;li&gt;XXE&lt;/li&gt;
@@ -622,7 +633,7 @@ egrep &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&q
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;exploitation&quot;&gt;Exploitation&lt;/h1&gt;
-&lt;p&gt;-&amp;gt; &lt;a href=&quot;/exploitation&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;-&amp;gt; &lt;a href=&quot;/cheatsheet/2022/01/13/exploitation.html&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Buffer Overflow&lt;/li&gt;
   &lt;li&gt;Public Exploits&lt;/li&gt;
@@ -630,14 +641,14 @@ egrep &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&q
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;post-exploration&quot;&gt;Post-exploration&lt;/h1&gt;
-&lt;p&gt;-&amp;gt; &lt;a href=&quot;/post-exploitation&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;-&amp;gt; &lt;a href=&quot;/cheatsheet/2022/01/13/post-exploitation.html&quot;&gt;Tools/Commands&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Enumeration&lt;/li&gt;
   &lt;li&gt;Privile escalation&lt;/li&gt;
   &lt;li&gt;Pivoting&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;report&quot;&gt;Report&lt;/h1&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="methodologies" /><summary type="html">This is a guide to the process path of pentest.</summary></entry><entry><title type="html">Post exploitation</title><link href="http://localhost:4000/guide/2022/01/13/post-exploitation.html" rel="alternate" type="text/html" title="Post exploitation" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/guide/2022/01/13/post-exploitation</id><content type="html" xml:base="http://localhost:4000/guide/2022/01/13/post-exploitation.html">&lt;h1 id=&quot;privilege-escalation&quot;&gt;Privilege escalation&lt;/h1&gt;
+&lt;h1 id=&quot;report&quot;&gt;Report&lt;/h1&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="methodologies" /><summary type="html">This is a guide to the process path of pentest.</summary></entry><entry><title type="html">Post exploitation</title><link href="http://localhost:4000/cheatsheet/2022/01/13/post-exploitation.html" rel="alternate" type="text/html" title="Post exploitation" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/13/post-exploitation</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/13/post-exploitation.html">&lt;h1 id=&quot;privilege-escalation&quot;&gt;Privilege escalation&lt;/h1&gt;
 
 &lt;h3 id=&quot;ssh&quot;&gt;SSH&lt;/h3&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ssh-keygen &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; user &lt;span class=&quot;c&quot;&gt;# Attack&lt;/span&gt;
@@ -747,7 +758,7 @@ nmap &lt;span class=&quot;nt&quot;&gt;-sV&lt;/span&gt; &lt;span class=&quot;nt&q
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vim /etc/responder/Responder.conf &lt;span class=&quot;c&quot;&gt;# Configure the ips field RespondTo&lt;/span&gt;
 
 responder &lt;span class=&quot;nt&quot;&gt;-I&lt;/span&gt; eth0 &lt;span class=&quot;nt&quot;&gt;-Prv&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Will list to all&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="guide" /><category term="pentest" /><category term="post-exploitation" /><category term="exploitation" /><summary type="html">This is a guide for post exploitation</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/post-exploitation.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/post-exploitation.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Web pentest</title><link href="http://localhost:4000/guide/2022/01/13/web-pentesting.html" rel="alternate" type="text/html" title="Web pentest" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/guide/2022/01/13/web-pentesting</id><content type="html" xml:base="http://localhost:4000/guide/2022/01/13/web-pentesting.html">&lt;h1 id=&quot;web-hacking&quot;&gt;Web hacking&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="post-exploitation" /><category term="exploitation" /><summary type="html">This is a guide for post exploitation</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/post-exploitation.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/post-exploitation.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Web pentest</title><link href="http://localhost:4000/cheatsheet/2022/01/13/web-pentesting.html" rel="alternate" type="text/html" title="Web pentest" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/13/web-pentesting</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/13/web-pentesting.html">&lt;h1 id=&quot;web-hacking&quot;&gt;Web hacking&lt;/h1&gt;
 &lt;h2 id=&quot;attack-vectors&quot;&gt;Attack vectors&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Parameters&lt;/li&gt;
@@ -944,4 +955,4 @@ davtest &lt;span class=&quot;nt&quot;&gt;-url&lt;/span&gt; http://172.16.1.10/we
 &lt;h2 id=&quot;ssrf&quot;&gt;SSRF&lt;/h2&gt;
 &lt;h2 id=&quot;csrf&quot;&gt;CSRF&lt;/h2&gt;
 &lt;h2 id=&quot;template-injection&quot;&gt;Template injection&lt;/h2&gt;
-&lt;h2 id=&quot;subdomain-takeover&quot;&gt;Subdomain Takeover&lt;/h2&gt;</content><author><name>Thekaiz3n</name></author><category term="guide" /><category term="pentest" /><category term="web" /><category term="pentesting" /><summary type="html">This is a guide for Web pentesting</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/web_pentesting.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/web_pentesting.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;h2 id=&quot;subdomain-takeover&quot;&gt;Subdomain Takeover&lt;/h2&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="web" /><category term="pentesting" /><summary type="html">This is a guide for Web pentesting</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/web_pentesting.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/web_pentesting.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

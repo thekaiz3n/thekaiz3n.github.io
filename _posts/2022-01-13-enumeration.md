@@ -1,9 +1,9 @@
 ---
-title: Exploitation
-excerpt: "This is a guide for exploitation"
+title: Enumeration
+excerpt: "This is a guide for enumeration"
 last_modified_at: 13-01-2022
 categories:
-- guide
+- cheatsheet
 tags:  
 - pentest
 - methodologies

