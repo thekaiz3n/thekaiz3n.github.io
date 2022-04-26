@@ -5,10 +5,10 @@ description: Personal website
 author:
   name: Thekaiz3n
   twitter: ddkaiz3n
-  picture: /assets/image/profile.jpeg
+  picture: /assets/images/profile.jpeg
 twitter_username: ddkaiz3n
 github_username: thekaiz3n
-logo: # path of site logo, e.g. "/assets/images/logo.png"
+logo: /assets/images/logo_enso.png 
 search: true
 search_full_content: true 
 
