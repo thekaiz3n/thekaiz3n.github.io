@@ -8,9 +8,9 @@ author:
   picture: /assets/images/profile.jpeg
 twitter_username: ddkaiz3n
 github_username: thekaiz3n
-logo: /assets/images/logo_enso.png 
+logo: /assets/images/logo_enso.png
 search: true
-search_full_content: true 
+search_full_content: true
 
 # Build settings
 markdown: kramdown
@@ -52,6 +52,7 @@ exclude:
   - /docs # ignore Basically Basic sample site
   - /example # ignore Basically Basic dev site
 
+include: [".well-known"]
 # Collections
 
 
